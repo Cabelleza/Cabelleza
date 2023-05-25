@@ -1,0 +1,61 @@
+footer{
+    width: 100%;
+    background-color: #FDD7FF;
+    color: #1c2b1a;
+}
+
+.plataforma{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    flex-wrap: wrap;
+    font-size: 1.03em;
+}
+
+a{
+    color: #1c2b1a;
+}
+
+.plataforma h2{
+    font-weight: 400;
+}
+
+.plataforma div ul{
+    padding: 1% 0;
+}
+
+.plataforma div ul li{
+    margin: 2% 0;
+}
+
+.icons_container{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.9em;
+}
+
+ul .icon{
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+}
+
+ul .icon span{
+    padding: 0 3%;
+}
+
+.direitos{
+    text-align: center;
+    background-color: #FDFFCE;
+    padding: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .plataforma{
+        flex-direction: column;
+    }
+
+    .plataforma div{
+        margin: 2% 0 8% 2%;
+    }
+}
