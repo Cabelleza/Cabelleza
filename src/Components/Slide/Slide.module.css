@@ -1,0 +1,89 @@
+.Carousel{
+    width: 100%;
+    height: 450px;
+}
+
+.Carousel_item{
+    width: 100%;
+    height: 450px;
+}
+
+/*é necessário melhorar as imagens*/
+.Carousel_item:first-child{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../imagens/slide1-corte.png);
+}
+
+.Carousel_item:nth-child(2){
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../imagens/slide2-corte.png);
+}
+
+.Carousel_item:last-child{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../imagens/slide3.png);
+}
+
+.Carousel_caption{
+    position: absolute;
+    top: 30%;
+}
+
+.Carousel_item:last-child .Carousel_caption{
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Carousel_item:first-child .Carousel_caption span{
+    color: #F299E3;
+}
+
+.Carousel_item:nth-child(2) .Carousel_caption span{
+    color: #F9FF53;
+}
+
+.Carousel_item:last-child .Carousel_caption div{
+    width: 45%;
+}
+
+.Carousel_caption h3{
+    font-size: 2em;
+    padding: 1%;
+}
+
+.Carousel_caption button{
+    padding: 0.5% 3%;
+    font-size: 1.3em;
+    background: linear-gradient(100deg, #F299E3, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
+    color: #fff;
+    border: 2px solid #F299E3;
+    border-radius: 20px;
+}
+
+.Carousel_item:nth-child(2) .Carousel_caption button{
+    background: linear-gradient(100deg, #F9FF53, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
+    border: 2px solid #F9FF53;
+}
+
+.Carousel_item:last-child .Carousel_caption button{
+    padding: 1% 6%;
+    background: linear-gradient(100deg, #d12874, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
+    border: 2px solid #d12874;
+    /*add transição*/
+}
+
+.Carousel_item:last-child .Carousel_caption button:hover{
+    /*
+    background: linear-gradient(100deg, #d12874, rgba(209, 40, 116,0.5), rgb(209, 40, 116,0.25), rgb(209, 40, 116, 0.1));
+    box-shadow: 2px 2px 4px;
+    */
+}
+
+.carousel-control-next{
+    width: 5%;
+}

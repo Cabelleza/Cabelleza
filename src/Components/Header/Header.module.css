@@ -50,6 +50,7 @@ header nav button{
 
 /*MENU RESPONSIVO*/
 .nav_menu{
+    z-index: 1;
     visibility: hidden;
     top: 0;
     left: 75%;
@@ -92,7 +93,7 @@ header nav button{
     cursor: pointer;
 }
 
-.botao_menu:checked~.nav_menu {
+.botao_menu:checked~.nav_menu{
     visibility: visible;
 }
 
