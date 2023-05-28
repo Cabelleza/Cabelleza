@@ -7,19 +7,21 @@ import mulherGuerreira from '../../imagens/mulher-guerreira.png';
 export default function Container(){
     return(
         <>
+            {/* container englobando todas as partes que estão com aquele fundo ondulado */}
             <section className={style.container}>
+                {/* Junte-se ao Cabelleza */}
                 <section className={style.sectionJunte}>
                     <h1 className={style.junteH1}>Junte-se a nós! Os salões de beleza mais diversos já estão no <span>Cabelleza</span>.</h1>
                     <p className={style.junteP}>Além de promoever a beleza e os cuidados com os cabelos, os salões também se envolvem em ações sociais e ajudam a promover a autoestima de pacientes oncológicos.</p>
                 </section>
 
+                {/* Beneficios */}
                 <section className={style.sectionBeneficios}>
                     <div className={style.beneficiosTitle}>
                        <img src={meiaLinha} alt="" />
                        <h2>Benefícios</h2>
                        <img src={meiaLinha} alt="" />
                     </div>
-
                     <div className={style.beneficiosContainerBox}>
                         <div className={style.beneficiosBox}>
                             <div className={style.beneficiosBoxTitle}>
@@ -34,10 +36,10 @@ export default function Container(){
                             <p className={style.beneficiosBoxP2}>Seja um Parceiro e tenha em suas mídias o selo de <span>Empresa Parceira Cabelleza</span>.</p>
                         </div>
                     </div>
-
                     <button className={style.beneficiosButton}>Iniciar teste gratuito</button>
                 </section>
 
+                {/* Transformar vidas */}
                 <section id={style.transformar_vidas}>
                     <div className={style.transformar}>
                        <img src={meiaLinha} alt="" />

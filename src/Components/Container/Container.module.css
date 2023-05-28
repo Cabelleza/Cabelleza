@@ -64,6 +64,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .beneficiosBox {
@@ -131,6 +132,10 @@
     color: #D12874;
     background-color: #fff;
     border: 1px solid #D12874;
+}
+
+@media screen and (max-width: 768px) {
+
 }
 
 /* Transformar vidas */
