@@ -1,0 +1,213 @@
+/* conteiner que engloba tudo com o fundo com as listras passando */
+
+.container {
+    padding: 2%;
+    background: url(../../imagens/fundo-ondulado.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Junte-se a nós */
+.sectionJunte {
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.junteH1 {
+    width: 70%;
+    margin: auto;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.junteH1 span {
+    color: #D12874;
+}
+
+.junteP {
+    width: 95%;
+    padding: 45px 0;
+    margin: auto;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+/* Beneficios */
+.sectionBeneficios {
+    width: 100%;
+}
+
+.beneficiosTitle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beneficiosTitle img{
+    width: 25%;
+    height: 1%;
+}
+
+.beneficiosTitle img:first-child{
+    transform: rotate(180deg);
+}
+
+.beneficiosTitle h2{
+    color: #D12874;
+    margin: 1%;
+}
+
+.beneficiosContainerBox {
+    position: relative;
+    padding-top: 34px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.beneficiosBox {
+    width: 450px;
+    height: 310px;
+    background: url(../../imagens/boxBeneficios.png);
+}
+
+.beneficiosBoxTitle {
+    position: relative;
+    width: 350px;
+    height: 40px;
+    top: -15px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.boxTitleH1 {
+    font-size: 30px;
+    border: 1px solid #D12874;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.beneficiosBoxP {
+    position: relative;
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.beneficiosBoxP2 {
+    position: relative;
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.beneficiosBoxP span, .beneficiosBoxP2 span {
+    color: #D12874;
+}
+
+.beneficiosButton {
+    display: flex;
+    margin: auto;
+    padding: 10px 15px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #D12874;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 400;
+    transition: .25s all;
+}
+
+.beneficiosButton:hover {
+    color: #D12874;
+    background-color: #fff;
+    border: 1px solid #D12874;
+}
+
+/* Transformar vidas */
+#transformar_vidas .transformar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#transformar_vidas .transformar img{
+    width: 25%;
+    height: 1%;
+}
+
+#transformar_vidas .transformar img:first-child{
+    transform: rotate(180deg);
+}
+
+#transformar_vidas .transformar h2{
+    color: #D12874;
+    margin: 1%;
+}
+
+.transformar_vidas_div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    font-size: 1.15em;
+}
+
+.transformar_vidas_div2 div{
+    width: 40%;
+}
+
+.transformar_vidas_div2 div p{
+    margin: 3% 0;
+}
+
+.transformar_vidas_div2 img{
+    width: 30%;
+}
+
+.transformar_vidas_div2 .mecha{
+    width: 35%;
+}
+
+@media screen and (max-width: 768px) {
+    #transformar_vidas .transformar img{
+        display: none;
+    }
+
+    #transformar_vidas .transformar{
+        justify-content: flex-start;
+        width: 60%;
+    }
+
+    #transformar_vidas .transformar h2{
+        margin: 5% 4%;
+        font-size: 1.75em;
+    }
+
+    .transformar_vidas_div2{
+        flex-direction: column;
+        margin: 2% 0;
+    }
+
+    #transformar_vidas .transformar_vidas_div2:nth-child(odd){
+        flex-direction: column-reverse;
+        margin: 4% 0;
+    }
+
+    .transformar_vidas_div2 div{
+        width: 100%;
+    }
+
+    .transformar_vidas_div2 img, .transformar_vidas_div2 .mecha{
+        width: 70%;
+    }
+}
