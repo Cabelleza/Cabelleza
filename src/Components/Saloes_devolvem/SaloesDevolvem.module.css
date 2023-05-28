@@ -1,0 +1,70 @@
+.sectionSaloesDevolvem {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.h1SaloesDevolvem {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #D12874;
+    font-family: sans-serif;
+    padding: 20px 0;
+}
+
+.saloesContainer {
+    position: relative;
+    padding: 35px 20px;
+    width: 90%;
+    height: auto;
+    background: linear-gradient(105.61deg, rgba(255, 187, 228, 0.66) 32.77%, rgba(250, 255, 116, 0.48) 67.6%);
+    backdrop-filter: blur(27.5px); /* Note: backdrop-filter has minimal browser support */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.saloesBox {
+    width: 30%;
+    height: 490px;
+    border-radius: 10px;
+    background: url(../../imagens/fotoSalão.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.saloesTextBox {
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+    background: linear-gradient(92.54deg, rgba(151, 229, 114, 0.4) 0%, rgba(151, 229, 114, 0.1) 100%);
+    backdrop-filter: blur(2px);
+    border-radius: 0 0 10px 10px;
+}
+
+.saloesH1Box {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.saloesPBox {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+    .saloesContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .saloesBox {
+        width: 70%;
+        height: 600px;
+        margin: 20px 0;
+    }
+}
