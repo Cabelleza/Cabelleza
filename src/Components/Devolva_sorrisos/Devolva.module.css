@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.sectionDevolva {
+    width: 100%;
+    height: 733.13px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../../imagens/bgDevolvaSorrisos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.devolvaText {
+    padding-top: 140px;
+    width: 60%;
+}
+
+.devolvaH1Text {
+    font-size: 45px;
+    font-family: 'Poopins', sans-serif;
+    color: #BA2568;
+}
+
+.devolvaPText {
+    color: #1C2B1A;
+    font-size: 30px;
+    font-family: 'Poopins', sans-serif;
+}
+
+.devolvaImagemMulher {
+    padding-top: 78px;
+    height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .devolvaImagemMulher{
+        display: none;
+    }
+
+    .devolvaText {
+        text-align: center;
+        align-items: center;
+        width: 90%;
+    }
+}
