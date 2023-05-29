@@ -1,0 +1,85 @@
+.sectionApoiadores {
+    padding-top: 20px;
+}
+
+.apoiadoresLinhaCompleta {
+    display: flex;
+    padding-top: 20px;
+    margin: auto;
+    background: url(../../imagens/linha-completa.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+}
+
+.apoiadoresH1 {
+    text-align: center;
+    color: #D12874;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+.apoiadoresP {
+    width: 90%;
+    font-size: 25px;
+    color: #1c2b1a;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.containerApoiadores {
+    width: 95%;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerApoiadores div {
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.containerApoiadores div:first-child {
+    background: url(../../imagens/Cabelegria.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containerApoiadores div:nth-child(2) {
+    background: url(../../imagens/Tucca.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containerApoiadores div:nth-child(3) {
+    background: url(../../imagens/Graacc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.containerApoiadores div:last-child {
+    background: url(../../imagens/ACCamargo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .containerApoiadores {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerApoiadores div {
+        width: 80%;
+    }
+
+}

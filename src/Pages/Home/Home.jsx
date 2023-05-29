@@ -6,6 +6,7 @@ import Slide from '../../Components/Slide/Slide';
 import Container from '../../Components/Container/Container';
 import Devolva from '../../Components/Devolva_sorrisos/Devolva';
 import SaloesDevolvem from '../../Components/Saloes_devolvem/SaloesDevolvem';
+import Apoiadores from '../../Components/Apoiadores/Apoiadores';
 
 function Home() {
     return(
@@ -15,6 +16,7 @@ function Home() {
             <Devolva />
             <SaloesDevolvem />
             <Container/>
+            <Apoiadores/>
             <Footer/>
         </>
     )
