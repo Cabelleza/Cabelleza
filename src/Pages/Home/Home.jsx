@@ -7,6 +7,7 @@ import Container from '../../Components/Container/Container';
 import Devolva from '../../Components/Devolva_sorrisos/Devolva';
 import SaloesDevolvem from '../../Components/Saloes_devolvem/SaloesDevolvem';
 import Apoiadores from '../../Components/Apoiadores/Apoiadores';
+import Slogan from '../../Components/Slogan/Slogan';
 
 function Home() {
     return(
@@ -15,8 +16,9 @@ function Home() {
             <Slide/>
             <Devolva />
             <SaloesDevolvem />
-            <Container/>
-            <Apoiadores/>
+            <Container />
+            <Apoiadores />
+            <Slogan />
             <Footer/>
         </>
     )

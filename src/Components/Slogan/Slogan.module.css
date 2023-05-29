@@ -1,0 +1,40 @@
+.sectionSlogan {
+    width: 100%;
+    height: 330px;
+    position: relative;
+}
+
+.sloganH1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D12874;
+    font-size: 40px;
+    text-align: center;
+    z-index: 1;
+}
+
+.flor1 {
+    position: absolute;
+    left: 27%;
+    top: 0px;
+}
+
+.flor2 {
+    position: absolute;
+    left: 1%;
+    top: 80px;
+}
+
+.flor3 {
+    position: absolute;
+    right: 26%;
+    top: 170px;
+}
+
+.flor4 {
+    position: absolute;
+    right: 5%;
+    top: -25px;
+}
