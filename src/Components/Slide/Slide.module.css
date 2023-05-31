@@ -82,6 +82,7 @@
     width: 5%;
 }
 
+/*Responsividade com base no Iphone 12 PRO MAX*/ 
 @media screen and (max-width: 428px) {
     .Carousel_item:first-child .Carousel_caption {
         position: absolute;
