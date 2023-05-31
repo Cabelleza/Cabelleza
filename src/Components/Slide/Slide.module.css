@@ -27,11 +27,6 @@
     background-image: url(../../imagens/slide3.png);
 }
 
-.Carousel_caption{
-    position: absolute;
-    top: 30%;
-}
-
 .Carousel_item:last-child .Carousel_caption{
     left: 10%;
     display: flex;
@@ -49,6 +44,11 @@
 
 .Carousel_item:last-child .Carousel_caption div{
     width: 45%;
+}
+
+.Carousel_caption{
+    position: absolute;
+    top: 30%;
 }
 
 .Carousel_caption h3{
@@ -77,13 +77,36 @@
     /*add transição*/
 }
 
-.Carousel_item:last-child .Carousel_caption button:hover{
-    /*
-    background: linear-gradient(100deg, #d12874, rgba(209, 40, 116,0.5), rgb(209, 40, 116,0.25), rgb(209, 40, 116, 0.1));
-    box-shadow: 2px 2px 4px;
-    */
-}
 
 .carousel-control-next{
     width: 5%;
+}
+
+@media screen and (max-width: 428px) {
+    .Carousel_item:first-child .Carousel_caption {
+        position: absolute;
+        top: 20%;
+        transform: translateY(-10%);
+    }
+
+    .Carousel_item:last-child .Carousel_caption{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+    }
+
+    .Carousel_item:last-child .Carousel_caption h3{
+        padding: 0;
+    }
+
+    .Carousel_item:last-child .Carousel_caption button{
+        margin: auto;
+        display: flex;
+    }
+
+    .plataforma div{
+        margin: 2% 0 8% 2%;
+    }
 }
