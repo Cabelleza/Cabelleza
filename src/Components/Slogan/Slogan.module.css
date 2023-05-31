@@ -38,3 +38,24 @@
     right: 5%;
     top: -25px;
 }
+
+/* Responsividade com base no iPhone 12 PRO MAX */
+@media screen and (max-width: 428px) {
+    .flor1, .flor2, .flor3, .flor4 {
+        height: 100px;
+        display: none;
+    }
+
+    /* .flor3 {
+        right: 10%;
+        top: 200px;
+    }
+
+    .flor2 {
+        top: 170px;
+    }
+
+    .flor4 {
+        top: 50px;
+    } */
+}
