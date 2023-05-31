@@ -56,15 +56,22 @@
     color: #fff;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 428px) {
+    .saloesBox {
+        width: 100%;
+        margin: 20px 0;
+    }
+
     .saloesContainer {
-        display: flex;
         flex-direction: column;
     }
 
-    .saloesBox {
-        width: 70%;
-        height: 600px;
-        margin: 20px 0;
+    .saloesTextBox {
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        background: linear-gradient(92.54deg, rgba(151, 229, 114, 0.7) 0%, rgba(151, 229, 114, .6) 100%);
+        border-radius: 10px 10px 0 0;
+
     }
 }
