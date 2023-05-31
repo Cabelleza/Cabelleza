@@ -44,7 +44,7 @@
     align-items: center;
 }
 
-.beneficiosTitle img{
+.beneficiosTitle img {
     width: 25%;
     height: 1%;
 }
@@ -134,10 +134,6 @@
     border: 1px solid #D12874;
 }
 
-@media screen and (max-width: 768px) {
-
-}
-
 /* Transformar vidas */
 #transformar_vidas .transformar{
     display: flex;
@@ -181,6 +177,74 @@
 
 .transformar_vidas_div2 .mecha{
     width: 35%;
+}
+
+/* Responsividade com base no iPhone 12 PRO MAX */
+@media screen and (max-width: 428px) {
+    .container {
+        padding: 0;
+    }
+    /* junte-se a nós */
+    .junteH1 {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .junteP {
+        width: 90%;
+        font-size: 22px;
+    }
+
+    /* beneficios */
+    .beneficiosContainerBox {
+        width: 90%;
+        margin: auto;
+        /* background-color: red; */
+        box-sizing: border-box;
+    }
+
+    .beneficiosBox {
+        width: 380px;
+        height: 250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .beneficiosBoxTitle {
+        width: 280px;
+    }
+    
+    .boxTitleH1 {
+        font-size: 25px;
+    }
+
+    .beneficiosBoxP, .beneficiosBoxP2 {
+        font-size: 20px;
+    }
+
+    .beneficiosBoxP2 {
+        margin-top: 5px;
+    }
+
+    .beneficiosButton {
+        padding: 5px 9px;
+        font-size: 20px;
+    }
+
+    /* transforme vida */
+    .transformar {
+        margin: auto;
+    }
+
+    .transformar .meiaLinha {
+        display: none;
+        background-color: red;
+    }
+
+    .transformar h2 {
+        text-align: center;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
