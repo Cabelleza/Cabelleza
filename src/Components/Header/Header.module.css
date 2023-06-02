@@ -100,9 +100,15 @@ header nav button{
 @media screen and (max-width: 768px) {
     .nav_principal{
         display: none;
+       
     }
 
     .botao_open, .label_menu{
         display: block;
     }
 }
+ @media screen and (min-width: 768px){
+    .nav_menu{
+        display: none;
+    }
+ }
