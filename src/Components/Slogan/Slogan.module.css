@@ -39,6 +39,27 @@
     top: -25px;
 }
 
+@media screen and (max-width: 320px) {
+    .sloganH1 {
+        top: 30%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .sectionSlogan {
+        height: auto;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .sectionSlogan {
+        padding-top: 0px;
+        height: 150px;
+    }
+}
+
 /* Responsividade com base no iPhone 12 PRO MAX */
 @media screen and (max-width: 428px) {
     .flor1, .flor2, .flor3, .flor4 {

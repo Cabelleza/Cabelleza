@@ -72,6 +72,18 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 320px) {
+    .containerApoiadores div {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .containerApoiadores div {
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .containerApoiadores {
         display: flex;
@@ -79,7 +91,7 @@
     }
 
     .containerApoiadores div {
-        width: 80%;
+        width: 90%;
     }
 
 }
