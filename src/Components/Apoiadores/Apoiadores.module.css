@@ -1,5 +1,5 @@
 .sectionApoiadores {
-    padding-top: 20px;
+    padding: 1% 2%;
 }
 
 .apoiadoresLinhaCompleta {
@@ -16,36 +16,43 @@
     text-align: center;
     color: #D12874;
     padding-top: 15px;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 .apoiadoresP {
     width: 90%;
-    font-size: 25px;
+    font-size: 1.3rem;
     color: #1c2b1a;
     display: flex;
     margin: auto;
+    padding: 1%;
     text-align: center;
-    padding-top: 40px;
+}
+
+.apoiadores{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .containerApoiadores {
-    width: 95%;
-    margin: 50px auto;
-    padding: 10px;
-    background-color: #F1F1F1;
+    width: 45%;
+    padding: 1%;
+    background-color: #f7e9f8;
     display: flex;
     justify-content: space-around;
-    border-radius: 5px;
+    border-radius: 10px;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .containerApoiadores div {
-    width: 300px;
-    height: 120px;
+    width: 250px;
+    height: 100px;
+    margin: 1%;
     border-radius: 10px;
-    margin: 10px 0;
 }
 
 .containerApoiadores div:first-child {
@@ -94,4 +101,23 @@
         width: 90%;
     }
 
+    .apoiadores{
+       flex-direction: column;
+    }
+
+    .apoiadores img{
+        width: 90%;
+        margin: 3% 0;
+    }
+
+    .containerApoiadores {
+        width: 80%;
+    }
+
+    .containerApoiadores div {
+        width: 80%;
+        height: 110px;
+        margin: 1%;
+        border-radius: 10px;
+    }
 }

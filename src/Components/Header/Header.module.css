@@ -4,25 +4,31 @@
     box-sizing: border-box;
 }
 
+/*adicionar menu sticky ao scroll*/
 header{
-    background-color: #f7f7f7;
+    background-color: #fafafa;
     width: 100%;
-    height: 90px;
-    padding: 1.5%;
+    height: 80px;
+    padding: 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+    box-shadow: 1px 1px 10px #00000036;
 }
 
 header .Logo{
-    width: 90%;
+    width: 80%;
 }
 
 header nav{
     display: flex;
     width: 80%;
+    height: 100%;
     justify-content: space-around;
-    font-size: 1.2em;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 header nav ul{
@@ -31,21 +37,32 @@ header nav ul{
     color: #1c2b1a;
     width: 55%;
     justify-content: space-around;
+    margin: 0;
 }
 
 header nav ul li{
     color: #1c2b1a;
+    transition: 0.3s ease-out;
+}
+
+header nav ul li:hover{
+    color: #D12874;
 }
 
 header nav button{
     width: 140px;
     padding: 5%;
-    font-size: 1em;
     border: 2px solid transparent;
-    background: linear-gradient(#f7f7f7, #f7f7f7) padding-box, linear-gradient(90deg, #D12874CC, #FAFF74E5) border-box;
+    background: linear-gradient(#fafafa, #fafafa) padding-box, linear-gradient(90deg, #D12874CC, #FAFF74E5) border-box;
     border-radius: 20px;
     cursor: pointer;
     color: #1c2b1a;
+    transition: 0.3s ease-in;
+}
+
+header nav button:hover{
+    box-shadow: 0 0 10px #d12874ce;
+    transform: translateY(1px);
 }
 
 /*MENU RESPONSIVO*/
@@ -53,9 +70,9 @@ header nav button{
     z-index: 1;
     visibility: hidden;
     top: 0;
-    left: 75%;
+    left: 65%;
     position: absolute;
-    width: 25%;
+    width: 35%;
     height: 110vh;
     background-color: #f7f7f7;
     padding: 2%;
@@ -83,13 +100,13 @@ header nav button{
 }
 
 .botao_close{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
 .botao_open{
     display: none;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -100,15 +117,15 @@ header nav button{
 @media screen and (max-width: 768px) {
     .nav_principal{
         display: none;
-       
     }
 
     .botao_open, .label_menu{
         display: block;
     }
 }
- @media screen and (min-width: 768px){
+
+@media screen and (min-width: 768px){
     .nav_menu{
         display: none;
     }
- }
+}

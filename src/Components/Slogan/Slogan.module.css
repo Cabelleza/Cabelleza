@@ -1,42 +1,68 @@
 .sectionSlogan {
     width: 100%;
-    height: 330px;
-    position: relative;
 }
 
 .sloganH1 {
     position: relative;
     top: 50%;
     left: 50%;
+    margin: 2% 0 0 0;
     transform: translate(-50%, -50%);
     color: #D12874;
-    font-size: 40px;
+    font-size: 2.2rem;
     text-align: center;
     z-index: 1;
+    transition: 1s;
 }
 
-.flor1 {
-    position: absolute;
-    left: 27%;
-    top: 0px;
+.sectionSlogan:hover .sloganH1{
+    text-shadow: 5px 5px 20px #D12874;
 }
 
-.flor2 {
-    position: absolute;
-    left: 1%;
-    top: 80px;
+/* waves */
+.ocean {
+    height: 100px;
+    width: 100%;
+    overflow-x: hidden;
+    transform: rotate(0deg);
 }
 
-.flor3 {
+.wave {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 88.7'%3E%3Cpath d='M800 56.9c-155.5 0-204.9-50-405.5-49.9-200 0-250 49.9-394.5 49.9v31.8h800v-.2-31.6z' fill='%23FDD7FF'/%3E%3C/svg%3E");
     position: absolute;
-    right: 26%;
-    top: 170px;
+    width: 200%;
+    height: 100%;
+    animation: wave 10s 10s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
 }
 
-.flor4 {
-    position: absolute;
-    right: 5%;
-    top: -25px;
+.wave:nth-of-type(2) {
+    bottom: 0;
+    animation: wave 15s linear reverse infinite;
+    opacity: 0.5;
+    height: 100%;
+}
+
+.wave:nth-of-type(3) {
+    bottom: 0;
+    animation: wave 20s 20s linear infinite;
+    opacity: 0.5;
+
+}
+
+@keyframes wave {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -53,30 +79,13 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 768px) {
     .sectionSlogan {
-        padding-top: 0px;
-        height: 150px;
-    }
-}
-
-/* Responsividade com base no iPhone 12 PRO MAX */
-@media screen and (max-width: 428px) {
-    .flor1, .flor2, .flor3, .flor4 {
-        height: 100px;
-        display: none;
+        height: 200px;
     }
 
-    /* .flor3 {
-        right: 10%;
-        top: 200px;
+    .sloganH1 {
+        margin: 5% 0;
     }
 
-    .flor2 {
-        top: 170px;
-    }
-
-    .flor4 {
-        top: 50px;
-    } */
 }

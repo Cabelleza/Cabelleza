@@ -4,7 +4,7 @@ import Logo from '../../imagens/logo.svg';
 import {FaBars} from "react-icons/fa";
 import {BsXLg} from "react-icons/bs";
 
-function Header(){
+function Header(){  
     return(
         <>
             <header>

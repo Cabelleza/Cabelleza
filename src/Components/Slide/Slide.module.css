@@ -8,7 +8,7 @@
     height: 450px;
 }
 
-/*é necessário melhorar as imagens*/
+/*é necessário realizar melhoria dessas imagens*/
 .Carousel_item:first-child{
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,13 +52,13 @@
 }
 
 .Carousel_caption h3{
-    font-size: 2em;
+    font-size: 2rem;
     padding: 1%;
 }
 
 .Carousel_caption button{
     padding: 0.5% 3%;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     background: linear-gradient(100deg, #F299E3, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
     color: #fff;
     border: 2px solid #F299E3;

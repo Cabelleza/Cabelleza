@@ -1,7 +1,10 @@
 import style from './SaloesDevolvem.module.css';
 
 function SaloesDevolvem() {
+
     return (
+        <>
+        {/*Adicionar modal com informações sobre cada salão, talvez seja necessário usar uma API para retornar os dados dos salões*/}
         <section className={style.sectionSaloesDevolvem}>
             <h1 className={style.h1SaloesDevolvem}>Salões que devolvem sorrisos!</h1>
             <div className={style.saloesContainer}>
@@ -25,6 +28,7 @@ function SaloesDevolvem() {
                 </div>
             </div>
         </section>
+        </>
     );
 }
 

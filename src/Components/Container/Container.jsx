@@ -1,4 +1,5 @@
 import style from './Container.module.css';
+import {Link} from 'react-router-dom';
 import corte from '../../imagens/corte.png';
 import meiaLinha from '../../imagens/meia-linha.png';
 import mechaDoada from '../../imagens/mecha-doada.png';
@@ -11,32 +12,8 @@ export default function Container(){
             <section className={style.container}>
                 {/* Junte-se ao Cabelleza */}
                 <section className={style.sectionJunte}>
-                    <h1 className={style.junteH1}>Junte-se a nós! Os salões de beleza mais diversos já estão no <span>Cabelleza</span>.</h1>
-                    <p className={style.junteP}>Além de promoever a beleza e os cuidados com os cabelos, os salões também se envolvem em ações sociais e ajudam a promover a autoestima de pacientes oncológicos.</p>
-                </section>
-
-                {/* Beneficios */}
-                <section className={style.sectionBeneficios}>
-                    <div className={style.beneficiosTitle}>
-                       <img src={meiaLinha} alt="" />
-                       <h2>Benefícios</h2>
-                       <img src={meiaLinha} alt="" />
-                    </div>
-                    <div className={style.beneficiosContainerBox}>
-                        <div className={style.beneficiosBox}>
-                            <div className={style.beneficiosBoxTitle}>
-                                <h1 className={style.boxTitleH1}>Visibilidade</h1>
-                            </div>
-                            <p className={style.beneficiosBoxP}>Sua empresa com maior <span>reconhecimento</span> e <span>capacidade</span> de atrair novos clientes.</p>
-                        </div>
-                        <div className={style.beneficiosBox}>
-                            <div className={style.beneficiosBoxTitle}>
-                                <h1 className={style.boxTitleH1}>Selo da plataforma</h1>
-                            </div>
-                            <p className={style.beneficiosBoxP2}>Seja um Parceiro e tenha em suas mídias o selo de <span>Empresa Parceira Cabelleza</span>.</p>
-                        </div>
-                    </div>
-                    <button className={style.beneficiosButton}>Iniciar teste gratuito</button>
+                    <h1 className={style.junteH1}>Junte-se a nós! Os salões de beleza mais <br /> diversos já estão no <span>Cabelleza</span>.</h1>
+                    <Link to=''><button className={style.beneficiosButton}>Iniciar teste gratuito</button></Link> 
                 </section>
 
                 {/* Transformar vidas */}
