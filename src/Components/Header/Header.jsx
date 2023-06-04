@@ -19,7 +19,7 @@ function Header(){
                         <Link to='/Blog'><li>Blog</li></Link>
                         <Link to='/FaleConosco'><li>Fale Conosco</li></Link>
                     </ul>
-                        <Link to='/Login'><button>Login</button></Link>
+                        <Link to='./Login'><button>Login</button></Link>
                 </nav>
 
                 {/*MENU RESPONSIVO*/}

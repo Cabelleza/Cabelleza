@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+.ye{
+    background-image: url(../../imagens/Fundo-loign.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 100vh;
+}
+
+.boxfunologin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh;   
+}
+
+.boxseta button {
+    width: 6%;
+    height: 67px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-color: #FEE4FF;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: solid 1px #D12874;
+}
+
+.boxdados .botaovoltar{
+    width: 10%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #e966a1;
+    border: solid 1px #8a3f61;
+}
+.boxlogin {
+    display: flex;
+    width: 67%;
+    height: 520px;
+    
+ 
+
+}
+
+.boxdados {
+    width: 80%;
+    height: 100%;
+    background-image: url(../../imagens/fundo-dados.png);
+    background-size: cover;
+    z-index: 16;
+    border-radius: 10px;
+    border-radius: 20px;
+}
+
+.boximglogin {
+    width: 90%;
+    height: 100%;
+    margin-left: -50px;
+    border-radius: 19px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../imagens/img-login.png);
+    background-position: -35px 1px;
+}
+
+.boxdados h3 {
+    color: #717171;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.boxdados .input1,
+.input2 {
+    width: 80%;
+    height: 40px;
+    border: solid 2px #ADADAD;
+    border-radius: 3px;
+
+}
+
+.boxdados input::placeholder {
+    font-size: 12px;
+    color: #ADADAD;
+    padding-left: 5px;
+}
+
+.input1 {
+    margin-bottom: 30px;
+}
+
+.input3 {
+    border: solid 1px #ADADAD;
+}
+
+.boxemailSenha {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.boxcheck {
+    margin: auto;
+    width: 65%;
+    display: flex;
+
+
+}
+
+.boxcheck p {
+    font-size: 10px;
+    padding-top: 14px;
+    padding-left: 5px;
+    color: #817f7f;
+}
+
+.botaoentrar {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.entrar {
+
+    width: 80%;
+    background-color: #D12874;
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    transition: 2s;
+    margin: auto;
+
+}
+
+.entrar:hover {
+    background-color: #FAB9EF;
+    color: #D12874;
+    transition: 2s;
+}
+
+.botaoentrar p {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #817f7f;
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 80%;
+}
+
+.botaocadastro {
+    width: 55%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.botaocadastro p {
+    font-size: 12px;
+    color: #7e7b7b;
+}
+
+
+.link {
+    font-size: 12px;
+    margin-left: 2px;
+    height: 18px;
+    border-bottom: 1px solid #696969;
+    color: #7e7b7b;
+    text-align: center;
+}
+@media screen and (max-width: 750px){
+    @media screen and (min-width: 300px) {
+        
+    
+    .boximglogin{
+        display: none;
+    }
+    .boxdados{
+        display: block;
+        width: 100%;
+        background: #ffd4e8;
+        
+    }
+    .bloxlogin{
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+}
+}
