@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SectionOnu{
+    width: 100%;
+    height: 520px;
+    background-color: #f1f1f1;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SessaoImagemOnu{
+    width: 35%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chocolate; */
+}
+
+.AreaImagemOnu{
+    width: 75%;
+    height: 350px;
+    /* background-color: blueviolet; */
+    background-image: url(../../imagens/ObjetivosOnu.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.SessaoTextoOnu{
+    width: 65%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(30, 210, 120); */
+}
+
+.AreaTextoOnu{
+    width: 85%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TextoOnu{
+    font-size: 18px;
+}
+
+.TextoRosa_Onu{
+    color: #d12874;
+}
+
+.TextoVerde_Onu{
+    color: #557851;
+}

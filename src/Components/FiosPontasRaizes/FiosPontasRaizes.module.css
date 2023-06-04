@@ -1,0 +1,54 @@
+ @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SectionFiosPontasRaizes{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(204, 50, 50);
+    background-image: url(../../imagens/FundoMissaoProvisorio.svg);
+    background-size: auto;
+    padding-top: 10px;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SessaoTextosFiosPontasRaizes{
+    width: 85%;
+    height: 400px;
+    /* background-color: rgb(194, 37, 147); */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.AreaTextoFiosPontasRaizes{
+    width: 27.5%;
+    height: 400px;
+    /* background-color: rgb(86, 99, 155); */
+}
+
+.TituloFiosPontasRaizes{
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+
+.TextoFiosPontasRaizes{
+    font-size: 19px;
+}
+
+.TextoRosa_NossosFios{
+    color: #D12874;
+}
+
+.TextoVerde_NossosFios{
+    color: #557851;
+}
