@@ -12,34 +12,47 @@
 .Carousel_item:first-child{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../../imagens/slide1-corte.png);
+    /*background-image: url(../../imagens/slide1-corte.png);*/
 }
 
 .Carousel_item:nth-child(2){
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../../imagens/slide2-corte.png);
+    /*background-image: url(../../imagens/slide2-corte.png);*/
 }
 
 .Carousel_item:last-child{
     background-size: cover;
+    background-position-y: -70px;
     background-repeat: no-repeat;
     background-image: url(../../imagens/slide3.png);
 }
 
-.Carousel_item:last-child .Carousel_caption{
+.Carousel_item:first-child .Carousel_caption, .Carousel_item:nth-child(2) .Carousel_caption, .Carousel_item:last-child .Carousel_caption{
     left: 10%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
+.Carousel_item:nth-child(2) .Carousel_caption{
+    color: #1C2B1A;
+}
+
+.Carousel_item:first-child .Carousel_caption div{
+    width: 75%;
+}
+
+.Carousel_item:nth-child(2) .Carousel_caption div{
+    width: 55%;
+}
+
 .Carousel_item:first-child .Carousel_caption span{
-    color: #F299E3;
+    color: #F9FF53;
 }
 
 .Carousel_item:nth-child(2) .Carousel_caption span{
-    color: #F9FF53;
+    color: #A41B59;
 }
 
 .Carousel_item:last-child .Carousel_caption div{
@@ -59,22 +72,26 @@
 .Carousel_caption button{
     padding: 0.5% 3%;
     font-size: 1.3rem;
-    background: linear-gradient(100deg, #F299E3, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
+    background: linear-gradient(100deg, #F9FF53, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
     color: #fff;
-    border: 2px solid #F299E3;
+    border: 2px solid #F9FF53;
     border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.Carousel_caption button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 .Carousel_item:nth-child(2) .Carousel_caption button{
-    background: linear-gradient(100deg, #F9FF53, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
-    border: 2px solid #F9FF53;
+    background: linear-gradient(100deg, #A41B59, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
+    border: 2px solid #A41B59;
 }
 
 .Carousel_item:last-child .Carousel_caption button{
     padding: 1% 6%;
     background: linear-gradient(100deg, #d12874, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
     border: 2px solid #d12874;
-    /*add transição*/
 }
 
 

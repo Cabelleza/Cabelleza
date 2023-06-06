@@ -26,8 +26,8 @@ export default function Footer(){
                         <h2>Ajuda e Suporte</h2>
                         <ul>
                             <Link to=''><li>Enviar E-mail</li></Link>
-                            <Link to=''><li>Sobre Nós</li></Link>
-                            <Link to=''><li>Salões</li></Link>
+                            <Link to=''><li>Perguntas frequentes</li></Link>
+                            <Link to=''><li>Termos e condições</li></Link>
                         </ul>
                     </div>
                     <div>
