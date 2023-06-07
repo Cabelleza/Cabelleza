@@ -27,7 +27,7 @@
     width: 75%;
     height: 350px;
     /* background-color: blueviolet; */
-    background-image: url(../../imagens/ObjetivosOnu.svg);
+    background-image: url(../../../imagens/ObjetivosOnu.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }

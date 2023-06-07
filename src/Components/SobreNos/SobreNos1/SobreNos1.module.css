@@ -8,7 +8,7 @@
 .Sessao1{
     width: 100%;
     height: 604px;
-    background-image: url(../../imagens/fundoRosaSessao1SobreNos.svg);
+    background-image: url(../../../imagens/fundoRosaSessao1SobreNos.svg);
     background-size:cover;
     padding-top: -80px;
     display: flex;
@@ -53,7 +53,7 @@
 .Imagem{
     width: 590px;
     height: 524px;
-    background-image: url(../../imagens/MulherSegurandoPerucaSobreNos-transformed.jpeg);
+    background-image: url(../../../imagens/MulherSegurandoPerucaSobreNos-transformed.jpeg);
     background-size: cover;
     margin-top: 79px;
 }

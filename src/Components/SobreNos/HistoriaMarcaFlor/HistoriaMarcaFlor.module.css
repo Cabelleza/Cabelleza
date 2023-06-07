@@ -8,7 +8,7 @@
     width: 100%;
     height: auto;
     padding-top: 1px;
-    background-image: url(../../imagens/fundoNossaHistoria.png);
+    background-image: url(../../../imagens/fundoNossaHistoria.png);
 }
 
 .SessaoNossaHistoria{
@@ -62,7 +62,7 @@
     width: 75%;
     height: 410px;
     margin: auto;
-    background-image: url(../../imagens/imagemNossaHistoria.png);
+    background-image: url(../../../imagens/imagemNossaHistoria.png);
     background-size: cover;
 }
 
@@ -99,7 +99,7 @@
     width: 80%;
     height: 450px;
     margin: auto;
-    background-image: url(../../imagens/logo.svg);
+    background-image: url(../../../imagens/logo.svg);
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@
     width: 75%;
     height: 410px;
     margin: auto;
-    background-image: url(../../imagens/imagemFlorLotus.svg);
+    background-image: url(../../../imagens/imagemFlorLotus.svg);
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;

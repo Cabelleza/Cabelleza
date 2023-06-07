@@ -25,7 +25,7 @@
     background-size: cover;
     background-position-y: -70px;
     background-repeat: no-repeat;
-    background-image: url(../../imagens/slide3.png);
+    background-image: url(../../../imagens/slide3.png);
 }
 
 .Carousel_item:first-child .Carousel_caption, .Carousel_item:nth-child(2) .Carousel_caption, .Carousel_item:last-child .Carousel_caption{

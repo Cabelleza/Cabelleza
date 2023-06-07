@@ -1,9 +1,9 @@
 import style from './Slide.module.css';
 import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
-import slide1 from '../../imagens/slide1-corte.png';
-import slide2 from '../../imagens/slide2-corte.png';
-import slide3 from '../../imagens/slide3.png';
+import slide1 from '../../../imagens/slide1-corte.png';
+import slide2 from '../../../imagens/slide2-corte.png';
+import slide3 from '../../../imagens/slide3.png';
 
 export default function Slide() {
     return (

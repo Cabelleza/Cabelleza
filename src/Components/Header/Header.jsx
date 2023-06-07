@@ -44,7 +44,7 @@ function Header() {
                             <li>Fale Conosco</li>
                         </Link>
                     </ul>
-                    <Link to="./Login">
+                    <Link to="/Login">
                         <button>Login</button>
                     </Link>
                 </nav>

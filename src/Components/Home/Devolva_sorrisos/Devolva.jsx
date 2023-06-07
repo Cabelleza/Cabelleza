@@ -1,5 +1,5 @@
 import style from './Devolva.module.css';
-import mulherSegurandoPeruca from '../../imagens/imagemArredondadaMulherCareca.png';
+import mulherSegurandoPeruca from '../../../imagens/imagemArredondadaMulherCareca.png';
 
 function Devolva() {
     return (

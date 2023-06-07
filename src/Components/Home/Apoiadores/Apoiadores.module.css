@@ -6,7 +6,7 @@
     display: flex;
     padding-top: 20px;
     margin: auto;
-    background: url(../../imagens/linha-completa.svg);
+    background: url(../../../imagens/linha-completa.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 90%;
@@ -56,25 +56,25 @@
 }
 
 .containerApoiadores div:first-child {
-    background: url(../../imagens/Cabelegria.png);
+    background: url(../../../imagens/Cabelegria.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .containerApoiadores div:nth-child(2) {
-    background: url(../../imagens/Tucca.png);
+    background: url(../../../imagens/Tucca.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .containerApoiadores div:nth-child(3) {
-    background: url(../../imagens/Graacc.png);
+    background: url(../../../imagens/Graacc.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .containerApoiadores div:last-child {
-    background: url(../../imagens/ACCamargo.png);
+    background: url(../../../imagens/ACCamargo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

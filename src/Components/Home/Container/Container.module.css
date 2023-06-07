@@ -2,7 +2,7 @@
 
 .container {
     padding: 0 2% 2% 2%;
-    background: url(../../imagens/fundo-ondulado.svg);
+    background: url(../../../imagens/fundo-ondulado.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }

@@ -1,5 +1,5 @@
 import style from './Apoiadores.module.css';
-import mulher_apoiadores from '../../imagens/mulher-apoiadores.svg';
+import mulher_apoiadores from '../../../imagens/mulher-apoiadores.svg';
 
 function Apoiadores() {
     return (
