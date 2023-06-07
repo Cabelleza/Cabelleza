@@ -1,0 +1,104 @@
+.FaleConosco{
+    width: 100%;
+    height: 140px;
+    background: linear-gradient(146deg, rgba(198,40,107,0.8) 10%, rgba(237,15,150,0.5) 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FaleConosco p{
+    color: #fff;
+    font-size: 3rem;
+}
+
+#Atendimento{
+    background-image: url(../../imagens/fundo-ondulado.svg);
+}
+
+#Atendimento .txtAtendimento{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Atendimento .txtAtendimento p{
+    font-size: 1.2rem;
+    width: 65%;
+}
+
+#Atendimento .transformar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+}
+
+#Atendimento .transformar img:first-child{
+    transform: rotate(180deg);
+}
+
+#Atendimento .transformar h2{
+    color: #D12874;
+    margin: 1%;
+}
+
+.meiosAtendimento{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.meiosAtendimento .divMeios{
+    width: 400px;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #D12874;
+    box-shadow: 5px 5px 10px rgba(209, 40, 116, 0.4);
+    background-color: #fff;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.divMeios div{
+    font-size: 1.05rem;
+}
+
+.divMeios div p{
+    padding: 1% 1% 1% 0;
+}
+
+.meiosAtendimento .divMeios:hover{
+    box-shadow: 5px 5px 20px rgba(209, 40, 116, 0.8);
+}
+
+.meiosAtendimento .divMeios:active{
+    transform: translate(3px, 3px);
+}
+
+.divMeiosIcon{
+    color: #D12874;
+    font-size: 4rem;
+    margin: 4%;
+}
+
+@media screen and (max-width: 768px) {
+    .linha{
+        display: none;
+    }
+    #Atendimento .txtAtendimento p{
+        width: 90%;
+    }
+}

@@ -11,7 +11,7 @@ function Header() {
     useEffect(() => {
         const handleScroll = () => {
             const position = window.pageYOffset;
-            setIsFixed(position > 90);
+            setIsFixed(position > 80);
         };
 
         window.addEventListener('scroll', handleScroll);

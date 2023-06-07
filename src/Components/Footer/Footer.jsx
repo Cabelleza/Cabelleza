@@ -41,9 +41,9 @@ export default function Footer(){
                         <h2>Redes Sociais</h2>
                          <ul>
                             <IconContext.Provider value={{ className: style.icons_container }}>
-                                <a href="https://www.instagram.com/mon.silv/" target="_blank" className={style.icon}><AiOutlineInstagram /><span>Instagram</span></a>
-                                <a href="https://www.linkedin.com/in/ramon-silva-/" target="_blank" className={style.icon}><AiOutlineFacebook /><span>Facebook</span></a> 
-                                <a href="https://github.com/Ramon-Silv" target="_blank" className={style.icon}><AiOutlineYoutube /><span>Youtube</span></a> 
+                                <a href="https://www.instagram.com/cabelleza_/" target="_blank" className={style.icon}><AiOutlineInstagram /><span>Instagram</span></a>
+                                <a href="" target="_blank" className={style.icon}><AiOutlineFacebook /><span>Facebook</span></a> 
+                                <a href="" target="_blank" className={style.icon}><AiOutlineYoutube /><span>Youtube</span></a> 
                             </IconContext.Provider>
                         </ul>
                     </div>
