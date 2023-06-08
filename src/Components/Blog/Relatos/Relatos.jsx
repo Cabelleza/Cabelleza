@@ -1,5 +1,5 @@
 import style from './Relatos.module.css';
-import linhaCompleta from '../../../imagens/linha-completa.png';
+import linhaCompleta from '../../../imagens/meia-linha.png';
 import luanAraujo from '../../../imagens/luan-araujo.png';
 import marcelaThais from '../../../imagens/marcela-thais.png';
 import marianaAlmeida from '../../../imagens/mariana-almeida.png';

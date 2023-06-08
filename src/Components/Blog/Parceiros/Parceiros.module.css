@@ -7,11 +7,16 @@
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
+    color: #D12874;
 }
 
 .linhaCompleta {
     width: 30%;
     object-fit: contain;
+}
+
+.linhaCompleta:first-child {
+    transform: rotate(180deg);
 }
 
 .containerBox {
@@ -23,5 +28,13 @@
 }
 
 .containerBox img {
-    padding: 50px 20px 60px;
+    margin: 50px 20px 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .25s all;
+}
+
+.containerBox img:hover {
+    box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: .25s all;
 }
