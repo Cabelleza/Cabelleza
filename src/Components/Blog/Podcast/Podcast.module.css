@@ -1,0 +1,26 @@
+.sectionPodcast {
+    height: auto;
+    width: 100%;
+}
+
+.titlePodcast {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.linhaCompleta {
+    width: 30%;
+    object-fit: contain;
+}
+
+.containerPodcast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containerPodcast img {
+    width: 40%;
+    margin: 5px 0 20px 0;
+}

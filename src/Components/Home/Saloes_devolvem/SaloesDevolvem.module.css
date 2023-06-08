@@ -1,0 +1,79 @@
+.sectionSaloesDevolvem {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3% 0 0 0;
+}
+
+.h1SaloesDevolvem {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #D12874;
+    font-family: sans-serif;
+    padding: 20px 0 10px 0;
+}
+
+.saloesContainer {
+    padding: 20px 10px;
+    width: 90%;
+    height: auto;
+    background: linear-gradient(105.61deg, rgba(255, 187, 228, 0.66) 32.77%, rgba(250, 255, 116, 0.48) 67.6%);
+    backdrop-filter: blur(27.5px); /* Note: backdrop-filter has minimal browser support */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.saloesBox {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background: url(../../../imagens/fotoSalão.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1.5%;
+}
+
+.saloesTextBox {
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+    background: linear-gradient(92.54deg, rgba(167, 225, 140, 0.4) 0%, rgba(151, 229, 114, 0.1) 100%);
+    backdrop-filter: blur(2px);
+    border-radius: 0 0 10px 10px;
+}
+
+.saloesH1Box {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.saloesPBox {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Responsividade com base no iPhone 12 PRO Max */
+@media screen and (max-width: 428px) {
+    .saloesBox {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .saloesContainer {
+        flex-direction: column;
+    }
+
+    .saloesTextBox {
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        background: linear-gradient(92.54deg, rgba(151, 229, 114, 0.7) 0%, rgba(151, 229, 114, .6) 100%);
+        border-radius: 10px 10px 0 0;
+    }
+}

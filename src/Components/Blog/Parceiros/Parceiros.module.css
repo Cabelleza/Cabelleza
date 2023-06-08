@@ -1,0 +1,27 @@
+.parceirosSection {
+    height: auto;
+    width: 100%;
+}
+
+.titleParceiros {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.linhaCompleta {
+    width: 30%;
+    object-fit: contain;
+}
+
+.containerBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerBox img {
+    padding: 50px 20px 60px;
+}

@@ -1,0 +1,40 @@
+.dicasScetion {
+    height: auto;
+    width: 100%;
+}
+
+.titleDicas {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.linhaCompleta {
+    width: 30%;
+    object-fit: contain;
+}
+
+.containerBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxDicas {
+    width: 25%;
+    height: 350px;
+}
+
+.boxDicas img {
+    height: 200px;
+    width: 100%;
+    box-shadow: -7px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.boxDicas p { 
+    padding-top: 20px;
+    font-size: 18px;
+}

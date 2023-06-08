@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SectionOnu{
+    width: 100%;
+    height: 600px;
+    background-color: #fafafa;
+    /* margin-top: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SessaoImagemOnu{
+    width: 40%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chocolate; */
+}
+
+.AreaImagemOnu{
+    width: 80%;
+    height: 360px;
+    /* background-color: blueviolet; */
+    background-image: url(../../../imagens/ObjetivosOnu.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.SessaoTextoOnu{
+    width: 60%;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(30, 210, 120); */
+}
+
+.AreaTextoOnu{
+    width: 85%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloOnu{
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+
+.TextoOnu{
+    font-size: 17px;
+}
+
+.TextoRosa_Onu{
+    color: #d12874;
+}
+
+.TextoVerde_Onu{
+    color: #557851;
+}
+
+
+@media screen and (max-width: 480px) {
+    .SectionOnu{
+        height: 1180px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .SessaoTextoOnu{
+        width: 100%;
+        height: 720px;
+        padding-top: 15px;
+    }
+
+    .SessaoImagemOnu{
+        width: 100%;
+    }    
+
+}
+
+@media only screen and (min-width: 481px){
+    @media only screen and (max-width: 768px)
+    {
+        .SectionOnu{
+            height: 1000px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-around;
+        }
+
+        .SessaoTextoOnu{
+            width: 100%;
+            height: 650px;
+            padding-top: 15px;
+        }
+
+        .SessaoImagemOnu{
+            width: 100%;
+            padding-bottom: 20px;
+            
+        }  
+
+    }
+}
+
+@media only screen and (min-width: 769px){
+    @media only screen and (max-width: 1024px)
+    {
+        .SectionOnu{
+            height: 700px;
+        }
+    }
+}
