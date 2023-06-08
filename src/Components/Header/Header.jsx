@@ -56,17 +56,6 @@ function Header() {
                 </label>
                 <nav className={style.nav_menu}>
                     <ul className={style.lista_menu}>
-<<<<<<< HEAD
-                    <label for="menu" className={style.label_menu}>
-                        <BsXLg className={style.botao_close}/>
-                    </label>
-                        <Link to='/'><li>Home</li></Link>
-                        <Link to='/SobreNos'><li>Sobre Nós</li></Link>
-                        <Link to='/Saloes'><li>Salões</li></Link>
-                        <Link to='/Blog'><li>Blog</li></Link>
-                        <Link to='/FaleConosco'><li>Fale Conosco</li></Link>
-                        <Link to='/Login'><li>Login</li></Link>
-=======
                         <label htmlFor="menu" className={style.label_menu}>
                             <BsXLg className={style.botao_close} />
                         </label>
@@ -88,7 +77,6 @@ function Header() {
                         <Link to="/Login">
                             <li>Login</li>
                         </Link>
->>>>>>> 906954e0611b00c3c573618d588e413ca09a94ea
                     </ul>
                 </nav>
             </header>

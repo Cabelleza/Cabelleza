@@ -56,11 +56,7 @@
 .Imagem{
     width: 100%;
     height: 524px;
-<<<<<<< HEAD:src/Components/SobreNos1/SobreNos1.module.css
-    background-image: url(../../imagens/MulherSegurandoPerucaSobreNos.png);
-=======
-    background-image: url(../../../imagens/MulherSegurandoPerucaSobreNos-transformed.jpeg);
->>>>>>> 906954e0611b00c3c573618d588e413ca09a94ea:src/Components/SobreNos/SobreNos1/SobreNos1.module.css
+    background-image: url(../../../imagens/MulherSegurandoPerucaSobreNos.png);
     background-size: cover;
     margin-top: 80px;
 }
