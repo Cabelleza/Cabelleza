@@ -8,14 +8,12 @@
 
 .SectionFiosPontasRaizes{
     width: 100%;
-    height: 500px;
-    background-color: rgb(204, 50, 50);
-    background-image: url(../../../imagens/FundoMissaoProvisorio.svg);
-    background-size: auto;
-    padding-top: 10px;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    height: 450px;
+    /* background-color: rgb(204, 50, 50); */
+    background-image: url(../../imagens/FundoFiosPontasRaizes.png);
+    background-size: contain;
+    background-repeat: round;
+    /* padding-top: 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +21,7 @@
 
 .SessaoTextosFiosPontasRaizes{
     width: 85%;
-    height: 400px;
+    height: 350px;
     /* background-color: rgb(194, 37, 147); */
     display: flex;
     align-items: center;
@@ -31,18 +29,18 @@
 }
 
 .AreaTextoFiosPontasRaizes{
-    width: 27.5%;
-    height: 400px;
+    width: 30%;
+    height: 350px;
     /* background-color: rgb(86, 99, 155); */
 }
 
 .TituloFiosPontasRaizes{
     font-family: 'Courgette', cursive;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .TextoFiosPontasRaizes{
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .TextoRosa_NossosFios{
@@ -51,4 +49,60 @@
 
 .TextoVerde_NossosFios{
     color: #557851;
+}
+
+@media screen and (max-width: 480px) {
+    .SectionFiosPontasRaizes{
+        width: 100%;
+        height: auto;   
+        display: block;
+        flex-direction: column;
+        background-color: #CFFFCA;
+        background-image:none ;
+    }  
+
+    .SessaoTextosFiosPontasRaizes{
+        margin: auto;
+        flex-direction: column;
+        height: auto;
+        justify-content:bottom;
+        /* background-color: #D12874; */
+    }
+
+    .AreaTextoFiosPontasRaizes{
+        width: 100%;
+        height: 280px;
+        text-align: center;
+        /* background-color: rgb(86, 99, 155);git  */
+        margin: 10px 0px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 481px){
+    @media only screen and (max-width: 768px)
+    {
+        .SectionFiosPontasRaizes{
+            height: 420px;            
+        }
+
+        .TituloFiosPontasRaizes{
+            font-family: 'Courgette', cursive;
+            font-size: 31px;
+        }
+
+        .TextoFiosPontasRaizes{
+            font-size: 17px;
+        }
+    }
+}
+
+@media only screen and (min-width: 769px){
+    @media only screen and (max-width: 1024px)
+    {
+        .TextoFiosPontasRaizes{
+            font-size: 18px;
+        }
+    }
 }
