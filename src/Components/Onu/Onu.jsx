@@ -13,6 +13,7 @@ function Onu() {
 
                 <div className={style.SessaoTextoOnu}>
                     <div className={style.AreaTextoOnu}>
+                        <p className={style.tituloOnu}>Cabelleza e os ODS</p>
                         <p className={style.TextoOnu}>
                         A <span className={style.TextoRosa_Onu}>Cabelleza</span> está comprometida em respeitar e promover os Objetivos de Desenvolvimento Sustentável da ONU. Eles relacionam seus objetivos com os seguintes aspectos:<br></br><br></br>
                         <span className={style.TextoVerde_Onu}>Saúde e Bem-Estar</span>: Contribuem para o bem-estar das mulheres pacientes oncológicas por meio da doação de mechas de cabelo.<br></br><br></br>

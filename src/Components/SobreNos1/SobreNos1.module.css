@@ -1,8 +1,8 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 /* Sessão que terá o fundo rosa com texto */
 .Sessao1{
@@ -12,6 +12,7 @@
     background-size:cover;
     padding-top: -80px;
     display: flex;
+    box-sizing: border-box;
 }
 
 /* Sessão para texto */
@@ -21,6 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: blueviolet; */
 }
 
 /* Área do texto */
@@ -28,6 +30,7 @@
     margin-top: 80px;
     width: 88%;
     height: 250px;
+    /* background-color: chartreuse; */
 }
 
 .TextoSessao1{
@@ -36,7 +39,7 @@
 }
 
 .SessaoImagem{
-    width: 50%;
+    width: 45%;
     height: 604px;
     display: flex;
     justify-content: center;
@@ -51,9 +54,63 @@
 }
 
 .Imagem{
-    width: 590px;
+    width: 100%;
     height: 524px;
-    background-image: url(../../imagens/MulherSegurandoPerucaSobreNos-transformed.jpeg);
+    background-image: url(../../imagens/MulherSegurandoPerucaSobreNos.png);
     background-size: cover;
-    margin-top: 79px;
+    margin-top: 80px;
+}
+
+/* Responsividade com base no iPhone 12 PRO MAX */
+@media screen and (max-width: 480px) {
+    .Sessao1{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SessaoImagem {
+        display: none;
+    }
+    
+    .SessaoTextoSessao1{
+        width: 100%;
+        height: 500px;
+        text-align: center;
+    }
+
+    .AreaTextoSessao1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .TextoSessao1{
+        font-size: 45px;
+    }  
+}
+
+@media only screen and (min-width: 481px){
+    @media only screen and (max-width: 768px)
+    {
+        .SessaoTextoSessao1{
+            width: 40%;
+        }
+    
+        .AreaTextoSessao1{
+            width: 100%;
+        }
+    
+        .TextoSessao1{
+            font-size: 35px;
+            padding-left: 15px;
+        }
+    
+        .SessaoImagem{
+            width: 60%;
+        }  
+
+    }
 }

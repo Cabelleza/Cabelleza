@@ -25,7 +25,7 @@ function HistoriaMarcaFlor() {
                     </div>
                 </div>
 
-                {/* Sessão de Nossa História */}
+                {/* Sessão de Nossa Marca */}
                 <div className={style.SessaoNossaMarca}>
 
                     <div className={style.SessaoImagemNossaHistoriaMarcaFlor}>
@@ -43,9 +43,14 @@ function HistoriaMarcaFlor() {
                             </p>
                         </div>
                     </div>
+
+                    <div className={style.SessaoImagemNossaMarcaResponsiva}>
+                        <div className={style.AreaImagemMarcaResponsiva}></div>
+                    </div>
+
                 </div>
 
-                {/* Sessão de Nossa História */}
+                {/* Sessão Flor de Lótus */}
                 <div className={style.SessaoNossaHistoria}>
                     <div className={style.SessaoTextoNossaHistoria}>
                         <div className={style.AreaTextoNossaHistoria}>
