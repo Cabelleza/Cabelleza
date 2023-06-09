@@ -62,8 +62,7 @@ hr {
     background-color: #D12874;
     align-items: center;
 }
-
-h4 {
+.tipo {
     padding-top: 6px;
     text-align: center;
     color: #FAFF74;
@@ -80,12 +79,12 @@ h4 {
 
 }
 
-p {
+.conta {
     color: #fff;
     font-weight: 300;
     font-size: 18px;
 }
-h5 {
+.boxvantagens {
     text-align: center;
     margin-top: 5px;
     color: #D12874;

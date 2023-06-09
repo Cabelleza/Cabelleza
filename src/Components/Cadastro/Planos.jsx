@@ -19,10 +19,10 @@ function Planos() {
            {/* ______________________1 Plano_______________________________ */}
           <div className={style.boxplano}>
             <div className={style.boxh4}>
-              <h4> Plano Gratuito</h4>
+              <h4 className={style.tipo}> Plano Gratuito</h4>
             </div>
             <div className={style.boxpreco}>
-              <p>
+              <p className={style.conta}>
                 Crie sua conta <br />
                 gratuitamente
               </p>
@@ -50,14 +50,14 @@ function Planos() {
            {/* ____________________ 2 Plano________________________________ */}
           <div className={style.boxplano}>
             <div className={style.boxh4}>
-              <h4> Plano mensal</h4>
+              <h4 className={style.tipo}> Plano mensal</h4>
             </div>
             <div className={style.boxpreco}>
               <p className={style.preco}>
                 $49,99/Mês
               </p>
             </div>
-               <h5>Vantagens:</h5>
+               <h5 className={style.Tvantagens}>Vantagens:</h5>
             <div className={style.boxvantagens}>
               <div className={style.divVantagem3}>
                 <img src={flor} alt="" />
@@ -93,14 +93,14 @@ function Planos() {
 
 
           <div className={style.boxh4}>
-              <h4> Plano semestral</h4>
+              <h4 className={style.tipo}> Plano semestral</h4>
             </div>
             <div className={style.boxpreco}>
               <p className={style.preco2}>
                 $269,99/Semestral
               </p>
             </div>
-               <h5>Vantagens:</h5>
+               <h5 className={style.Tvantagens}>Vantagens:</h5>
             <div className={style.boxvantagens}>
               <div className={style.divVantagem4}>
                 <img src={flor} alt="" />
@@ -141,14 +141,14 @@ function Planos() {
           <div className={style.boxplano}>
 
           <div className={style.boxh4}>
-              <h4> Plano anual</h4>
+              <h4 className={style.tipo}> Plano anual</h4>
             </div>
             <div className={style.boxpreco}>
               <p className={style.preco2}>
                 $479,99/anual
               </p>
             </div>
-               <h5>Vantagens:</h5>
+               <h5 className={style.Tvantagens}>Vantagens:</h5>
             <div className={style.boxvantagens}>
               <div className={style.divVantagem5}>
                 <img src={flor} alt="" />
