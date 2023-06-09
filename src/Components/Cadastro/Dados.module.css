@@ -1,0 +1,37 @@
+.linhaTempo {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+.white::after {
+    content: "";
+    background-color: #ffffff;
+    border: solid 1px #D12874;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: block;
+    margin: 5px auto;
+
+}
+
+hr {
+    background-color: #000000;
+    width: 55%;
+    margin-top: 55px;
+    border: solid 1px #000000;
+}
+
+.active::after {
+    content: "";
+    background-color: #D12874;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: block;
+    margin: 5px auto;
+}

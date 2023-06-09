@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    background-color: #FAB9EF;
+    display: flex;
+  
+}
+.boxlogo{
+ margin: auto;
+   
+}
+.logo{
+    margin-left: -50px;
+}
+.boxLinhaPagamento{
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    
+}
+.linhas{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+    color: #D12874;
+    font-size: 20px;
+}
+hr{
+    width: 8%;
+    
+}
