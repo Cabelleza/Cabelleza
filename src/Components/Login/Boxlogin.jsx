@@ -84,7 +84,7 @@ function Boxlogin() {
             </form>
             <div className={style.botaocadastro}>
               <p>Ainda não tem login?</p>
-              <Link to="" className={style.link}>
+              <Link to="/Assinatura" className={style.link}>
                 Cadastre-se aqui
               </Link>
             </div>

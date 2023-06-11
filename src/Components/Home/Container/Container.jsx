@@ -13,7 +13,7 @@ export default function Container(){
                 {/* Junte-se ao Cabelleza */}
                 <section className={style.sectionJunte}>
                     <h1 className={style.junteH1}>Junte-se a nós! Os salões de beleza mais <br /> diversos já estão no <span>Cabelleza</span>.</h1>
-                    <Link to=''><button className={style.beneficiosButton}>Iniciar teste gratuito</button></Link> 
+                    <Link to='/Assinatura'><button className={style.beneficiosButton}>Cadastre seu salão</button></Link> 
                 </section>
 
                 {/* Transformar vidas */}

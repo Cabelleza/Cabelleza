@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.cadastreSeuSalao{
+    width: 100%;
+    background: linear-gradient(146deg, rgba(164,27,89,1) 10%, rgba(209,40,116,0.61) 80%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.cadastreSeuSalao div{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastreSeuSalao div h1{
+    color: #F299E3;
+}
+
+.cadastreSeuSalao div button{
+    width: 120%;
+    font-family: 'Courgette', cursive;
+    font-size: 1.35rem;
+    margin: 5% 0;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: #E4508C;
+    color: #fff;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s;
+}
+
+.cadastreSeuSalao div button:hover{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    .cadastreSeuSalao{
+        height: 300px;
+    }
+
+    .cadastreSeuSalao div h1{
+        margin: 5% 0;
+    }
+
+    .cadastreSeuSalao img{
+        display: none;
+    }
+}

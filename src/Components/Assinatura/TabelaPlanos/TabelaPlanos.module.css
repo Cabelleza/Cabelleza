@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.tabelaPlanos{
+    width: 100%;
+    min-height: 500px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tabelaPlanos h2{
+    color: #D12874;
+    margin: 2% 0;
+}
+
+.tabelaPlanos h1{
+    font-family: 'Courgette', cursive;
+    color: #D12874;
+    margin: 1% 0;
+}
+
+.tabelaPlanos p{
+    font-size: 1.2rem;
+}
+
+.tabelaPlanos table, tr, th, td{
+    border: 1px solid #D12874;
+    text-align: center;
+    width: 700px;
+    padding: 2%;
+}
+
+.tabelaPlanos table tr th{
+    font-size: 1.2em;
+}
+
+.tabelaPlanos .bronze{
+    color: #A84412;
+}
+
+.tabelaPlanos .prata{
+    color: #A9B1B3;
+}
+
+.tabelaPlanos .ouro{
+    color: #FDCA00;
+}
+
+.tabelaPlanos table tr td:first-child{
+    background-color: #FAB9EF;
+}
+
+.tabelaPlanos .tableIconCheck, .tabelaPlanos .tableIcon{
+    font-size: 2rem;
+    color: #4FCB2E;
+}
+
+.tabelaPlanos .tableIcon{
+    color: #DD1717;
+}
+
+.carouselTabela{
+    display: none;
+    width: 450px;
+    width: 100%;
+    margin: 2%;
+}
+
+.carouselItem{
+    width: 100%;
+    height: 450px;
+}
+
+.carouselItemContainer{
+    height: 93%;
+    display: flex;
+    justify-content: center;
+}
+
+.carouselItemContainerColuna{
+    width: 80%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgba(250, 185, 239, 0.631);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carouselItemContainerColuna h2{
+    color: #000;
+}
+
+.carouselItemContainerColuna div{
+    margin: 2% 0;
+}
+
+@media screen and (max-width: 768px) {
+    .tabelaPlanos table{
+        display: none;
+    }
+
+    .carouselTabela{
+        display: block;
+    }
+}

@@ -11,7 +11,7 @@ export default function Slide() {
             <Carousel className={style.Carousel}>
                 <Carousel.Item interval={5000} className={style.Carousel_item}>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-500"
                         src={slide1}
                         alt="Primeiro slide"
                     />
@@ -24,7 +24,7 @@ export default function Slide() {
 
                 <Carousel.Item interval={5000} className={style.Carousel_item}>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-500"
                         src={slide2}
                         alt="Segundo slide"
                     />
@@ -35,13 +35,11 @@ export default function Slide() {
                 </Carousel.Item>
 
                 <Carousel.Item interval={5000} className={style.Carousel_item}>
-                    
                     <Carousel.Caption className={style.Carousel_caption}>
                         <div>
                             <h3>“Marcante é saber viver.”</h3>
-                            <Link to='/Sobre'><button>Saiba mais</button></Link>
+                            <Link to='/SobreNos'><button>Saiba mais</button></Link>
                         </div>
-
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
