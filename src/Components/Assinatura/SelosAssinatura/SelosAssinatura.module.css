@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.selosAssinatura{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.selosAssinatura h1{
+    font-family: 'Courgette', cursive;
+    color: #D12874;
+}
+
+.selosAssinatura p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.selosAssinatura button{
+    width: 120%;
+    font-family: 'Courgette', cursive;
+    font-size: 1.35rem;
+    margin: 5% -10%;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: #E4508C;
+    color: #fff;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s;
+}
+
+.selosAssinatura button:hover{
+    box-shadow: 4px 4px 20px rgba(228, 80, 140, 0.9);
+}
+
+.selosAssinaturaContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.selosAssinaturaContainer div{
+    text-align: center;
+    padding: 2%;
+    width: 400px;
+}
+
+.selosAssinaturaContainer div .bronze{
+    color: #A84412;
+}
+
+.selosAssinaturaContainer div .prata{
+    color: #A9B1B3;
+}
+
+.selosAssinaturaContainer div .ouro{
+    color: #FDCA00;
+}

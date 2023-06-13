@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {BsArrowLeft} from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import style from "./Boxlogin.module.css";
+import toastr from 'toastr';//importando biblioteca de alerts
+import 'toastr/build/toastr.min.css';
 
 function Boxlogin() {
   const [email, setEmail] = useState("");
@@ -29,7 +31,7 @@ function Boxlogin() {
       // Login realizado, levar para a página de configurações
     } else {
       // Login falhou, exibir mensagem de erro
-      setErrorMessage("E-mail ou senha inválidos!");
+      toastr.error('E-mail ou senha inválidos!');
     }
   };
 
@@ -40,7 +42,7 @@ function Boxlogin() {
           <div className={style.boxdados}>
             <Link to="/">
               <button className={style.botaovoltar}>
-                <BsArrowLeft/>
+                <BsArrowLeft />
               </button>
             </Link>
             <h3>Área de login</h3>
@@ -74,10 +76,9 @@ function Boxlogin() {
               </div>
               <div className={style.botaoentrar}>
                 <input className={style.entrar} type="submit" value="Entrar" />
-                <Link>
+                <Link to="/Cadastro">
                   <p>Esqueceu a senha?</p>
                 </Link>
-                {errorMessage && <p className={style.errorMessage}>{errorMessage}</p>}
                 <hr />
               </div>
             </form>

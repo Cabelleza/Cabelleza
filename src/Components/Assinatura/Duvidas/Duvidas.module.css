@@ -1,0 +1,73 @@
+.duvidas {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.duvidas .txtDuvidas {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.duvidas .txtDuvidas h2{
+    color: #D12874;
+}
+
+.duvidas .txtDuvidas img:first-child {
+    transform: rotate(180deg);
+}
+
+.duvidas details summary {
+    font-size: 1.2rem;
+}
+
+.duvidasDetalhes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.duvidasDetalhes div {
+    width: 600px;
+}
+
+.duvidasDetalhes div details{
+    margin: 3%;
+}
+
+.duvidasDetalhes div details p{
+    margin: 0 2%;
+}
+
+.duvidasDetalhes summary {
+    cursor: pointer;
+    user-select: none;
+    transition: color 1s ease;
+}
+
+.duvidasDetalhes details[open] summary{
+    color: #D12874;
+}
+
+.duvidasDetalhes details[open]{
+    max-height: 500px;
+    transition: max-height 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .duvidas .txtDuvidas h2{
+        font-size: 2rem;
+    }
+
+    .duvidas .txtDuvidas img{
+        display: none;
+    }
+}

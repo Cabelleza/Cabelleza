@@ -30,10 +30,11 @@
 }
 
 .beneficiosButton {
-    margin: 1%;
-    padding: 1%;
-    width: 100%;
-    font-size: 1.1rem;
+    margin: 2%;
+    padding: 5%;
+    width: 130%;
+    margin: 1% -10%;
+    font-size: 1.15rem;
     color: #fff;
     background-color: #D12874;
     border: 1px solid #fff;

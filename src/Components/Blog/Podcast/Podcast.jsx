@@ -1,5 +1,5 @@
 import style from './Podcast.module.css';
-import linhaCompleta from '../../../imagens/linha-completa.png';
+import linhaCompleta from '../../../imagens/meia-linha.png';
 import podcast1 from '../../../imagens/podcast1.png';
 import podcast2 from '../../../imagens/podcast2.png';
 import podcast3 from '../../../imagens/podcast3.png';

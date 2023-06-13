@@ -116,7 +116,7 @@ header nav button:hover{
     visibility: visible;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
     .nav_principal{
         display: none;
     }
@@ -126,7 +126,7 @@ header nav button:hover{
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1200px){
     .nav_menu{
         display: none;
     }

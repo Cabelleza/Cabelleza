@@ -7,11 +7,16 @@
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
+    color: #D12874;
 }
 
 .linhaCompleta {
     width: 30%;
     object-fit: contain;
+}
+
+.linhaCompleta:first-child {
+    transform: rotate(180deg);
 }
 
 .containerBox {
@@ -30,13 +35,48 @@
 .boxDicas img {
     height: 200px;
     width: 100%;
-    box-shadow: -7px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     object-fit: cover;
+}
+
+.boxDicas img:hover {
+    box-shadow: -7px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: .25s all;
 }
 
 .boxDicas p { 
     padding-top: 20px;
     font-size: 22px;
     text-align: center;
+    color: #D12874;
+}
+
+/* iPhone 12 PRO MAX */
+@media screen and (max-width: 428px) {
+    .containerBox {
+        flex-direction: column;
+    }
+
+    .boxDicas {
+        width: 80%;
+        height: 300px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .boxDicas img {
+        height: 225px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 429px) and (max-width: 834px) {
+    .boxDicas {
+        height: 250px;
+    }
+    
+    .boxDicas img {
+        height: 150px;
+    } 
 }

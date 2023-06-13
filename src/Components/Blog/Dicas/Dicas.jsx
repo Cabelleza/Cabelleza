@@ -1,5 +1,5 @@
 import style from './Dicas.module.css';
-import linhaCompleta from '../../../imagens/linha-completa.png';
+import linhaCompleta from '../../../imagens/meia-linha.png';
 import cabeloHidratado from '../../../imagens/cabelo-hidrato.png';
 import perucaReal from '../../../imagens/peruca-real.png';
 import soltarCabelo from '../../../imagens/soltar-cabelo.png';

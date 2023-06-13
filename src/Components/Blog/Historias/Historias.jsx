@@ -1,5 +1,5 @@
 import style from './Historias.module.css';
-import linhaCompleta from '../../../imagens/linha-completa.png';
+import linhaCompleta from '../../../imagens/meia-linha.png';
 import Vania from '../../../imagens/vania.png';
 import Sezete from '../../../imagens/sezete.png';
 import Lais from '../../../imagens/lais.png';

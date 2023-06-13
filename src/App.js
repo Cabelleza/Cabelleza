@@ -6,8 +6,11 @@ import SobreNos from './Pages/SobreNos/SobreNos';
 import Blog from './Pages/Blog/Blog';
 import FaleConosco from './Pages/FaleConosco/FaleConosco';
 import Saloes from './Pages/Saloes/Saloes';
+import Cadastro from './Pages/Cadastro/Cadastro';
+import Assinatura from './Pages/Assinatura/Assinatura';
 
 function App() {
+
   return (
     <div className="App">
         <Router>
@@ -18,6 +21,8 @@ function App() {
                 <Route path='/Saloes' element={<Saloes/>} />
                 <Route path='/Blog' element={<Blog/>} />
                 <Route path='/FaleConosco' element={<FaleConosco/>} />
+                <Route path='/Cadastro' element={<Cadastro/>} />
+                <Route path='/Assinatura' element={<Assinatura/>}/>
             </Routes>
         </Router>
     </div>

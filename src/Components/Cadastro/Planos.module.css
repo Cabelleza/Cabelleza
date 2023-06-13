@@ -1,0 +1,215 @@
+.main {
+    min-height: 70vh;
+    background-color: #f9f9f9;
+}
+
+.linhaTempo {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+.white::after {
+    content: "";
+    background-color: #ffffff;
+    border: solid 1px #D12874;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: block;
+    margin: 5px auto;
+
+}
+
+hr {
+    background-color: #000000;
+    width: 55%;
+    margin-top: 55px;
+    border: solid 1px #000000;
+}
+
+.active::after {
+    content: "";
+    background-color: #D12874;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: block;
+    margin: 5px auto;
+}
+
+.planos {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.planos .boxplano {
+    margin-top: 30px;
+    width: 23%;
+    height: 80vh;
+    border: solid 2px rgba(250, 255, 116, 1);
+}
+
+.boxh4 {
+    width: 100%;
+    height: 45px;
+    background-color: #D12874;
+    align-items: center;
+}
+.tipo {
+    padding-top: 6px;
+    text-align: center;
+    color: #FAFF74;
+}
+
+.boxpreco {
+    width: 100%;
+    height: 100px;
+    border-radius: 0px 0px 0px 70px;
+    background-color: #EE237E;
+    text-align: center;
+    padding-top: 15px;
+
+
+}
+
+.conta {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+.boxvantagens {
+    text-align: center;
+    margin-top: 5px;
+    color: #D12874;
+}
+.boxvantagens {
+    width: 100%;
+    height: 40%;
+    margin: 0px auto;
+
+}
+
+.divVantagem1 {
+    margin: 50px auto;
+    font-size: 14px;
+    width: 90%;
+
+
+}
+
+.divVantagem2 {
+    margin-top: 30px;
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+    
+}
+.btnassinar{
+   text-align: center;
+}
+.boxplano .button1{
+    width: 70%;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: #D12874;
+    font-size: 13px;
+    color: #fff;
+    box-shadow: 0px 0px 5px 2px #3b3a3a;
+    margin-top: 46px;
+    transition: 1s;
+}
+.button1:hover{
+    box-shadow: 0 10px 10px #c5cc9cce;
+    transform: translateY(2px);
+}
+
+.button2{
+    width: 70%;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: #D12874;
+    font-size: 13px;
+    color: #fff;
+    box-shadow: 0px 0px 5px 2px #3b3a3a;
+    margin-top: 35px;
+    transition: 1s;
+}
+.button2:hover{
+    box-shadow: 0 10px 10px #c5cc9cce;
+    transform: translateY(2px);
+}
+
+.button3{
+    width: 70%;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: #D12874;
+    font-size: 13px;
+    color: #fff;
+    box-shadow: 0px 0px 5px 2px #3b3a3a;
+    margin-top: 45px;
+    transition: 1s;
+}
+
+.button3:hover{
+    box-shadow: 0 10px 10px #c5cc9cce;
+    transform: translateY(2px);
+}
+
+.button4{
+    width: 70%;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: #D12874;
+    font-size: 13px;
+    color: #fff;
+    box-shadow: 0px 0px 5px 2px #3b3a3a;
+    margin-top: 54px;
+    transition: 1s;
+}
+.button4:hover{
+    box-shadow: 0 10px 10px #c5cc9cce;
+    transform: translateY(2px);
+}
+
+.bronze{
+    color: #A84412;
+    
+}
+.Prata{
+    color: #ADADAD;
+}
+.Ouro{
+    color: #FDCA00;
+}
+
+.divVantagem3{
+    font-size: 14px;
+    width: 90%;
+    margin: 30px auto;
+}
+.divVantagem4{
+    font-size: 14px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.divVantagem5{
+    font-size: 13px;
+    width: 90%;
+    margin: 5px auto;
+}
+.preco{
+    font-size: 30px;
+}
+.preco2{
+    font-size: 25px;
+    margin-top: 8px;
+}

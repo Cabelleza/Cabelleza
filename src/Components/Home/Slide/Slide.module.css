@@ -8,19 +8,6 @@
     height: 450px;
 }
 
-/*é necessário realizar melhoria dessas imagens*/
-.Carousel_item:first-child{
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*background-image: url(../../imagens/slide1-corte.png);*/
-}
-
-.Carousel_item:nth-child(2){
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*background-image: url(../../imagens/slide2-corte.png);*/
-}
-
 .Carousel_item:last-child{
     background-size: cover;
     background-position-y: -70px;
@@ -86,6 +73,7 @@
 .Carousel_item:nth-child(2) .Carousel_caption button{
     background: linear-gradient(100deg, #A41B59, rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.25), rgba(217, 217, 217, 0.1));
     border: 2px solid #A41B59;
+    color: #1C2B1A;
 }
 
 .Carousel_item:last-child .Carousel_caption button{
@@ -94,9 +82,16 @@
     border: 2px solid #d12874;
 }
 
+@media screen and (max-width: 1200px) {
+    .Carousel_item:last-child{
+        background-position-y: 0;
+    }
 
-.carousel-control-next{
-    width: 5%;
+    .Carousel_item:first-child .Carousel_caption div,
+    .Carousel_item:nth-child(2) .Carousel_caption div,
+    .Carousel_item:last-child .Carousel_caption div{
+        width: 100%;
+    }
 }
 
 /*Responsividade com base no Iphone 12 PRO MAX*/ 
