@@ -1,0 +1,196 @@
+.SectionSessao1Saloes{
+    width: 100%;
+    height: 528px;
+    /* background-color: aqua; */
+    background-image: url(../../../imagens/fundoSectioSalao1.png);
+}
+
+.sectionElementosSessaoSaloes {
+    width: 51%;
+    height: 528px;
+    /* background-color: darkorange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SessaoTextoSessao1Saloes{
+    width: 86%;
+    height: 230px;
+    /* background-color: aqua; */
+    text-align: left;
+}
+
+.AreaTituloSessao1Saloes{
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+}
+
+.TituloSessao1Saloes{
+    font-size: 50px;
+    color: #fff;
+}
+
+.AreaTextoSessao1Saloes{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    /* background-color: rgb(179, 255, 0); */
+}
+
+.TextoSessao1Saloes{
+    font-size: 30px;
+    color: #fff;
+}
+
+.areaSearchBar{
+    width: 86%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search_box{
+    width: 420px;
+    height: 50px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_txt{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 0;
+    font-size: 18px;
+    color: #4b4b4b;
+}
+
+.areaImagemFlorLotus{
+    width: 10%;
+    height: 60px;
+    /* background-color: coral; */
+    background-image: url(../../../imagens/florLotusSearchBarSaloes.svg);
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-left: -40px;
+}
+
+@media screen and (max-width: 480px) {
+    .SectionSessao1Saloes{
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sectionElementosSessaoSaloes {
+        width: 100%;
+    }
+
+    .SessaoTextoSessao1Saloes{
+        width: 80%;
+        height: 160px;
+    }
+
+    .TituloSessao1Saloes{
+        font-size: 42px;
+    }
+        
+    .AreaTextoSessao1Saloes{
+        margin-top: 15px;
+    }
+        
+    .TextoSessao1Saloes{
+        font-size: 19px;
+    }
+
+    .areaSearchBar{
+        width: 80%;            
+    }
+
+    .search_box{
+        width: 380px;
+        height: 35px;
+    }
+
+    .search_txt{
+        font-size: 15px;
+    }
+
+    .areaImagemFlorLotus{
+        width: 15%;
+        height: 45px;
+        margin-bottom: 48px;
+        /* margin-left: -40px; */
+    } 
+}
+
+@media only screen and (min-width: 481px){
+    @media only screen and (max-width: 768px)
+    {
+        .sectionElementosSessaoSaloes {
+        width: 65%;
+        }
+
+        .SessaoTextoSessao1Saloes{
+            width: 90%;
+            height: 180px;
+        }
+
+        .TituloSessao1Saloes{
+            font-size: 42px;
+        }
+        
+        .AreaTextoSessao1Saloes{
+            margin-top: 20px;
+        }
+        
+
+        .TextoSessao1Saloes{
+            font-size: 22px;
+        }
+
+        .areaSearchBar{
+            width: 90%;            
+        }
+
+        .search_box{
+            width: 380px;
+        }
+
+        .areaImagemFlorLotus{
+            width: 15%;
+        }
+    }
+}
+
+@media only screen and (min-width: 769px){
+    @media only screen and (max-width: 1240px)
+    {
+        .SessaoTextoSessao1Saloes{
+            width: 90%;
+            height: 200px;
+        }
+
+        .TituloSessao1Saloes{
+            font-size: 48px;
+        }
+                
+        .TextoSessao1Saloes{
+            font-size: 27px;
+        }
+
+        .areaSearchBar{
+            width: 90%;            
+        }
+    }   
+}

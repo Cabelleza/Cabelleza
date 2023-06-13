@@ -16,7 +16,7 @@ export default function Footer(){
                         <h2>Plataforma</h2>
                         <ul>
                             <Link to='/'><li>Home</li></Link>
-                            <Link to='/Sobre'><li>Sobre Nós</li></Link>
+                            <Link to='/SobreNos'><li>Sobre Nós</li></Link>
                             <Link to='/Saloes'><li>Salões</li></Link>
                             <Link to='/Blog'><li>Blog</li></Link>
                             <Link to='/FaleConosco'><li>Fale Conosco</li></Link>

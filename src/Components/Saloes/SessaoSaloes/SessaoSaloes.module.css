@@ -1,0 +1,21 @@
+.SessaoSaloes{
+    width: 100%;
+    height: 1900px;
+    background-color: #fafafa;
+}
+
+.ImagemDetalheSuperiorEsquerdo{
+    width: 30%;
+    height: 300px;
+    background-image: url(../../../imagens/DetalheEsquerdoSessaoSaloes.svg);
+    background-size: cover;
+    float: left;
+}
+
+.TituloSessaoSaloes{
+    width: 30%;
+    height: 150px;
+    background-color: chartreuse;
+    float: left;
+}
+
