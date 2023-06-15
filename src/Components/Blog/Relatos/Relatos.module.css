@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .relatosSection {
     height: auto;
     width: 100%;
@@ -8,6 +10,7 @@
     justify-content: space-around;
     margin: 20px 0;
     color: #D12874;
+    font-family: 'Courgette', cursive;
 }
 
 .linhaCompleta {
