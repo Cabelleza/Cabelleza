@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.desabrocharSorrisos{
+    width: 100%;
+    background: linear-gradient(146deg, rgba(164,27,89,1) 10%, rgba(209,40,116,0.61) 80%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desabrocharSorrisos div{
+    padding: 1%;
+    margin: 0 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.desabrocharSorrisos div h1{
+    color: #EDC5EF;
+    font-family: 'Courgette', cursive;
+    font-size: 3.2rem;
+}
+
+.desabrocharSorrisos div h1 span{
+    color: #FAFF74;
+}
+
+.desabrocharSorrisos img{
+    transform: translate(0, 13.5%);
+}
+
+header nav button{
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .desabrocharSorrisos{
+        height: 300px;
+        justify-content: center;
+    }
+
+    .desabrocharSorrisos div h1{
+        margin: 5% 0;
+        text-align: center;
+    }
+
+    .desabrocharSorrisos img{
+        display: none;
+    }
+}
