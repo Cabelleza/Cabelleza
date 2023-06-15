@@ -27,7 +27,7 @@ export default function Footer(){
                         <ul>
                             <Link to='/FaleConosco'><li>Enviar E-mail</li></Link>
                             <Link to='/Assinatura'><li>Perguntas frequentes</li></Link>
-                            <Link to=''><li>Termos e condições</li></Link>
+                            <Link to='/TermosECondicoes'><li>Termos e condições</li></Link>
                         </ul>
                     </div>
                     <div>
