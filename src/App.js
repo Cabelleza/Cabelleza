@@ -8,6 +8,7 @@ import FaleConosco from './Pages/FaleConosco/FaleConosco';
 import Saloes from './Pages/Saloes/Saloes';
 import Cadastro from './Pages/Cadastro/Cadastro';
 import Assinatura from './Pages/Assinatura/Assinatura';
+import TermosECondicoes from './Pages/TermosECondicoes/TermosECondicoes';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
                 <Route path='/FaleConosco' element={<FaleConosco/>} />
                 <Route path='/Cadastro' element={<Cadastro/>} />
                 <Route path='/Assinatura' element={<Assinatura/>}/>
+                <Route path='/TermosECondicoes' element={<TermosECondicoes/>}/>
             </Routes>
         </Router>
     </div>
