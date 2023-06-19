@@ -27,7 +27,8 @@ export default function Footer(){
                         <ul>
                             <Link to='/FaleConosco'><li>Enviar E-mail</li></Link>
                             <Link to='/Assinatura'><li>Perguntas frequentes</li></Link>
-                            <Link to='/TermosECondicoes'><li>Termos e condições</li></Link>
+                            <Link to='/TermosECondicoes'><li>Termos de condições</li></Link>
+                            <Link to='/PoliticaPrivacidade'><li>Política de privacidade</li></Link>
                         </ul>
                     </div>
                     <div>
@@ -42,7 +43,7 @@ export default function Footer(){
                          <ul>
                             <IconContext.Provider value={{ className: style.icons_container }}>
                                 <a href="https://www.instagram.com/cabelleza_/" target="_blank" className={style.icon}><AiOutlineInstagram /><span>Instagram</span></a>
-                                <a href="" target="_blank" className={style.icon}><AiOutlineFacebook /><span>Facebook</span></a> 
+                                <a href="https://www.facebook.com/profile.php?id=100093713072069" target="_blank" className={style.icon}><AiOutlineFacebook /><span>Facebook</span></a> 
                                 <a href="https://www.youtube.com/@Cabelleza/featured" target="_blank" className={style.icon}><AiOutlineYoutube /><span>Youtube</span></a> 
                             </IconContext.Provider>
                         </ul>

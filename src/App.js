@@ -9,6 +9,7 @@ import Saloes from './Pages/Saloes/Saloes';
 import Cadastro from './Pages/Cadastro/Cadastro';
 import Assinatura from './Pages/Assinatura/Assinatura';
 import TermosECondicoes from './Pages/TermosECondicoes/TermosECondicoes';
+import PoliticaPrivacidade from './Pages/PoliticaPrivacidade/PoliticaPrivacidade';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                 <Route path='/Cadastro' element={<Cadastro/>} />
                 <Route path='/Assinatura' element={<Assinatura/>}/>
                 <Route path='/TermosECondicoes' element={<TermosECondicoes/>}/>
+                <Route path='/PoliticaPrivacidade' element={<PoliticaPrivacidade/>}/>
             </Routes>
         </Router>
     </div>

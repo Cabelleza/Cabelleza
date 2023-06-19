@@ -6,11 +6,8 @@ import Termos from '../../Components/Termos/Termos';
 function TermosECondicoes(){
     return(
         <>
-            <Header />
+            <Header/>
             <Termos/>
-
-
-
             <Footer/>
         </>
     )
