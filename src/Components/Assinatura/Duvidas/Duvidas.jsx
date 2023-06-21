@@ -14,7 +14,7 @@ function Duvidas() {
                 <div className={style.duvidasDetalhes}>
                     <div>
                         <details>
-                            <summary>O que é o plano de assinatura do Cabelleza?</summary>
+                            <summary>O que é o plano de assinatura da Cabelleza?</summary>
                             <p>É o plano que nós criamos para que seu salão de beleza tenha um destaque maior. Acreditamos que assim seu salão cresce ainda mais, assim como a Cabelleza.</p>
                         </details>
                         <details>
@@ -22,8 +22,8 @@ function Duvidas() {
                             <p>Pode sim. A qualquer momento que desejar seu salão pode mudar o plano, tanto para um com mais ou menos vantagens.</p>
                         </details>
                         <details>
-                            <summary>Como funciona a parceria com o Cabelegria?</summary>
-                            <p>Todos os salões que entram na plataforma do Cabelleza também firmam parceria com a Cabelegria. Ela que é uma ONG voltada a arrecadação de mechas de cabelo. Em seu salão haverá uma urna, onde serão depositadas as mechas. Mediante a um combinado com a instituição ela recolherá as mechas inseridas na urna.</p>
+                            <summary>Como funciona a parceria com a Cabelegria?</summary>
+                            <p>Todos os salões que entram na plataforma da Cabelleza também firmam parceria com a Cabelegria. Ela que é uma ONG voltada para a arrecadação de mechas de cabelo. Em seu salão haverá uma urna, onde serão depositadas as mechas. Mediante a um combinado com a instituição ela recolherá as mechas inseridas na urna.</p>
                         </details>
                     </div>
 
