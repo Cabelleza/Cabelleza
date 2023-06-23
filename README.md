@@ -38,15 +38,15 @@
 <h3 align="center">:mechanical_arm: Nossa equipe</h3>
 <br>
 <div align="center" style="background-color: #fae9eb">
-<a href="https://www.linkedin.com/in/diogo-almeida-885498207/" target="_blank"><img src="src/imagens/readme-dg.png" width="100px"></a>
-<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sor%C3%A9-bezerra-joaosore/" target="_blank"><img src="src/imagens/readme-sore.png" width="100px"></a>
-<a href="https://www.linkedin.com/in/julia-silva1/" target="_blank"><img src="src/imagens/readme-julia.png" width="100px"></a>
-<a href="https://www.linkedin.com/in/kevenabraham/" target="_blank"><img src="src/imagens/readme-keven.png" width="100px"></a>
+<a href="https://www.linkedin.com/in/diogo-almeida-885498207/" target="_blank"><img src="src/imagens/readme-dg.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sor%C3%A9-bezerra-joaosore/" target="_blank"><img src="src/imagens/readme-sore.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/julia-silva1/" target="_blank"><img src="src/imagens/readme-julia.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/kevenabraham/" target="_blank"><img src="src/imagens/readme-keven.png" width="175px"></a>
 <br>
-<a href="https://www.linkedin.com/in/miguel-barbosa763/" target="_blank"><img src="src/imagens/readme-miguel.png" width="100px"></a>
-<a href="https://www.linkedin.com/in/pedrobgsouza/" target="_blank"><img src="src/imagens/readme-pedro.png" width="100px"></a>
-<a href="https://www.linkedin.com/in/ramon-silva-/" target="_blank"><img src="src/imagens/readme-ramon.png" width="100px"></a>
-<a href="https://www.linkedin.com/in/wesleysouzas/" target="_blank"><img src="src/imagens/readme-wesley.png" width="100px"></a>
+<a href="https://www.linkedin.com/in/miguel-barbosa763/" target="_blank"><img src="src/imagens/readme-miguel.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/pedrobgsouza/" target="_blank"><img src="src/imagens/readme-pedro.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/ramon-silva-/" target="_blank"><img src="src/imagens/readme-ramon.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/wesleysouzas/" target="_blank"><img src="src/imagens/readme-wesley.png" width="175px"></a>
 </div>
 
 ##
