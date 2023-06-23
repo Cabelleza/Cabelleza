@@ -98,9 +98,14 @@
 
 /* Responsividade com base no iPhone 12 PRO MAX */
 @media screen and (max-width: 428px) {
+    .sectionJunte {
+        padding-bottom: 40px;
+    }
+    
     .container {
         padding: 0;
     }
+
     /* junte-se a nós */
     .beneficiosButton {
         padding: 5px 9px;
@@ -119,8 +124,7 @@
 
     .transformar h2 {
         text-align: center;
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 768px) {
@@ -129,8 +133,9 @@
     }
 
     #transformar_vidas .transformar{
-        justify-content: flex-start;
-        width: 60%;
+        justify-content: center;
+        width: 100%;
+        font-size: 28px;
     }
 
     #transformar_vidas .transformar h2{
@@ -156,3 +161,4 @@
         width: 70%;
     }
 }
+

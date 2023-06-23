@@ -10,12 +10,14 @@ import Cadastro from './Pages/Cadastro/Cadastro';
 import Assinatura from './Pages/Assinatura/Assinatura';
 import TermosECondicoes from './Pages/TermosECondicoes/TermosECondicoes';
 import PoliticaPrivacidade from './Pages/PoliticaPrivacidade/PoliticaPrivacidade';
+import ScrollToTop from './hooks/ScrollToTop';
 
 function App() {
 
   return (
     <div className="App">
         <Router>
+          <ScrollToTop/>
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/Login' element={<Login/>} />

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.SectionHistoriaMarcaFlor{
+.SectionHistoriaMarcaFlor {
     width: 100%;
     height: auto;
     padding-top: 1px;
@@ -160,6 +160,7 @@
 
     .TituloRosa_NossaHistoriaMarcaFlor{
         font-size: 35px;
+        text-align: center;
     }
 
     .SessaoImagemNossaHistoriaMarcaFlor{
@@ -187,6 +188,7 @@
 
     .TituloVerdeNossaHistoria{
         font-size: 35px;
+        text-align: center;
     }
 
     .AreaImagemMarca{
@@ -242,8 +244,7 @@
 }
 
 @media only screen and (min-width: 769px){
-    @media only screen and (max-width: 1024px)
-    {
+    @media only screen and (max-width: 1024px)  {
         .AreaImagemNossaHistoria{
             width: 95%;            
         }

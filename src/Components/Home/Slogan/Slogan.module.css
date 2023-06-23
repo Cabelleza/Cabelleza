@@ -24,7 +24,8 @@
     height: 100px;
     width: 100%;
     overflow-x: hidden;
-    transform: rotate(0deg);
+    transform: rotate(0deg) translate(0,5px);
+    
 }
 
 .wave {
@@ -86,6 +87,18 @@
 
     .sloganH1 {
         margin: 5% 0;
+        top: 10%;
     }
 
+    .ocean {
+        position: relative;
+        z-index: -1;
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .sloganH1 {
+        top: 25%;
+    }
 }

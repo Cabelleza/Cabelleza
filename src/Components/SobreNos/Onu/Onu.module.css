@@ -82,13 +82,24 @@
     .SessaoTextoOnu{
         width: 100%;
         height: 720px;
-        padding-top: 15px;
+        padding-top: 120px;
     }
 
     .SessaoImagemOnu{
-        width: 100%;
+        padding-top: 100px;
+        width: 90%;
     }    
+}
 
+@media screen and (max-width: 390px) {
+    .AreaTextoOnu {
+        padding-top: 60px;
+    }
+
+    .SessaoImagemOnu {
+        width: 80%;
+        padding-bottom: 0px;
+    }
 }
 
 @media only screen and (min-width: 481px){
@@ -122,5 +133,42 @@
         .SectionOnu{
             height: 700px;
         }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .SectionOnu {
+        height: auto;
+    }
+    
+    .tituloOnu {
+        font-size: 32px;
+        padding-top: 160px;
+    }
+
+    .SessaoImagemOnu {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .tituloOnu {
+        font-size: 38px;
+        padding-top: 100px;
+    }
+    
+    .SessaoImagemOnu {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .tituloOnu {
+        font-size: 36px;
+        padding-top: 120px;
+    }
+
+    .AreaImagemOnu {
+        margin-top: 70px;
     }
 }

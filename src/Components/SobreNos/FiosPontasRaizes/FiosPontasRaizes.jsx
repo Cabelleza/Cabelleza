@@ -28,13 +28,12 @@ function FiosPontasRaizes() {
                         <div className={style.TituloFiosPontasRaizes}>Nossas raízes</div>
                         <div className={style.TextoFiosPontasRaizes}>
                             <br></br>
-                            <span className={style.TextoVerde_NossosFios}>Amor- </span>base para nossas ações.<br></br>
-                            <span className={style.TextoVerde_NossosFios}>Cuidado- </span>com nosso público.<br></br>
-                            <span className={style.TextoVerde_NossosFios}>Empatia- </span>para entender e ajudar quem mais precisa.<br></br>
-                            <span className={style.TextoVerde_NossosFios}>Transparência- </span>em todas relações.
+                            <span className={style.TextoVerde_NossosFios}>Amor - </span>base para nossas ações.<br></br>
+                            <span className={style.TextoVerde_NossosFios}>Cuidado - </span>com nosso público.<br></br>
+                            <span className={style.TextoVerde_NossosFios}>Empatia - </span>para entender e ajudar quem mais precisa.<br></br>
+                            <span className={style.TextoVerde_NossosFios}>Transparência - </span>em todas relações.
                         </div>
                     </div>
-
                 </div>
             </section>
         

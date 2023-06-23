@@ -18,6 +18,7 @@ header{
 
 .fixed{
     position: fixed;
+    top: -5px;
 }
 
 header .Logo{
@@ -112,7 +113,7 @@ header nav button:hover{
     cursor: pointer;
 }
 
-.botao_menu:checked~.nav_menu{
+.botao_menu:checked ~ .nav_menu{
     visibility: visible;
 }
 

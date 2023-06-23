@@ -116,8 +116,33 @@
 
     .containerApoiadores div {
         width: 80%;
-        height: 110px;
+        height: 180px;
         margin: 1%;
         border-radius: 10px;
+    }
+
+    .apoiadoresH1 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .containerApoiadores div {
+        height: 90px;
+        margin: 5%;
+    }
+}
+
+/* Esse nao ta funcionando, nao sei o pq */
+@media screen and (max-width: 320px) {
+    .containerApoiadores div {
+        height: 70px;
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .containerApoiadores div {
+        height: 80px;
     }
 }

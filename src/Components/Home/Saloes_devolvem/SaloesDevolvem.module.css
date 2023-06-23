@@ -60,13 +60,15 @@
 
 /* Responsividade com base no iPhone 12 PRO Max */
 @media screen and (max-width: 428px) {
-    .saloesBox {
-        width: 100%;
-        margin: 20px 0;
-    }
-
     .saloesContainer {
         flex-direction: column;
+    }
+
+    .saloesContainer .saloesBox {
+        width: 80%;
+        margin: 20px 0;
+        height: 400px;
+        display: block;
     }
 
     .saloesTextBox {
@@ -75,5 +77,12 @@
         transform: translateY(0);
         background: linear-gradient(92.54deg, rgba(151, 229, 114, 0.7) 0%, rgba(151, 229, 114, .6) 100%);
         border-radius: 10px 10px 0 0;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .saloesBox {
+        width: 70%;
+        height: 600px;
     }
 }
