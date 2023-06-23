@@ -94,4 +94,25 @@
         align-items: center;
         width: 90%;
     }
+
+    .ocean {
+        position: relative;
+        top: -40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .ocean {
+        top: -40px;
+        z-index: -1;
+    }
+
+    .devolvaH1Text {
+        padding: 15px 0;
+        font-size: 32px;
+    }
+
+    .devolvaPText {
+        font-size: 18px;
+    }
 }

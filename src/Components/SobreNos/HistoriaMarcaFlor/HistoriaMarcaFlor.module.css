@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.SectionHistoriaMarcaFlor{
+.SectionHistoriaMarcaFlor {
     width: 100%;
     height: auto;
     padding-top: 1px;
@@ -160,6 +160,7 @@
 
     .TituloRosa_NossaHistoriaMarcaFlor{
         font-size: 35px;
+        text-align: center;
     }
 
     .SessaoImagemNossaHistoriaMarcaFlor{
@@ -187,6 +188,7 @@
 
     .TituloVerdeNossaHistoria{
         font-size: 35px;
+        text-align: center;
     }
 
     .AreaImagemMarca{
@@ -242,10 +244,50 @@
 }
 
 @media only screen and (min-width: 769px){
-    @media only screen and (max-width: 1024px)
-    {
+    @media only screen and (max-width: 1024px)  {
         .AreaImagemNossaHistoria{
             width: 95%;            
         }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .TituloRosa_NossaHistoriaMarcaFlor {
+        padding-top: 60px;
+    }
+
+    .AreaImagemNossaHistoria {
+        height: 280px;
+        margin-top: 50px;
+    }
+
+    .SessaoImagemNossaMarcaResponsiva {
+        padding-top: 50px;
+    }
+}  
+
+@media screen and (max-width: 360px) {
+    .AreaImagemNossaHistoria {
+        height: 310px;
+        margin-top: 40px;
+    }
+    
+    .SessaoImagemNossaMarcaResponsiva {
+        padding-top: 30px;
+    }
+
+    .TituloRosa_NossaHistoriaMarcaFlor {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .AreaImagemNossaHistoria {
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    .SessaoImagemNossaMarcaResponsiva {
+        padding-top: 30px;
     }
 }

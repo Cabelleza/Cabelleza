@@ -27,10 +27,12 @@
 
 /* Área do texto */
 .AreaTextoSessao1{
-    margin-top: 80px;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 88%;
     height: 250px;
-    /* background-color: chartreuse; */
 }
 
 .TextoSessao1{
@@ -111,6 +113,12 @@
         .SessaoImagem{
             width: 60%;
         }  
+    }
+}
 
+@media screen and (max-width: 428px) {
+    .TextoSessao1 {
+        padding: 10px;
+        font-size: 40px;
     }
 }

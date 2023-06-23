@@ -87,6 +87,18 @@
 
     .sloganH1 {
         margin: 5% 0;
+        top: 10%;
     }
 
+    .ocean {
+        position: relative;
+        z-index: -1;
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .sloganH1 {
+        top: 25%;
+    }
 }
