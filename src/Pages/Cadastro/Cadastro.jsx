@@ -49,7 +49,7 @@ function Cadastro() {
     <>
       <div className={style.fundocadastro}>
         <div className={style.header}>
-          <Link to="/">
+          <Link to="/Login">
             <button className={style.botaovoltar}>
               <BsArrowLeft />
             </button>

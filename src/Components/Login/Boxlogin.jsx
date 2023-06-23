@@ -76,7 +76,7 @@ function Boxlogin() {
               </div>
               <div className={style.botaoentrar}>
                 <input className={style.entrar} type="submit" value="Entrar" />
-                <Link to="/Cadastro">
+                <Link to="">
                   <p>Esqueceu a senha?</p>
                 </Link>
                 <hr />
