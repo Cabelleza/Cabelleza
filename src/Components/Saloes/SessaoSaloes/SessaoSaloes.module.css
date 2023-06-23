@@ -2,6 +2,14 @@
     width: 100%;
     height: 1900px;
     background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+
+.SessaoTituloSaloes{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 300px;
 }
 
 .ImagemDetalheSuperiorEsquerdo{
@@ -10,12 +18,73 @@
     background-image: url(../../../imagens/DetalheEsquerdoSessaoSaloes.svg);
     background-size: cover;
     float: left;
+    /* background-color: coral; */
+}
+
+.AreaTituloSessaoSaloes{
+    width: 200%;
+    height: 150px;
+    /* background-color: chartreuse; */
 }
 
 .TituloSessaoSaloes{
-    width: 30%;
-    height: 150px;
-    background-color: chartreuse;
-    float: left;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-left: 70px;
+    color:#777777 ;
+}
+
+.AreaCardsAside{
+    /* background-color: rgb(102, 255, 0); */
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -100px;
+}
+
+.AreaCardsSaloes{
+    width: 68%;
+    height: 1560px;
+    /* background-color: brown; */
+}
+
+.AreaTresCards{
+    width: 100%;
+    height: 350px;
+    /* background-color: darkorchid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.CardSaloes{
+    width: 29%;
+    height: 350px;
+    background-color:rgb(167, 165, 165);
+    border-radius: 15px;
+}
+
+.AreaAsideSaloes{
+    width: 21%;
+    height: 1150px;
+    /* background-color: rgb(42, 85, 165); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.AsidePropaganda1{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(236, 129, 213);
+}
+
+.AsidePropaganda2{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(229, 255, 136);
 }
 

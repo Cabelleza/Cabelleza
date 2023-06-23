@@ -1,0 +1,53 @@
+.SessaoSaloesDestaque{
+    width: 100%;
+    height: 550px;
+    /* background-color: darkolivegreen; */
+}
+
+.areaTextoSaloesDestaque{
+    width: 100%;
+    height: 130px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TituloSaloesDestaque{
+    font-size: 50px;
+    color: #1C2B1A;
+}
+
+.SessaoCardsSalaoesDestaque{
+    width: 100%;
+    height: 400px;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.areaCardsSaloesDestaque{
+    width: 90%;
+    height: 340px;
+    /* background-color: indigo; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardSalaoDestaque{
+    width: 22%;
+    height: 340px;
+    background-color:rgb(167, 165, 165);
+    border-radius: 10px;
+}
+
+.imagemDetalhesDireito{
+    width: 350px;
+    height: 300px;
+    background-image: url(../../../imagens/detalheFinalSaloesDireito.jpg);
+    background-size: cover;
+    float: right;
+    margin-top: -280px;
+}

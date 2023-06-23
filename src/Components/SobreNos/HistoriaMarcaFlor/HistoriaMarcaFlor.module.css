@@ -249,3 +249,20 @@
         }
     }
 }
+
+@media only screen and (min-width: 1025px){
+    @media only screen and (max-width: 1440px)
+    {
+        .AreaImagemNossaHistoria{
+            height: 435px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1441px)
+    {
+        .AreaImagemNossaHistoria{
+            width: 65%;  
+            height: 435px;
+        }
+    }
