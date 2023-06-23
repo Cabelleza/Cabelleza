@@ -14,13 +14,13 @@
 
 ##
 
-<h3 align="center">Nossos Fios</h3>
+<h3 align="center">:two_hearts: Nossos Fios</h3>
 <div align="center"><p>Em conjunto a salões de beleza, desabrochar a autoestima de pacientes que estão passando pelo tratamento do câncer e sofrem com a perda capilar.</p></div>
 
-<h3 align="center">Nossas Pontas</h3>
+<h3 align="center">:two_hearts: Nossas Pontas</h3>
 <div align="center"><p>Ser referência no incentivo à doação de cabelos junto a salões de beleza, tornando-a uma questão de maior visibilidade no atendimento a todos os públicos que sofrem com a perda capilar.</p></div>
 
-<h3 align="center">Nossas Raízes</h3>
+<h3 align="center">:two_hearts: Nossas Raízes</h3>
 <div align="center">
     <p>Amor- base para nossas ações.</p>
     <p>Cuidado- com nosso público.</p>
@@ -30,12 +30,12 @@
 
 ##
 
-<h3 align="center">Sobre nós</h3>
+<h3 align="center">:arrow_heading_down: Sobre nós</h3>
 <div align="center"><p>Quem está em tratamento contra o câncer convive diariamente com a queda dos fios. Esse momento delicado do tratamento pode ser aliviado com um simples gesto de doação de cabelo. A Cabelleza concilia pessoas que querem um bom corte de cabelo em salões especializados e incentivar a doação de suas mechas para mulheres que realmente precisam dessa fonte de força para superar as lutas e desafios trazidos pelo câncer.</p></div>
 
 ##
 
-<h3 align="center">Nossa equipe</h3>
+<h3 align="center">:mechanical_arm: Nossa equipe</h3>
 <br>
 <div align="center">
 <a href="https://www.linkedin.com/in/diogo-almeida-885498207/"><img src="src/imagens/" width="100px"></a>
@@ -51,7 +51,7 @@
 
 ##
 
-<h3 align="center">Tecnologias Utilizadas</h3>
+<h3 align="center">:computer: Tecnologias Utilizadas</h3>
 <div align="center">
   
 <h4>Front-End<h4>
@@ -75,7 +75,7 @@
 
  ##
 
-<h3 align="center">Entre em contato conosco:</h3>
+<h3 align="center">:iphone: Entre em contato conosco:</h3>
 <br>
 <div align="center">
 <a href="https://linktr.ee/cabelleza"><img src="src/imagens/" width="70px"></a>
