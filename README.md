@@ -11,6 +11,10 @@
 <br>
 <p align="center">Plataforma focada em realizar conexões entre salões de beleza e doadores de cabelo.<p>
 
+##
+
+<h3 align="center">:arrow_heading_down: Sobre nós</h3>
+<div align="center"><p>Quem está em tratamento contra o câncer convive diariamente com a queda dos fios. Esse momento delicado do tratamento pode ser aliviado com um simples gesto de doação de cabelo. A Cabelleza concilia pessoas que querem um bom corte de cabelo em salões especializados e incentivar a doação de suas mechas para mulheres que realmente precisam dessa fonte de força para superar as lutas e desafios trazidos pelo câncer.</p></div>
 
 ##
 
@@ -27,11 +31,6 @@
     <p>Empatia- para entender e ajudar quem mais precisa.</p>
     <p>Transparência- em todas relações.</p>
 </div>
-
-##
-
-<h3 align="center">:arrow_heading_down: Sobre nós</h3>
-<div align="center"><p>Quem está em tratamento contra o câncer convive diariamente com a queda dos fios. Esse momento delicado do tratamento pode ser aliviado com um simples gesto de doação de cabelo. A Cabelleza concilia pessoas que querem um bom corte de cabelo em salões especializados e incentivar a doação de suas mechas para mulheres que realmente precisam dessa fonte de força para superar as lutas e desafios trazidos pelo câncer.</p></div>
 
 ##
 
