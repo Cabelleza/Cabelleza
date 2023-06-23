@@ -7,6 +7,16 @@
 
 }
 
+.boxTdados {
+    width: 90%;
+    margin: auto
+}
+
+.Tdados {
+    font-size: 30px;
+    color: #D12874;
+}
+
 .white::after {
     content: "";
     background-color: #ffffff;
@@ -35,3 +45,950 @@ hr {
     display: block;
     margin: 5px auto;
 }
+
+.boxCaixaDados {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 1060px;
+    background-image: url(../../imagens/Fundo-Dados\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caixaDados {
+    width: 90%;
+    height: 970px;
+    margin: auto;
+    background-color: #FCBBE2;
+    border-radius: 10px;
+    display: flex;
+}
+
+.boxPessoaFisica {
+    width: 100%;
+    height: 100%;
+    background-color: #FAB9EF;
+    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
+
+}
+
+
+
+.SegundosInpust {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 95%;
+}
+
+.PrimeiroInputs {
+    width: 100%;
+    margin: 30px auto;
+    height: 50px;
+    display: flex;
+}
+
+.PrimeiroInputs input {}
+
+.nomef {
+    width: 55%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cnpj {
+    display: flex;
+    flex-direction: column;
+}
+
+.tele {
+    display: flex;
+    flex-direction: column;
+}
+
+.divcpf {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.divcpf input {
+    padding: 5px;
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    border-radius: 5px;
+    border: solid 2px #D12874;
+    flex-direction: column;
+}
+
+.divcpf label {
+    margin-left: 14px;
+}
+
+
+
+.TpessoaF {
+    width: 30%;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    color: #D12874;
+}
+
+.Tpessoa {
+    width: 35%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #D12874;
+}
+
+.TpessoaJ {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #D12874;
+}
+
+.SegundosInpust {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.SegundosInpust input {
+    padding: 5px;
+    width: 95%;
+    height: 40px;
+    margin: auto 10px;
+    border-radius: 5px;
+    border: solid 2px #D12874;
+    margin-bottom: 18px;
+}
+
+.SegundosInpust label {
+    margin-left: 14px;
+}
+
+.SegundosInpust input:nth-child(6) {}
+
+.divnomecrontato {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divemail {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boximgsalao {
+    width: 100%;
+    height: 250px;
+}
+
+.imgdiv {
+
+    width: 40%;
+    height: 240px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    text-align: center;
+    border: solid 1px #D12874;
+    cursor: pointer;
+
+}
+
+.enderecoT {
+    width: 30%;
+    text-align: center;
+    font-size: 25px;
+
+    color: #D12874;
+}
+
+.boxprimeiroinputendereco {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.boxprimeiroinputendereco input {
+    padding: 5px;
+    height: 40px;
+    margin: auto 10px;
+    border-radius: 5px;
+    border: solid 2px #D12874;
+    margin-bottom: 18px;
+
+}
+
+
+.TerceiroInpust {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.TerceiroInpust input {
+    padding: 5px;
+    width: 95%;
+    height: 40px;
+    margin: auto 10px;
+    border-radius: 5px;
+    border: solid 2px #D12874;
+    margin-bottom: 18px;
+}
+
+.TerceiroInpust label {
+    margin-left: 14px;
+}
+
+.boxprimeiroinputendereco label {
+    margin-left: 14px;
+}
+
+
+.divdata input::placeholder {
+    padding-left: 7px;
+    font-size: 13px;
+}
+
+.divcpf input::placeholder {
+    padding-left: 7px;
+    font-size: 13px;
+}
+
+.SegundosInpust input::placeholder {
+    padding-left: 7px;
+    font-size: 13px;
+}
+
+input:focus {
+    outline: none;
+
+}.imgdiv input {
+
+    border-radius: 5px;
+    border: solid 2px #D12874;
+}
+
+.botaovoltar {
+    width: 10%;
+    height: 30px;
+    padding: 0.5% 3%;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    transition: ease-out 0.2s;
+}
+
+.boxcep {
+    width: 20%;
+    height: 40px;
+}
+
+.boxcidade {
+    width: 40%;
+    height: 40px;
+}
+
+.boxcidade input {
+    width: 100%;
+}
+
+.boxestado {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+
+}
+
+.boxestado input {
+    width: 50%;
+}
+
+.metodoT {
+    padding: 0px 0px 5px 15px;
+    border-bottom: solid 1px #000;
+}
+
+
+.foms {
+    display: flex;
+}
+
+.finalizar {
+    float: right;
+    width: 10%;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #D12874;
+    background-color: #FDD7FF;
+    border: solid 2px #D12874;
+}
+
+.boxcheck {
+    width: 20%;
+
+    height: 100px;
+
+}
+
+.divcheck {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.check1 {
+    position: relative;
+
+}
+
+.check2 {
+    position: relative;
+}
+
+.check1::after {
+    content: 'Cartão';
+    width: 40%;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+
+}
+
+.check2::after {
+    content: 'Boleto';
+    width: 40%;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+}
+
+.boxruaendereco {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boxruaendereco input {
+    padding: 5px;
+    height: 40px;
+    margin: auto 10px;
+    border-radius: 5px;
+    border: solid 2px #D12874;
+    margin-bottom: 18px;
+}
+
+.boxruaendereco label {
+    margin-left: 14px;
+}
+
+.divRua {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.bairro {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+@media screen and (max-width: 480px) {
+    @media screen and (min-width: 320px) {
+        .Mdados {
+            width: 100%;
+
+        }
+
+        .caixaDados {
+            display: block;
+            height: auto;
+        }
+
+
+        .PrimeiroInputs {
+            height: 190px;
+        }
+
+        .PrimeiroInputs .divcpf {
+            display: block;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+
+        .TpessoaF {
+            display: block;
+            height: 130px;
+            width: 100%;
+
+        }
+
+        .divcpf {
+            height: 100px;
+        }
+
+        .tele {
+            width: 100%;
+            margin: auto;
+            
+
+        }
+
+        .divcpf label {
+            display: block;
+            margin-top: 20px;
+
+
+        }
+
+        .divconfirmasenha input {
+            width: 90%;
+        }
+
+        .PrimeiroInputs .tele {
+            margin-top: 50px;
+        }
+
+        .SegundosInpust .divnomecrontato {
+            margin: auto;
+            width: 90%;
+
+        }
+
+        .divnomecrontato input {
+            display: block;
+            width: 100%;
+            margin: auto;
+        }
+
+
+        .SegundosInpust {
+            display: block;
+            width: 100%;
+            height: 230px;
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .cnpjdiv {
+            margin-bottom: 40px;
+            height: 40px;
+        }
+
+        .SegundosInpust .divemail {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .nomef {
+            width: 100%;
+        }
+
+        .divemail input {
+            width: 100%;
+            margin: auto;
+        }
+
+        .TerceiroInpust {
+
+            width: 100%;
+        }
+
+        .Tpessoa {
+            margin-top: 30px;
+            width: 100%;
+        }
+
+        .boximgsalao .imgdiv {
+            width: 90%;
+            margin: auto;
+            height: 260px;
+        }
+
+        .imgdiv input {
+            width: 100%;
+            font-size: 13px;
+
+
+        }
+
+        .enderecoT {
+            margin-top: 30px;
+            width: 100%;
+
+        }
+
+        .boxprimeiroinputendereco {
+            display: block;
+            height: 300px;
+        }
+
+        .boxprimeiroinputendereco .boxcep {
+            margin: auto;
+            width: 90%;
+            display: block;
+            height: 80px;
+        }
+
+        .boxcep input {
+            width: 100%;
+            margin: auto;
+        }
+
+        .boxcidade {
+            margin: auto;
+            width: 90%;
+            display: block;
+            height: 80px;
+        }
+
+        .boxcidade input {
+            margin: auto;
+            width: 100%;
+
+        }
+
+        .boxestado {
+            margin: auto;
+            width: 90%;
+            display: block;
+            height: 80px;
+        }
+        .boxestado input{
+            width: 60%;
+        }
+
+        .boxcheck {
+            width: 100%;
+        }
+
+        .boxcheck .metodoT {
+            margin: auto;
+            width: 90%;
+            text-align: center;
+            display: block;
+            height: 25px;
+
+        }
+
+        .boxruaendereco {
+            display: block;
+            height: 400px;
+        }
+
+        .boxruaendereco .divRua {
+            width: 90%;
+            margin: auto;
+
+        }
+
+        .boxruaendereco .numerocasa {
+            width: 90%;
+            display: block;
+            display: flex;
+          
+            margin: auto;
+        }
+        .numerocasa input{
+            width: 55%;
+        }
+
+        .boxruaendereco .bairro {
+            width: 90%;
+            margin: auto;
+        }
+
+        .boxruaendereco .complemento {
+            width: 90%;
+            margin: auto;
+        }
+
+        .complemento input {
+            width: 94%;
+        }
+
+        .finalizar {
+            width: 30%;
+            margin-top: -60px;
+            margin-right: 40px;
+        }
+
+
+
+    }
+
+}
+
+@media screen and (max-width: 884px) {
+    @media screen and (min-width: 481px) {
+        .caixaDados {
+            height: auto;
+        }
+
+        .PrimeiroInputs .divcpf {
+            flex-wrap: wrap;
+        }
+
+        .PrimeiroInputs {
+            height: 120px;
+        }
+
+        .nomef {
+            width: 50%;
+        }
+
+        .nomef input {
+            width: 90%;
+        }
+
+        .cnpjdiv {
+            width: 50%;
+            height: 50px;
+
+        }
+
+        .cnpjdiv input {
+            width: 90%;
+            height: 45px;
+        }
+
+        .tele {
+            margin-top: 20px;
+            width: 60%;
+        }
+
+        .TerceiroInpust {
+            width: 100%;
+        }
+
+        .divsenha {
+            width: 50%;
+        }
+
+        .divconfirmasenha {
+            width: 50%;
+        }
+
+        .divconfirmasenha input {
+            width: 90%;
+        }
+
+        .Tpessoa {
+            margin: 30px auto;
+            width: 100%;
+        }
+
+        .imgdiv {
+            width: 72%;
+            height: 300px;
+            margin: auto;
+        }
+
+        .imgdiv input {
+            width: 100%;
+            font-size: 20px
+        }
+
+        .boximgsalao {
+            height: 300px;
+        }
+
+        .enderecoT {
+            margin: 30px auto;
+            width: 100%;
+        }
+
+        .boxprimeiroinputendereco {
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .boxprimeiroinputendereco .boxcep {
+            width: 30%;
+
+        }
+        .boxprimeiroinputendereco .boxcep input{
+            width: 90%;
+        }
+
+        .boxcidade {
+            width: 30%;
+        }
+
+        .boxestado {
+            display: block;
+            width: 30%;
+
+        }
+
+        .boxestado input {
+            width: 96%;
+        }
+
+        .metodoT {
+            margin: auto;
+            text-align: center;
+            width: 90%;
+
+        }
+
+        .boxcheck {
+            text-align: center;
+            width: 60%;
+            font-size: 22px;
+
+        }
+
+        .divRua {
+            width: 50%;
+            height: 50px;
+        }
+
+        .boxruaendereco {
+            flex-wrap: wrap;
+            height: 250px;
+        }
+
+        .numerocasa {
+            width: 50%;
+            height: 50px;
+        }
+
+        .numerocasa input {
+            width: 90%;
+        }
+
+        .bairro {
+            width: 50%;
+            height: 50px;
+        }
+        
+
+        .complemento {
+            width: 50%;
+        }
+
+        .complemento input {
+            width: 90%;
+        }
+
+        .finalizar {
+            width: 20%;
+            margin-top: -50px;
+            margin-right: 20px;
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    @media screen and (min-width: 885px) {
+        .caixaDados {
+            height: auto;
+        }
+
+        .PrimeiroInputs .divcpf {
+            flex-wrap: wrap;
+        }
+
+        .PrimeiroInputs {
+            height: 120px;
+        }
+
+        .nomef {
+            width: 50%;
+        }
+
+        .nomef input {
+            width: 90%;
+        }
+
+        .cnpjdiv {
+            width: 50%;
+            height: 50px;
+
+        }
+
+        .cnpjdiv input {
+            width: 90%;
+            height: 45px;
+        }
+
+        .tele {
+            margin-top: 20px;
+            width: 60%;
+        }
+
+        .TerceiroInpust {
+            width: 100%;
+        }
+
+        .divsenha {
+            width: 50%;
+        }
+
+        .divconfirmasenha {
+            width: 50%;
+        }
+
+        .divconfirmasenha input {
+            width: 90%;
+        }
+
+        .Tpessoa {
+            margin: 30px auto;
+            width: 100%;
+        }
+
+        .imgdiv {
+            width: 72%;
+            height: 300px;
+            margin: auto;
+        }
+
+        .imgdiv input {
+            width: 100%;
+            font-size: 20px
+        }
+
+        .boximgsalao {
+            height: 300px;
+        }
+
+        .enderecoT {
+            margin: 30px auto;
+            width: 100%;
+        }
+
+        .boxprimeiroinputendereco {
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .boxprimeiroinputendereco .boxcep {
+            width: 30%;
+
+        }
+        .boxprimeiroinputendereco .boxcep input{
+            width: 90%;
+        }
+
+        .boxcidade {
+            width: 30%;
+        }
+
+        .boxestado {
+            display: block;
+            width: 30%;
+
+        }
+
+        .boxestado input {
+            width: 96%;
+        }
+
+        .metodoT {
+            margin: auto;
+            text-align: center;
+            width: 90%;
+
+        }
+
+        .boxcheck {
+            text-align: center;
+            width: 60%;
+            font-size: 22px;
+
+        }
+
+        .divRua {
+            width: 50%;
+            height: 50px;
+        }
+
+        .boxruaendereco {
+            flex-wrap: wrap;
+            height: 250px;
+        }
+
+        .numerocasa {
+            width: 50%;
+            height: 50px;
+        }
+
+        .numerocasa input {
+            width: 90%;
+        }
+
+        .bairro {
+            width: 50%;
+            height: 50px;
+        }
+        
+
+        .complemento {
+            width: 50%;
+        }
+
+        .complemento input {
+            width: 90%;
+        }
+
+        .finalizar {
+            width: 20%;
+            margin-top: -50px;
+            margin-right: 20px;
+
+        }
+
+    }
+}
+@media screen and (max-width: 1600px) {
+    @media screen and (min-width: 1280px) {
+        .boximgsalao .imgdiv{
+            height: 250px;
+        }
+    }
+}
+        

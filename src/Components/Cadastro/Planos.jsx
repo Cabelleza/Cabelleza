@@ -8,12 +8,7 @@ function Planos() {
           <span className={style.active}>Planos</span>
           <hr />
           <span className={style.white}>Dados</span>
-          <hr />
-          <span className={style.white}>Validação</span>
-          <hr />
-          <span className={style.white}>Endereço</span>
-          <hr />
-          <span className={style.white}>Pagamento</span>
+        
         </div>
         <div className={style.planos}>
            {/* ______________________1 Plano_______________________________ */}
@@ -97,7 +92,7 @@ function Planos() {
             </div>
             <div className={style.boxpreco}>
               <p className={style.preco2}>
-                $269,99/Semestral
+                $269,99/Semestre
               </p>
             </div>
                <h5 className={style.Tvantagens}>Vantagens:</h5>
@@ -145,7 +140,7 @@ function Planos() {
             </div>
             <div className={style.boxpreco}>
               <p className={style.preco2}>
-                $479,99/anual
+                $479,99/ano
               </p>
             </div>
                <h5 className={style.Tvantagens}>Vantagens:</h5>

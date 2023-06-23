@@ -28,7 +28,7 @@ function Boxlogin() {
 
     // Verificar se email e senha estão cadastrados no banco de dados
     if (email === "exemplo@dominio.com" && password === "senha123") {
-      // Login realizado, levar para a página de configurações
+      // Login realizado, levar para a página de perfil
     } else {
       // Login falhou, exibir mensagem de erro
       toastr.error('E-mail ou senha inválidos!');
