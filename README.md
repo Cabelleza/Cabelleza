@@ -38,15 +38,15 @@
 <h3 align="center">:mechanical_arm: Nossa equipe</h3>
 <br>
 <div align="center">
-<a href="https://www.linkedin.com/in/diogo-almeida-885498207/"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sor%C3%A9-bezerra-joaosore/"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/julia-silva1/"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/kevenabraham/"><img src="src/imagens/" width="100px"></a>
+<a href="https://www.linkedin.com/in/diogo-almeida-885498207/" target="_blank"><img src="src/imagens/" width="100px"></a>
+<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sor%C3%A9-bezerra-joaosore/" target="_blank"><img src="src/imagens/" width="100px"></a>
+<a href="https://www.linkedin.com/in/julia-silva1/" target="_blank"><img src="src/imagens/" width="100px"></a>
+<a href="https://www.linkedin.com/in/kevenabraham/" target="_blank"><img src="src/imagens/" width="100px"></a>
 <br>
-<a href="https://www.linkedin.com/in/miguel-barbosa763/"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/pedrobgsouza/"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/ramon-silva-/"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/wesleysouzas/"><img src="src/imagens/" width="100px"></a>
+<a href="https://www.linkedin.com/in/miguel-barbosa763/" target="_blank"><img src="src/imagens/" width="100px"></a>
+<a href="https://www.linkedin.com/in/pedrobgsouza/" target="_blank"><img src="src/imagens/" width="100px"></a>
+<a href="https://www.linkedin.com/in/ramon-silva-/" target="_blank"><img src="src/imagens/" width="100px"></a>
+<a href="https://www.linkedin.com/in/wesleysouzas/" target="_blank"><img src="src/imagens/" width="100px"></a>
 </div>
 
 ##
@@ -78,7 +78,7 @@
 <h3 align="center">:iphone: Entre em contato conosco:</h3>
 <br>
 <div align="center">
-<a href="https://linktr.ee/cabelleza"><img src="src/imagens/" width="70px"></a>
+<a href="https://linktr.ee/cabelleza" target="_blank"><img src="src/imagens/" width="70px"></a>
 </div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&animation=twinkling&color=E4508C&section=footer" />
