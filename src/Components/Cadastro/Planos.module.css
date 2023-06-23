@@ -239,11 +239,33 @@ hr {
         .planos .boxplano{
            display: block;
            width: 90%;
-           height: 100vh;
+           height: 70vh;
            margin: 20px auto;
-          
             
         }
+        .divVantagem1{
+            font-size: 17px;
+        }
+        .divVantagem2{
+            font-size: 17px;
+        }
+        .divVantagem3{
+            font-size: 17px;
+        }
+        
+        .divVantagem4{
+            font-size: 16px;
+        }
+        .divVantagem5{
+            font-size: 14px;
+        }
+        .button2{
+            margin: auto;
+        }
+        .button3{
+            margin:25px auto;
+        }
+        
        
 
     }
@@ -258,10 +280,8 @@ hr {
         .planos .boxplano{
            display: block;
            width: 48%;
-           height: 100vh;
-           margin: 20px auto;
-          
-            
+           height: 70vh;
+           margin: 20px auto;  
         }
         .preco2{
             display: block;
