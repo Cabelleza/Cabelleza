@@ -124,3 +124,10 @@
         padding: 30px 0;
     }
 }
+
+
+@media screen and (max-width: 884px) {
+    .TituloFiosPontasRaizes {
+        font-size: 28px;
+    }
+}

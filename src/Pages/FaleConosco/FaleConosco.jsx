@@ -23,6 +23,7 @@ function FaleConosco() {
                 </div>
 
                 <Formulario />
+
                 <div className={style.txtAtendimento}>
                     <div className={style.transformar}>
                         <img src={meiaLinha} alt="" className={style.linha}/>
@@ -42,7 +43,7 @@ function FaleConosco() {
                     <a href="tel:+5511000000000" className={style.divMeios}>
                         <BsFillTelephoneFill className={style.divMeiosIcon}/>
                         <div>
-                            <span>(11) 00002-2000</span>
+                            <span>(11) 94987-9357</span>
                             <p>Nossos atendentes estão prontos para te atender</p>
                         </div>
                     </a>

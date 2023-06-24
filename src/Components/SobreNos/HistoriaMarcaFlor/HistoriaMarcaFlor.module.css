@@ -256,8 +256,9 @@
         padding-top: 60px;
     }
 
-    .AreaImagemNossaHistoria {
-        height: 280px;
+    .SessaoImagemNossaHistoriaMarcaFlor .AreaImagemNossaHistoria {
+        height: 240px;
+        width: 80%;
         margin-top: 50px;
     }
 
@@ -268,8 +269,9 @@
 
 @media screen and (max-width: 360px) {
     .AreaImagemNossaHistoria {
-        height: 310px;
-        margin-top: 40px;
+        height: 300px;
+        width: 80%;
+        margin-top: 50px;
     }
     
     .SessaoImagemNossaMarcaResponsiva {
@@ -283,11 +285,31 @@
 
 @media screen and (max-width: 390px) {
     .AreaImagemNossaHistoria {
-        height: 350px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .SessaoImagemNossaMarcaResponsiva {
         padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .AreaImagemNossaHistoria {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .AreaImagemNossaHistoria {
+        height: 380px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .AreaImagemNossaHistoria {
+        width: 80%;
+        height: 310px;
+        margin-top: 20px;
     }
 }

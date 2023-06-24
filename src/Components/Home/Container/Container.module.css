@@ -96,6 +96,12 @@
     width: 35%;
 }
 
+@media screen and (max-width: 320px) {
+    .transformar h2 {
+        font-size: 20px;
+    }
+}
+
 /* Responsividade com base no iPhone 12 PRO MAX */
 @media screen and (max-width: 428px) {
     .sectionJunte {
@@ -110,6 +116,10 @@
     .beneficiosButton {
         padding: 5px 9px;
         font-size: 20px;
+    }
+
+    .container #transformar_vidas .transformar h2 {
+        font-size: 30px;
     }
 
     /* transforme vida */

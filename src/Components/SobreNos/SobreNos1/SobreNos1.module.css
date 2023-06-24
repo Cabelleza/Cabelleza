@@ -106,7 +106,7 @@
         }
     
         .TextoSessao1{
-            font-size: 35px;
+            font-size: 45px;
             padding-left: 15px;
         }
     
@@ -118,7 +118,18 @@
 
 @media screen and (max-width: 428px) {
     .TextoSessao1 {
-        padding: 10px;
         font-size: 40px;
+    } 
+
+    .SessaoTextoSessao1 {
+        position: relative;
+        top: 50%;
+        transform: translateY(-30%);
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .AreaTextoSessao1 {
+        top: 10%;
     }
 }

@@ -9,7 +9,7 @@ function FiosPontasRaizes() {
                     <div className={style.AreaTextoFiosPontasRaizes}>
                         <div className={style.TituloFiosPontasRaizes}>Nossos fios</div>
                         <div className={style.TextoFiosPontasRaizes}>
-                            <br></br>
+                            <br />
                             Em conjunto a salões de beleza, <span className={style.TextoRosa_NossosFios}>desabrochar</span> a autoestima de pacientes que estão passando pelo tratamento do câncer e sofrem com a perda capilar.
                         </div>
                     </div>
@@ -18,7 +18,7 @@ function FiosPontasRaizes() {
                     <div className={style.AreaTextoFiosPontasRaizes}>
                         <div className={style.TituloFiosPontasRaizes}>Nossas pontas</div>
                         <div className={style.TextoFiosPontasRaizes}>
-                            <br></br>
+                            <br />
                             Ser referência no incentivo à doação de cabelos junto a salões de beleza, tornando-a uma questão de maior visibilidade no atendimento a todos os públicos que sofrem com a perda capilar.
                         </div>
                     </div>
@@ -27,7 +27,7 @@ function FiosPontasRaizes() {
                     <div className={style.AreaTextoFiosPontasRaizes}>
                         <div className={style.TituloFiosPontasRaizes}>Nossas raízes</div>
                         <div className={style.TextoFiosPontasRaizes}>
-                            <br></br>
+                            <br />
                             <span className={style.TextoVerde_NossosFios}>Amor - </span>base para nossas ações.<br></br>
                             <span className={style.TextoVerde_NossosFios}>Cuidado - </span>com nosso público.<br></br>
                             <span className={style.TextoVerde_NossosFios}>Empatia - </span>para entender e ajudar quem mais precisa.<br></br>

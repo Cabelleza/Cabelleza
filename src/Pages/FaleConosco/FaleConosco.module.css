@@ -102,3 +102,9 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 428px) {
+    .meiosAtendimento {
+        margin-bottom: 20px;
+    }
+}
