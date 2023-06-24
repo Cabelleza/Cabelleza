@@ -11,6 +11,10 @@
 <br>
 <p align="center">Plataforma focada em realizar conexões entre salões de beleza e doadores de cabelo.<p>
 
+##
+
+<h3 align="center">:arrow_heading_down: Sobre nós</h3>
+<div align="center"><p>Quem está em tratamento contra o câncer convive diariamente com a queda dos fios. Esse momento delicado do tratamento pode ser aliviado com um simples gesto de doação de cabelo. A Cabelleza concilia pessoas que querem um bom corte de cabelo em salões especializados e incentivar a doação de suas mechas para mulheres que realmente precisam dessa fonte de força para superar as lutas e desafios trazidos pelo câncer.</p></div>
 
 ##
 
@@ -30,23 +34,18 @@
 
 ##
 
-<h3 align="center">:arrow_heading_down: Sobre nós</h3>
-<div align="center"><p>Quem está em tratamento contra o câncer convive diariamente com a queda dos fios. Esse momento delicado do tratamento pode ser aliviado com um simples gesto de doação de cabelo. A Cabelleza concilia pessoas que querem um bom corte de cabelo em salões especializados e incentivar a doação de suas mechas para mulheres que realmente precisam dessa fonte de força para superar as lutas e desafios trazidos pelo câncer.</p></div>
-
-##
-
 <h3 align="center">:mechanical_arm: Nossa equipe</h3>
 <br>
-<div align="center">
-<a href="https://www.linkedin.com/in/diogo-almeida-885498207/" target="_blank"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sor%C3%A9-bezerra-joaosore/" target="_blank"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/julia-silva1/" target="_blank"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/kevenabraham/" target="_blank"><img src="src/imagens/" width="100px"></a>
+<div align="center" style="background-color: #fae9eb">
+<a href="https://www.linkedin.com/in/diogo-almeida-885498207/" target="_blank"><img src="src/imagens/readme-dg.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-sor%C3%A9-bezerra-joaosore/" target="_blank"><img src="src/imagens/readme-sore.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/julia-silva1/" target="_blank"><img src="src/imagens/readme-julia.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/kevenabraham/" target="_blank"><img src="src/imagens/readme-keven.png" width="175px"></a>
 <br>
-<a href="https://www.linkedin.com/in/miguel-barbosa763/" target="_blank"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/pedrobgsouza/" target="_blank"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/ramon-silva-/" target="_blank"><img src="src/imagens/" width="100px"></a>
-<a href="https://www.linkedin.com/in/wesleysouzas/" target="_blank"><img src="src/imagens/" width="100px"></a>
+<a href="https://www.linkedin.com/in/miguel-barbosa763/" target="_blank"><img src="src/imagens/readme-miguel.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/pedrobgsouza/" target="_blank"><img src="src/imagens/readme-pedro.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/ramon-silva-/" target="_blank"><img src="src/imagens/readme-ramon.png" width="175px"></a>
+<a href="https://www.linkedin.com/in/wesleysouzas/" target="_blank"><img src="src/imagens/readme-wesley.png" width="175px"></a>
 </div>
 
 ##
@@ -78,7 +77,7 @@
 <h3 align="center">:iphone: Entre em contato conosco:</h3>
 <br>
 <div align="center">
-<a href="https://linktr.ee/cabelleza" target="_blank"><img src="src/imagens/" width="70px"></a>
+<a href="https://linktr.ee/cabelleza" target="_blank"><img src="src/imagens/readme-linktree-logo-icon.svg" width="70px"></a>
 </div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&animation=twinkling&color=E4508C&section=footer" />
