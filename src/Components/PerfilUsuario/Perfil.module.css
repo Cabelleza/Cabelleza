@@ -1,0 +1,805 @@
+.pao {
+    height: auto;
+}
+
+.main {
+    width: 100%;
+    min-height: 115vh;
+    background-repeat: repeat;
+    background: url(../../imagens/fun.png);
+}
+
+.BoxPerfil {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.HeaderUser {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxSairConta {
+
+    width: 20%;
+    text-align: center;
+
+}
+
+.boxSairConta button {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #D12874;
+    color: #fff;
+}
+
+.boxMinhaconta {
+    width: 15%;
+    height: 30vh;
+    background-color: chartreuse;
+}
+
+.dadosSalao {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.fotoNome {
+    width: 55%;
+    height: 130px;
+    background-color: #FF98C6;
+    margin: 60px auto;
+
+}
+
+.boxalluserf {
+    width: 15%;
+    height: 50px;
+    margin: auto;
+    position: relative;
+
+
+}
+
+.boxBranco {
+    width: 100%;
+    height: 97px;
+    background-color: #fff;
+    border-radius: 100px;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+
+}
+
+.NomeSalao {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.NomeSalao .nome1 {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.NomeSalao .nome2 {
+    font-size: 10px;
+    color: #fff;
+}
+
+.boxRosa {
+    width: 80%;
+    background-color: #FF98C6;
+    height: 90%;
+    border-radius: 150px;
+    margin: auto;
+    font-size: 44px;
+    color: #fff;
+
+
+}
+
+
+
+
+
+
+
+.boxdadosPrincipais {
+    width: 55%;
+    height: auto;
+    background-color: #FF98C6;
+    margin: auto;
+
+}
+
+.details1 {
+    float: right;
+    background-color: #FF98C6;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+
+
+
+
+
+}
+
+.summmary1 {
+    background-color: #FF98C6;
+    display: flex;
+
+
+}
+
+.icon1 {
+    width: 10%;
+    height: 30px;
+    padding: 0 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.textdados {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.textdados p {
+    margin-top: -10px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.textdados h6 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.setabaixo1 {
+    width: 70%;
+    height: 30px;
+    text-align: end;
+    color: #fff;
+
+}
+
+.setabaixo2 {
+    width: 55.5%;
+    height: 30px;
+    text-align: end;
+    color: #fff;
+
+}
+
+.setabaixo3 {
+    width: 58.5%;
+    height: 30px;
+    text-align: end;
+    color: #fff;
+
+}
+
+.setabaixo4 {
+    width: 44%;
+    height: 30px;
+    text-align: end;
+    color: #fff;
+
+}
+
+.setabaixo5 {
+    width: 64.5%;
+    height: 30px;
+    text-align: end;
+    color: #fff;
+
+}
+
+.miniBoxDados {
+    width: 98%;
+    background-color: #FFA7CE;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 3px 5px 0px #382c2c;
+
+
+
+}
+
+.miniBoxDados h5 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.boxNomeExibido {
+    display: flex;
+    width: 100%;
+
+}
+
+.boxbuttonEdit {
+    width: 20%;
+    margin: auto;
+}
+
+.boxbuttonEdit button {
+    width: 100%;
+    color: #fff;
+    background-color: #D12874;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.minidetalhe {
+    margin-top: -20px;
+    color: #484848;
+}
+
+.minidetalheH {
+    margin-top: -10px;
+    color: #484848;
+}
+
+.minidetalheC {
+    margin-top: 0px;
+    color: #484848;
+}
+
+.boxTextoinfo {
+    width: 70%;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.boxNomeUsuario {
+    display: flex;
+    width: 100%;
+}
+
+.boxEmail {
+    display: flex;
+    width: 100%;
+}
+
+.boxsenhaInf {
+    display: flex;
+    width: 100%;
+}
+
+.buttonATVDTV {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.buttonATVDTV button {
+    width: 30%;
+    padding: 6px 0;
+    border-radius: 5px;
+
+}
+
+.Desativar {
+    color: #fff;
+    background-color: #D12874;
+}
+
+.Excluir {
+    border: solid #D12874 1px;
+    background-color: #FDD7FF;
+}
+
+.boxendereco1 {
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.boxendereco2 {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.boxplanoBronza {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.boxplanoPrata {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.boxplanoOuro {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.planoOuro {
+    color: chartreuse;
+}
+
+.planoBronze {
+    color: red;
+}
+
+.planoPrata {
+    color: red;
+}
+
+.PlanoBronze {
+    font-size: 20px;
+}
+
+.PlanoPrata {
+    font-size: 20px;
+}
+
+.PlanoOuro {
+    font-size: 20px;
+}
+
+.horarios1 {
+    display: flex;
+}
+
+.horarios2 {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    @media screen and (min-width: 320px) {
+        .dadosSalao {
+            width: 100%;
+
+        }
+
+        .HeaderUser {
+            height: 160px;
+            flex-direction: column;
+            text-align: center;
+
+
+        }
+
+        .boxSairConta {
+            width: 80%;
+            margin: auto;
+        }
+
+        .boxSairConta button {
+            width: 80%;
+        }
+
+
+        .boxdadosPrincipais {
+            display: block;
+            width: 90%;
+
+
+        }
+
+        .miniBoxDados {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .boxNomeExibido {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-top: #D12874 solid 2px;
+        }
+
+        .boxTextoinfo {
+            margin: auto;
+        }
+
+        .boxbuttonEdit {
+            width: 30%;
+        }
+
+        .boxNomeUsuario {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-top: #D12874 solid 2px;
+        }
+
+        .boxEmail {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-bottom: #D12874 solid 2px;
+            border-top: #D12874 solid 2px;
+        }
+
+        .boxsenhaInf {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-bottom: #D12874 solid 2px;
+        }
+
+        .buttonATVDTV {
+            width: 100%;
+        }
+
+        .buttonATVDTV .Desativar {
+            display: block;
+            font-size: 10px;
+            width: 100px;
+            height: 40px;
+        }
+
+        .Excluir {
+            display: block;
+            font-size: 11px;
+            width: 130px;
+            height: 40px;
+        }
+
+        .boxMinhaconta {
+            display: none;
+        }
+
+        .setabaixo1 {
+            height: 30px;
+            text-align: end;
+            color: #fff;
+        }
+
+        .icon1 {
+            padding-right: 35px;
+        }
+
+        .setabaixo2 {
+            height: 30px;
+            text-align: end;
+            color: #fff;
+
+        }
+
+        .setabaixo3 {
+            height: 30px;
+            text-align: end;
+            color: #fff;
+        }
+
+        .setabaixo4 {
+            margin-left: 10px;
+            height: 30px;
+            text-align: end;
+            color: #fff;
+            width: 10px;
+            align-items: end;
+        }
+
+        .setabaixo5 {
+            height: 30px;
+            text-align: end;
+            color: #fff;
+        }
+
+        .textdados {
+            width: 78%;
+        }
+
+        .boxendereco1 {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-bottom: #D12874 solid 2px;
+
+        }
+
+        .boxendereco2 {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+
+        }
+
+        .boxplanoBronza {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-bottom: #D12874 solid 2px;
+        }
+
+        .boxplanoPrata {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-bottom: #D12874 solid 2px;
+        }
+
+        .boxplanoOuro {
+            margin-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+
+
+        }
+
+        .boxTextoinfo {
+            width: 90%;
+
+        }
+
+        .horarios1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .fotoNome {
+            width: 90%;
+
+        }
+
+        .NomeSalao {
+            width: 90%;
+        }
+
+        .boxalluserf {
+            width: 100px;
+            margin: auto;
+
+        }
+
+        .boxBranco {
+
+            margin: auto;
+        }
+
+    }
+}
+
+@media screen and (max-width: 750px) {
+    @media screen and (min-width: 481px) {
+        .dadosSalao {
+            display: block;
+            width: 100%;
+        }
+
+        .boxSairConta {
+            width: 60%;
+        }
+
+        .boxSairConta button {
+            width: 50%;
+        }
+
+        .fotoNome {
+            width: 90%;
+            height: 140px;
+        }
+
+        .boxBranco {
+            display: block;
+            width: 70%;
+            text-align: center;
+            height: 110px;
+            margin-left: 20px;
+        }
+
+        .buttonATVDTV .Desativar {
+            display: block;
+            width: 47%;
+        }
+
+        .buttonATVDTV .Excluir {
+            display: block;
+            width: 47%;
+        }
+
+        .boxRosa {
+            font-size: 53px;
+        }
+
+        .boxalluserf {
+            width: 28%;
+        }
+
+        .NomeSalao {
+            width: 90%;
+            margin-top: 12px;
+        }
+
+        .boxdadosPrincipais {
+            width: 90%;
+        }
+
+        .icon1 {
+            margin-right: 10px;
+        }
+
+        .textdados {
+            width: 100%;
+
+        }
+
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 884px) {
+    @media screen and (min-width: 751px) {
+
+        .dadosSalao {
+            display: block;
+            width: 100%;
+        }
+
+        .boxSairConta {
+            width: 60%;
+
+        }
+
+        .fotoNome {
+            width: 90%;
+        }
+
+        .boxBranco {
+            display: block;
+            width: 100%;
+            text-align: center;
+            height: 110px;
+
+
+        }
+
+        .boxRosa {
+            font-size: 53px;
+        }
+
+        .boxalluserf {
+            width: 17%;
+
+
+
+        }
+
+        .NomeSalao {
+            width: 90%;
+            margin-top: 10px;
+        }
+
+        .boxdadosPrincipais {
+            width: 90%;
+        }
+
+        .icon1 {
+            margin-right: 10px;
+        }
+
+        .textdados {
+            width: 100%;
+
+        }
+    }
+}
+
+@media screen and (max-width:1280px) {
+    @media screen and (min-width: 885px) {
+        .HeaderUser {
+            width: 100%;
+
+
+        }
+
+        .boxSairConta button {
+            width: 80%;
+
+        }
+
+
+
+        .boxBranco {
+            display: block;
+            width: 70%;
+            text-align: center;
+            height: 110px;
+            margin-left: 23px;
+        }
+
+        .boxalluserf {
+            width: 17%;
+        }
+
+        .NomeSalao {
+            width: 90%;
+            margin-top: 10px;
+        }
+
+        .boxRosa {
+            font-size: 53px;
+        }
+
+        .fotoNome {
+            width: 90%;
+            height: 140px;
+        }
+
+        .boxdadosPrincipais {
+            width: 90%;
+        }
+
+        .textdados {
+            width: 100%;
+
+        }
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    @media screen and (min-width: 1281px) {
+        .textdados {
+            width: 100%;
+
+        }
+    }
+}
+
+@media screen and (max-width: 2054px) {
+    @media screen and (min-width: 1601px) {
+        .textdados {
+            width: 100%;
+
+        }
+    }
+}

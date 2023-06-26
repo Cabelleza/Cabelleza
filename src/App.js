@@ -11,6 +11,7 @@ import Assinatura from './Pages/Assinatura/Assinatura';
 import TermosECondicoes from './Pages/TermosECondicoes/TermosECondicoes';
 import PoliticaPrivacidade from './Pages/PoliticaPrivacidade/PoliticaPrivacidade';
 import ScrollToTop from './hooks/ScrollToTop';
+import Perfil from './Components/PerfilUsuario/Perfil';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
                 <Route path='/Assinatura' element={<Assinatura/>}/>
                 <Route path='/TermosECondicoes' element={<TermosECondicoes/>}/>
                 <Route path='/PoliticaPrivacidade' element={<PoliticaPrivacidade/>}/>
+                <Route path='/Usuario' element={<Perfil/>}/>
             </Routes>
         </Router>
     </div>
