@@ -80,14 +80,20 @@
 }
 
 @media screen and (max-width: 320px) {
-    .containerApoiadores div {
-        height: 100px;
+    .sectionApoiadores .containerApoiadores div {
+        height: 70px;
     }
 }
 
 @media screen and (max-width: 390px) {
     .containerApoiadores div {
         width: 30%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .sectionApoiadores .apoiadoresH1 {
+        font-size: 30px;
     }
 }
 
@@ -144,5 +150,14 @@
 @media screen and (max-width: 360px) {
     .containerApoiadores div {
         height: 80px;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    @media screen and (max-width: 834px) {
+        .sectionApoiadores .apoiadores {
+            flex-direction: column;
+        }
     }
 }

@@ -4,11 +4,12 @@
 }
 
 .linhaTempo {
-    margin: auto;
+    margin: 10px auto;
     width: 60%;
     display: flex;
     justify-content: space-evenly;
     font-size: 20px;
+    
 
 }
 
@@ -56,6 +57,18 @@ hr {
     border: solid 2px rgba(250, 255, 116, 1);
 }
 
+.boxplano1 .button1{
+    width: 70%;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: #D12874;
+    font-size: 13px;
+    color: #fff;
+    box-shadow: 0px 0px 5px 2px #3b3a3a;
+    margin-top: 46px;
+    transition: 1s;
+}
+
 .boxh4 {
     width: 100%;
     height: 45px;
@@ -84,7 +97,7 @@ hr {
     font-weight: 300;
     font-size: 18px;
 }
-.boxvantagens {
+.Tvantagens {
     text-align: center;
     margin-top: 5px;
     color: #D12874;
@@ -207,9 +220,159 @@ hr {
     margin: 5px auto;
 }
 .preco{
+    color: #fff;
     font-size: 30px;
 }
 .preco2{
+    color: #fff;
     font-size: 25px;
     margin-top: 8px;
+}
+@media screen and (max-width: 480px) {
+    @media screen and (min-width: 320px) {
+       
+        .planos{
+            display: block;
+            display: flex;
+            flex-direction: column;
+        }
+        .planos .boxplano{
+           display: block;
+           width: 90%;
+           height: 70vh;
+           margin: 20px auto;
+            
+        }
+        .divVantagem1{
+            font-size: 17px;
+        }
+        .divVantagem2{
+            font-size: 17px;
+        }
+        .divVantagem3{
+            font-size: 17px;
+        }
+        
+        .divVantagem4{
+            font-size: 16px;
+        }
+        .divVantagem5{
+            font-size: 14px;
+        }
+        .button2{
+            margin: auto;
+        }
+        .button3{
+            margin:25px auto;
+        }
+        
+       
+
+    }
+}
+@media screen and (max-width: 720px) {
+    @media screen and (min-width: 481px) {
+        .planos{
+            display: block;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .planos .boxplano{
+           display: block;
+           width: 48%;
+           height: 70vh;
+           margin: 20px auto;  
+        }
+        .preco2{
+            display: block;
+            font-size: 22px;
+        }
+
+
+    }
+}
+
+
+@media screen and (max-width: 1054px) {
+    @media screen and (min-width: 721px) {
+        .planos{
+            display: block;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .planos .boxplano{
+           display: block;
+           width: 48%;
+           height: 80vh;
+           margin: 20px auto;
+          
+            
+        }
+        .preco2{
+            display: block;
+            font-size: 22px;
+        }
+        .divVantagem1{
+            display: block;
+            font-size: 20px;
+        }
+        .divVantagem2{
+            display: block;
+            font-size: 20px;
+        }
+        .divVantagem3{
+            display: block;
+            font-size: 20px;
+        }
+        .divVantagem4{
+            display: block;
+            font-size: 19px;
+        }
+        .divVantagem5{
+            display: block;
+            font-size: 18px;
+        }
+
+
+
+
+
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    @media screen and (min-width: 1055px) {
+
+        .planos{
+            display: block;
+            display: flex;
+           
+        }
+        .planos .boxplano{
+           display: block;
+           width: 23%;
+           height: 100vh;
+           margin: 20px auto;
+          
+            
+        }
+    }
+}
+@media screen and (max-width: 1326px) {
+    @media screen and (min-width: 1201px) {
+        .planos{
+            display: block;
+            display: flex;
+           
+        }
+        .planos .boxplano{
+           display: block;
+           width: 23%;
+           height: 100vh;
+           margin: 20px auto;
+          
+            
+        }
+    }
 }

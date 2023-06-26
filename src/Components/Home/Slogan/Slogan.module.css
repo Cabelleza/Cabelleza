@@ -15,7 +15,7 @@
     transition: 1s;
 }
 
-.sectionSlogan:hover .sloganH1{
+.sectionSlogan:hover .sloganH1 {
     text-shadow: 5px 5px 20px #D12874;
 }
 
@@ -24,8 +24,8 @@
     height: 100px;
     width: 100%;
     overflow-x: hidden;
-    transform: rotate(0deg) translate(0,5px);
-    
+    transform: rotate(0deg) translate(0, 5px);
+
 }
 
 .wave {
@@ -88,6 +88,7 @@
     .sloganH1 {
         margin: 5% 0;
         top: 10%;
+        font-size: 2.5rem;
     }
 
     .ocean {
@@ -100,5 +101,14 @@
 @media screen and (max-width: 428px) {
     .sloganH1 {
         top: 25%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    @media screen and (max-width: 834px) {
+        .sloganH1 {
+            font-size: 45px;
+            margin: 60px 0;
+        }
     }
 }

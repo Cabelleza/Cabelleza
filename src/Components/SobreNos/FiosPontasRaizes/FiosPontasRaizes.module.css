@@ -109,18 +109,15 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-    .SectionFiosPontasRaizes {
-        padding-bottom: 70px;
+@media only screen and (min-width: 1025px){
+    .SectionFiosPontasRaizes{
+        background-size: cover;        
     }
 }
 
-@media screen and (max-width: 375px) {
-    .SessaoTextosFiosPontasRaizes {
-        height: auto;
-    }
 
-    .SessaoTextosFiosPontasRaizes {
-        padding: 30px 0;
+@media screen and (max-width: 884px) {
+    .TituloFiosPontasRaizes {
+        font-size: 28px;
     }
 }
