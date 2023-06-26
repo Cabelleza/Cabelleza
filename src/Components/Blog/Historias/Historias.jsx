@@ -1,8 +1,5 @@
 import style from './Historias.module.css';
 import linhaCompleta from '../../../imagens/meia-linha.png';
-import Vania from '../../../imagens/vania.png';
-import Sezete from '../../../imagens/sezete.png';
-import Lais from '../../../imagens/lais.png';
 
 export default function Historias() {
     return (
@@ -16,16 +13,20 @@ export default function Historias() {
 
                 <div className={style.containerBox}>
                     <div className={style.boxDicas}>
-                        <img src={Lais} alt="" />
+                    <iframe width="280" height="200" src="https://www.youtube.com/embed/xtMSsqnioxk" title="Câncer de Mama: Conheça a história da Laís - #OutubroRosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <p className={style.descBoxDicas}>Laís Santos, 32 anos.</p>
                     </div>
                     <div className={style.boxDicas}>
-                        <img src={Sezete} alt="" />
+                    <iframe width="280" height="200" src="https://www.youtube.com/embed/WdyIMPgofhA" title="Câncer de Mama: Emocione-se com a história de Suzete - #OutubroRosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <p className={style.descBoxDicas}>Sezete Pereira, 37 anos.</p>
                     </div>
                     <div className={style.boxDicas}>
-                        <img src={Vania} alt="" />
+                    <iframe width="280" height="200" src="https://www.youtube.com/embed/74gyLB4b3sk" title="Câncer de Mama: Vania venceu o câncer 2 vezes - #OutubroRosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <p className={style.descBoxDicas}>Vânia Helena, 60 anos.</p>
+                    </div>
+                    <div className={style.boxDicas}>
+                    <iframe width="280" height="200" src="https://www.youtube.com/embed/XkzRmFHx-9A?list=PLse7VeiUu3DEPoxTcyD1sSDIE_koZR8n1" title="Câncer de Mama: Conheça a história de Edilene - #OutubroRosa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p className={style.descBoxDicas}>Edilene Vendramel, 49 anos.</p>
                     </div>
                 </div>
             </section>

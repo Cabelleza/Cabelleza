@@ -2,10 +2,12 @@
 
 .dicasSection {
     height: auto;
+    /* background-color: #FFF0F4; */
     width: 100%;
 }
 
 .titleDicas {
+    margin-top: 3%;
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
@@ -32,21 +34,20 @@
 }
 
 .boxDicas {
+    margin-top: 1%;
     width: 250px;
     height: 350px;
 }
 
-.boxDicas img {
-    height: auto;
-    width: 100%;
-    box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 30px;
+.boxDicas iframe {
+    box-shadow: -7px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     transition: .25s all;
     cursor: pointer;
 }
 
-.boxDicas img:hover {
-    box-shadow: -7px 10px 10px 0px rgba(0, 0, 0, 0.5);
+.boxDicas iframe:hover {
+    box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.5);
     transition: .25s all;
 }
 

@@ -34,10 +34,11 @@
     margin: 50px 20px 60px;
     border-radius: 20px;
     cursor: pointer;
-    transition: .25s all;
+    box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.397);
+    transition: 1s all;
 }
 
 .containerBox img:hover {
-    box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.5);
-    transition: .25s all;
+    box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0);
+    transition: 1s all;
 }

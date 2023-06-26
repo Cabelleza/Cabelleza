@@ -31,20 +31,20 @@
 }
 
 .boxDicas {
-    width: 25%;
+    margin-top: 3%;
+    width: 250px;
     height: 350px;
 }
 
-.boxDicas img {
-    height: 200px;
-    width: 100%;
-    box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 30px;
-    object-fit: cover;
+.boxDicas iframe {
+    box-shadow: -7px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: .25s all;
+    cursor: pointer;
 }
 
-.boxDicas img:hover {
-    box-shadow: -7px 10px 10px 0px rgba(0, 0, 0, 0.5);
+.boxDicas iframe:hover {
+    box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.5);
     transition: .25s all;
 }
 
@@ -57,7 +57,11 @@
 
 /* iPhone 12 PRO MAX */
 @media screen and (max-width: 428px) {
-    .containerBox {
+   
+   
+    .historiasSection .containerBox {
+        display: block;
+        display: flex;
         flex-direction: column;
     }
 

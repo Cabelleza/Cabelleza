@@ -24,6 +24,10 @@ export default function Relatos() {
                         <p className={style.descBoxDicas}>Mariana Almeida</p>
                     </div>
                     <div className={style.boxDicas}>
+                        <img src={marianaAlmeida} alt="" />
+                        <p className={style.descBoxDicas}>Mariana Almeida</p>
+                    </div>
+                    <div className={style.boxDicas}>
                         <img src={luanAraujo} alt="" />
                         <p className={style.descBoxDicas}>Luan de Araújo</p>
                     </div>
