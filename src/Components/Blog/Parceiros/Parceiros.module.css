@@ -80,3 +80,13 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width: 834px) {  
+    .relatos {
+        font-size: 40px;
+    }
+
+    .containerBox {
+        flex-wrap: wrap;
+    }
+}

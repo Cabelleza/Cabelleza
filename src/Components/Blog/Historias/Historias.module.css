@@ -96,3 +96,21 @@
         height: 150px;
     } 
 }
+
+@media screen and (max-width: 834px) {  
+    .relatos {
+        font-size: 40px;
+    }
+
+    .containerBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .containerBox div {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

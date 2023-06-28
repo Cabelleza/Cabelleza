@@ -100,3 +100,24 @@
         height: 150px;
     } 
 }
+
+@media screen and (max-width: 834px) {  
+    .dicasText {
+        font-size: 50px;
+    }
+
+    .containerBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .containerBox .boxDicas  {
+        margin-bottom: 40px;
+    }
+
+    .containerBox div p {
+        text-align: center;
+    }
+}
