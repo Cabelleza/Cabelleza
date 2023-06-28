@@ -31,7 +31,7 @@
 }
 
 .containerBox img {
-    margin: 50px 20px 60px;
+    margin: 10px 20px 40px;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.397);
@@ -41,4 +41,42 @@
 .containerBox img:hover {
     box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0);
     transition: 1s all;
+}
+
+@media screen and (max-width: 428px) {
+    .relatos {
+        font-size: 30px;
+    }
+
+    .containerBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .containerBox .lastChild {
+        justify-self: center;
+        grid-column-end: 3;
+        grid-column-start: 1;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .containerBox img {
+        margin: 10px 5px 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .linhaCompleta {
+        display: none;
+    }
+    
+    .containerBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerBox img {
+        width: 80%;
+    }
 }

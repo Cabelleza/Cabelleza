@@ -57,7 +57,9 @@
 
 /* iPhone 12 PRO MAX */
 @media screen and (max-width: 428px) {
-   
+    .relatos {
+        font-size: 30px;
+    }
    
     .historiasSection .containerBox {
         display: block;
@@ -72,8 +74,15 @@
         margin-bottom: 20px;
     }
 
-    .boxDicas img {
+    .boxDicas iframe {
         height: 225px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .linhaCompleta {
+        display: none;
     }
 }
 

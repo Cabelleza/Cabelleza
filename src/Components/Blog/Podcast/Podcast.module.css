@@ -45,11 +45,29 @@
 }
 
 @media screen and (max-width: 428px) {
+    .dicasText {
+        font-size: 30px;
+    }
+
     .containerPodcast {
         flex-direction: column;
     }
 
-    .containerPodcast img {
-        width: 30%;
+    .containerPodcast iframe {
+        display: flex;
+        margin: 20px auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .linhaCompleta {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .linhaCompleta {
+        display: none;
     }
 }

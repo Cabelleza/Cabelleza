@@ -21,7 +21,7 @@ export default function Parceiros() {
                     <img src={parceiros2} alt="" />
                     <img src={parceiros3} alt="" />
                     <img src={parceiros4} alt="" />
-                    <img src={parceiros5} alt="" />
+                    <img src={parceiros5} alt="" className={style.lastChild} />
                 </div>
             </section>
         </div>
