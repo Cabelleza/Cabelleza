@@ -1,12 +1,31 @@
 .SessaoSaloesDestaque{
     width: 100%;
-    height: 550px;
+    height: auto;
     /* background-color: darkolivegreen; */
+    display: flex;
+    flex-direction: column;
+}
+
+.ImagemDetalheSuperiorEsquerdo{
+    width: 32%;
+    height: 300px;
+    background-image: url(../../../imagens/DetalheEsquerdoSessaoSaloes.svg);
+    background-size: cover;
+    float: left;
+    /* background-color: coral; */
+}
+
+.BodySaloesDestaque{
+    width: 100%;
+    height: auto;
+    /* background-color: darkorange; */
+    margin-top: -270px;
 }
 
 .areaTextoSaloesDestaque{
     width: 100%;
     height: 130px;
+    padding-top: 10px;
     /* background-color: cornflowerblue; */
     display: flex;
     align-items: center;
@@ -25,22 +44,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* margin-top:-240px; */
 }
 
-.areaCardsSaloesDestaque{
-    width: 90%;
+.AreaQuatroCards{
+    width: 93%;
     height: 340px;
     /* background-color: indigo; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.cardSalaoDestaque{
-    width: 22%;
-    height: 340px;
-    background-color:rgb(167, 165, 165);
-    border-radius: 10px;
 }
 
 .imagemDetalhesDireito{
@@ -50,4 +63,86 @@
     background-size: cover;
     float: right;
     margin-top: -280px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .ImagemDetalheSuperiorEsquerdo{
+      display: none;
+    }
+
+    .BodySaloesDestaque{
+        margin-top: 0px;
+    }
+
+    .areaTextoSaloesDestaque{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .TituloSaloesDestaque{
+        font-size: 35px;
+    }
+
+    .SessaoCardsSalaoesDestaque{
+        height: auto;
+    }
+
+    .AreaQuatroCards{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    @media only screen and (max-width: 768px) {
+        .ImagemDetalheSuperiorEsquerdo{
+            display: none;
+          }
+      
+        .BodySaloesDestaque{
+            margin-top: 0px;
+        }
+            
+        .TituloSaloesDestaque{
+            font-size: 40px;
+        }
+      
+        .SessaoCardsSalaoesDestaque{
+            height: auto;
+        }
+      
+        .AreaQuatroCards{
+            height: auto;
+            flex-wrap:wrap;
+            justify-content: center;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    @media only screen and (max-width: 1024px) {
+        
+        .ImagemDetalheSuperiorEsquerdo{
+            width: 40%;
+        }
+            
+        .TituloSaloesDestaque{
+            font-size: 40px;
+        }
+      
+        .SessaoCardsSalaoesDestaque{
+            height: auto;
+        }
+      
+        .AreaQuatroCards{
+            width: 70%;
+            height: auto;
+            flex-wrap:wrap;
+            justify-content: center;
+        }
+    }
 }

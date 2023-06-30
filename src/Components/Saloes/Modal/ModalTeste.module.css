@@ -1,0 +1,188 @@
+.EspacamentoButton{
+    margin: 50px;
+}
+
+.AreaNomeSalao{
+    width: 100%;
+    height: 52px;
+    margin-top: 295px;
+    background: linear-gradient(92.6deg, #6fa852 0%, #2a5017 97.61%);
+    opacity: 0.85;
+    color: #fafafa;
+    backdrop-filter: blur(50px);
+    border-radius: 0px 0px 14px 14px; 
+}
+
+.textNomeSalao{
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.textEnderecoSaloes{
+    margin: 0;
+    margin-top: -5px;
+    font-size: .9rem;
+}
+
+.customHeader{
+    background: linear-gradient(118deg, rgba(255, 187, 228, 0.66) 33.65%, #FAFABA 71.21%);
+    background-size: cover;
+}
+
+.customTitle{
+    color: #818181;
+    width: 0%;
+    font-size: 55px;
+    margin: auto;
+}
+
+.BodyModal{
+    height: 355px;
+    display: flex;
+}
+
+.AreaImagem{
+    width: 50%;
+    height: 355px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AreaImagem img{
+    width: 230px;
+    height: 300px;
+    /* background-color: rgb(131, 255, 127); */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px 7px rgba(0, 0, 0, 0.25);
+}
+
+.AreaText{
+    width: 50%;
+    height: 355px;
+    /* background-color: #7944cf; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerText{
+    width: 90%;
+    height: 300px;
+    /* background-color: #6fa852; */
+}
+
+.AreaTextEndereco{
+    width: 100%;
+    height: 100px;
+    /* background-color: burlywood; */
+    margin: auto;
+}
+
+.TextEndereco{
+    color: #585858;
+    font-size: 19px;
+}
+
+.TitleTextModal{
+    color: #585858;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.AreaTextTelefone{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(188, 212, 79); */
+    margin: auto;
+}
+
+.AreaIconWhatsApp{
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../imagens/iconWhatsAppRosa.svg);
+    background-size:cover;
+    margin-top: -15px;
+    float: left;
+}
+
+.EspacoTextoTelefone{
+    width: 70%;
+    height: 34px;
+    /* background-color: rgb(0, 255, 128); */
+    margin-top: -15px;
+    margin-left: 34px;
+    padding-left: 20px;
+}
+
+.TextTelefone{
+    color: #585858;
+    font-size: 21px;
+}
+
+@media only screen and (min-width: 320px) {
+    @media screen and (max-width: 480px) {
+        .ContainerText{
+            margin-left: 45px;
+        }
+
+        .AreaTextEndereco{
+            width: 105%;
+            height: 120px;
+        }
+
+        .TextEndereco{
+            font-size: 18px;
+        }
+        
+        .TitleTextModal{
+            font-size: 19px;
+        }
+        
+        .AreaTextTelefone{
+            width: 105%;
+        }
+        
+        .EspacoTextoTelefone{
+            width: 100%;
+            padding-left: 5px;
+        }
+        
+        .TextTelefone{
+            font-size: 19px;
+        }
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    @media only screen and (max-width: 768px) {
+        .ContainerText{
+            margin-left: 25px;
+        }
+
+        .AreaTextEndereco{
+            width: 100%;
+            height: 120px;
+        }
+
+        .TextEndereco{
+            font-size: 18px;
+        }
+        
+        .TitleTextModal{
+            font-size: 19px;
+        }
+                
+        .EspacoTextoTelefone{
+            width: 100%;
+            padding-left: 5px;
+        }
+        
+        .TextTelefone{
+            font-size: 19px;
+        }
+        
+    }
+}

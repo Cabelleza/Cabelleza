@@ -25,7 +25,8 @@
     padding: 0.5% 3%;
     background-color: transparent;
     border: none;
-    
+    background-image: url(../../imagens/seta.png);
+    background-size: cover;
     border-radius: 20px;
     font-size: 2rem;
     transition: ease-out 0.2s;
@@ -34,6 +35,8 @@
 .boxdados .botaovoltar:hover{
     transform: translateX(-10%);
 }
+
+
 
 .boxlogin {
     display: flex;

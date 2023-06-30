@@ -8,7 +8,7 @@ function CadastreSeuSalao() {
             <section className={style.cadastreSeuSalao}>
                 <div>
                     <h1>Porque fazer o bem, faz bem!!!</h1>
-                    <Link to='/Cadastro'><button>Cadastre seu salão</button></Link>
+                    <Link to='/Planos'><button>Cadastre seu salão</button></Link>
                 </div>
                 <img src={cabeleireira_corte} alt="Cabeleireira realizando corte para doação" />
             </section>

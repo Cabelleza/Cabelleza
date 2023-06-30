@@ -27,7 +27,7 @@ function SelosAssinatura() {
                         <p>Seu salão com mais visibilidade e destaque não só na plataforma mas também em todas as mídias socias do Cabelleza.</p>
                     </div>
                 </div>
-                <Link to='/Cadastro'><button>Cadastre seu salão</button></Link>
+                <Link to='/Planos'><button>Cadastre seu salão</button></Link>
             </section>
         </>
     )

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MainConclusaoCadastro{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(126, 185, 185);
+    padding-top: 5px;
+}
+
+.headerConclusaoCadastro{
+    width: 100%;
+    height: 15vh;
+    background-color: #FAB9EF;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AreaImagemLogo{
+    width: 15%;
+    height: 85px;
+    /* background-color: aquamarine; */
+}
+
+.AreaImagemLogo img {
+    margin-left: -5px;
+    width: 100%;
+    height: 100%;
+}
+
+.AreaElementos{
+    width: 100%;
+    height: 85vh;
+    /* margin-top: -5px; */
+    /* background-color: blueviolet; */
+    background-image: url(../../imagens/fundoNossaHistoria.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CorpoElementos{
+    width: 50%;
+    height: 330px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AreaImagemCheck{
+    width: 150px;
+    height: 150px;
+    background-image:url(../../imagens/seloCheck.png) ;
+    background-size: cover;
+}
+
+.AreaTextoConclusao{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    /* background-color: chocolate; */
+}
+
+.TextoRosaConclusao{
+    color: #D12874;
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+}
+
+.TextoConclusao{
+    color: #7C7C7C;
+    font-size: 27px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.buttonConclusao{
+    width: 150px;
+    height: 45px;   
+    border-radius: 10px;
+    border: 2px solid #D12874;
+    background: #FDD7FF;
+    color: #D12874;
+}
+
+@media screen and (max-width: 480px) {
+    .AreaImagemLogo{
+        width: 35%;
+    }
+
+    .CorpoElementos{
+        width: 80%;
+        height: 250px;
+    }
+
+    .AreaImagemCheck{
+        width: 80px;
+        height: 80px;
+    }
+
+    .TextoRosaConclusao{
+        font-size: 25px;
+    }
+
+    .TextoConclusao{
+        font-size: 18px;
+    }
+
+    .buttonConclusao{
+        width: 120px;
+        height: 35px;   
+    }
+}
+
+@media only screen and (min-width: 481px){
+    @media only screen and (max-width: 768px){
+    
+        .AreaImagemLogo{
+            width: 35%;
+        }
+    
+        .CorpoElementos{
+            width: 80%;
+            /* height: 250px; */
+        }
+        
+        .TextoRosaConclusao{
+            font-size: 35px;
+        }
+    
+        .TextoConclusao{
+            font-size: 22px;
+        }
+       
+    }
+}
+
+@media only screen and (min-width: 769px){
+    @media only screen and (max-width: 1024px)
+    {
+        .AreaImagemLogo{
+            width: 20%;
+            height: 120px;
+        }
+    
+        .CorpoElementos{
+            width: 80%;
+        }
+        
+        .TextoRosaConclusao{
+            font-size: 40px;
+        }
+    
+        .TextoConclusao{
+            font-size: 30px;
+        }
+        
+    }
+}
+

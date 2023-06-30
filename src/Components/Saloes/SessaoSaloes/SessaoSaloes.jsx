@@ -1,4 +1,6 @@
 import style from './SessaoSaloes.module.css';
+import ModalTeste from '../Modal/ModalTeste';
+import ImageSalao from '../../../imagens/SalaoComSelo.svg';
 
 function SessaoSaloes() {
     return (
@@ -13,34 +15,61 @@ function SessaoSaloes() {
             
             <div className={style.AreaCardsAside}>
                 <div className={style.AreaCardsSaloes}>
+                    
                     <div className={style.AreaTresCards}>
-                        <div className={style.CardSaloes}></div>
-                        <div className={style.CardSaloes}></div>
-                        <div className={style.CardSaloes}></div>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
                     </div>
+
                     <div className={style.AreaTresCards}>
-                        <div className={style.CardSaloes}></div>
-                        <div className={style.CardSaloes}></div>
-                        <div className={style.CardSaloes}></div>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
                     </div>
+
                     <div className={style.AreaTresCards}>
-                        <div className={style.CardSaloes}></div>
-                        <div className={style.CardSaloes}></div>
-                        <div className={style.CardSaloes}></div>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                    
                     </div>
+
                     <div className={style.AreaTresCards}>
-                        <div className={style.CardSaloes}></div>
-                        <div className={style.CardSaloes}></div>
-                        <div className={style.CardSaloes}></div>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                    </div>
+
+                    <div className={style.AreaQuatroCards}>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                    </div>
+
+                    <div className={style.AreaQuatroCards}>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                    </div>
+
+                    <div className={style.AreaQuatroCards}>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
+                        <ModalTeste imgCard={ImageSalao} NomeSalao="Laces" EndSalao="R. Amauri, 282, Itaim Bibi" ModalTitle="Laces" ImageSalaoModal={ImageSalao} TelSalao="11 97552-2252"/>
                     </div>
                 </div>
                 
                 <aside className={style.AreaAsideSaloes}>
                     <div className={style.AsidePropaganda1}></div>
                     <div className={style.AsidePropaganda2}></div>
+                   
                 </aside>
+                
             </div>
-
         </div>
     );
 }

@@ -11,8 +11,9 @@ function Saloes() {
         <div className={style.Saloes}>
             <Header/>
             <Sessao1Saloes/>
-            <SessaoSaloes/>
             <SaloesDestaque/>
+            <SessaoSaloes/>
+            
                      
             <Footer/>
         </div>

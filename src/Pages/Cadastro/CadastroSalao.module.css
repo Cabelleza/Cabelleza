@@ -1,39 +1,9 @@
-/* .linhaTempo {
+.linhaTempo {
     margin: auto;
     width: 60%;
     display: flex;
     justify-content: space-evenly;
     font-size: 20px;
-
-}
-
-.boxTdados {
-    width: 90%;
-    margin: auto
-}
-
-.Tdados {
-    font-size: 30px;
-    color: #D12874;
-}
-
-.white::after {
-    content: "";
-    background-color: #ffffff;
-    border: solid 1px #D12874;
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    display: block;
-    margin: 5px auto;
-
-}
-
-hr {
-    background-color: #000000;
-    width: 55%;
-    margin-top: 55px;
-    border: solid 1px #000000;
 }
 
 .active::after {
@@ -57,49 +27,39 @@ hr {
 
 .caixaDados {
     width: 90%;
-    height: 970px;
+    height: auto;
     margin: auto;
     background-color: #FCBBE2;
     border-radius: 10px;
     display: flex;
 }
 
-.boxPessoaFisica {
-    width: 100%;
-    height: 100%;
-    background-color: #FAB9EF;
-    border-radius: 10px 0px 0px 10px;
-    border-radius: 10px;
-
-}
-
-
-
 .SegundosInpust {
     display: block;
     display: flex;
     flex-direction: column;
     margin: 50px auto;
-    width: 95%;
+    width: 97%;
+    /* background-color: aqua; */
 }
 
 .PrimeiroInputs {
-    width: 100%;
+    width: 97%;
+    /* background-color: aqua; */
     margin: 30px auto;
     height: 50px;
     display: flex;
 }
 
-.PrimeiroInputs input {}
+/* .PrimeiroInputs input {} */
 
 .nomef {
     width: 55%;
-
     display: flex;
     flex-direction: column;
 }
 
-.cnpj {
+.cnpjdiv {
     display: flex;
     flex-direction: column;
 }
@@ -114,8 +74,6 @@ hr {
     height: 60px;
     display: flex;
     justify-content: space-around;
-
-
 }
 
 .divcpf input {
@@ -128,11 +86,15 @@ hr {
     flex-direction: column;
 }
 
-.divcpf label {
-    margin-left: 14px;
+.cnpjdiv input {
+    padding: 5px;
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    border-radius: 5px;
+    border: solid 2px #D12874;
+    flex-direction: column;
 }
-
-
 
 .TpessoaF {
     width: 30%;
@@ -140,14 +102,16 @@ hr {
     font-size: 35px;
     margin-top: 20px;
     color: #D12874;
+    /* background-color: cornflowerblue; */
 }
 
 .Tpessoa {
-    width: 35%;
-    text-align: center;
-    font-size: 25px;
+    width: 40%;
+    text-align: left;
+    font-size: 30px;
     margin-top: 20px;
     color: #D12874;
+    margin-left: 30px;
 }
 
 .TpessoaJ {
@@ -158,8 +122,8 @@ hr {
 }
 
 .SegundosInpust {
-    width: 100%;
-    height: 60px;
+    width: 97.5%;
+    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -169,20 +133,20 @@ hr {
     padding: 5px;
     width: 95%;
     height: 40px;
-    margin: auto 10px;
+    margin: 0px 10px 18px 14px;
     border-radius: 5px;
     border: solid 2px #D12874;
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
 }
 
 .SegundosInpust label {
     margin-left: 14px;
 }
 
-.SegundosInpust input:nth-child(6) {}
+/* .SegundosInpust input:nth-child(6) {} */
 
 .divnomecrontato {
-    width: 50%;
+    width: 52%;
     display: flex;
     flex-direction: column;
 }
@@ -195,79 +159,74 @@ hr {
 
 .boximgsalao {
     width: 100%;
-    height: 250px;
+    height: 290px;
 }
 
 .imgdiv {
-
     width: 40%;
-    height: 240px;
+    height: 500px;
     padding: 15px;
-    margin-top: 20px;
     margin-left: 30px;
     background-color: #ffffff;
     border-radius: 7px;
     text-align: center;
     border: solid 1px #D12874;
     cursor: pointer;
-
+    /* background-color: aquamarine; */
 }
 
 .enderecoT {
+    margin-left: 30px;
     width: 30%;
-    text-align: center;
-    font-size: 25px;
-
+    /* text-align: center; */
+    font-size: 30px;
     color: #D12874;
 }
 
 .boxprimeiroinputendereco {
-    width: 100%;
-    height: 80px;
+    width: 95%;
+    height: 60px;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
 
 }
 
-.boxprimeiroinputendereco input {
+.boxprimeiroinputendereco input,select {
     padding: 5px;
     height: 40px;
-    margin: auto 10px;
+    margin: 0px 10px 18px 0px;
     border-radius: 5px;
     border: solid 2px #D12874;
-    margin-bottom: 18px;
-
+    /* margin-bottom: 18px; */
 }
-
 
 .TerceiroInpust {
-    width: 50%;
-    height: 60px;
+    margin: auto 14px;
+    width: 80%;
+    height: 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    /* background-color: aqua; */
 }
 
-.TerceiroInpust input {
+.TerceiroInpust input,select {
     padding: 5px;
-    width: 95%;
+    width: 90%;
     height: 40px;
     margin: auto 10px;
     border-radius: 5px;
     border: solid 2px #D12874;
     margin-bottom: 18px;
 }
+
 
 .TerceiroInpust label {
     margin-left: 14px;
 }
-
-.boxprimeiroinputendereco label {
-    margin-left: 14px;
-}
-
 
 .divdata input::placeholder {
     padding-left: 7px;
@@ -322,12 +281,26 @@ input:focus {
     display: flex;
     flex-direction: column;
     width: 15%;
-
+    padding-left: 15px;
 }
 
-.boxestado input {
+.boxestado select{
     width: 50%;
+    border-radius: 5px;
+    border: solid 2px #D12874;
+    height: 40px;
+    padding: 0.5% 3%;
 }
+
+.boxestado label{
+    margin: 0;
+}
+
+/* select{
+    width: 50%;
+    border-radius: 5px;
+    border: solid 2px #D12874;
+} */
 
 .metodoT {
     padding: 0px 0px 5px 15px;
@@ -343,7 +316,9 @@ input:focus {
     float: right;
     width: 10%;
     height: 40px;
-    margin-right: 10px;
+    margin: 15px 40px 20px 0;
+    /* margin-right: 40px;
+    margin-bottom: 10px; */
     border-radius: 5px;
     color: #D12874;
     background-color: #FDD7FF;
@@ -352,17 +327,17 @@ input:focus {
 
 .boxcheck {
     width: 20%;
-
-    height: 100px;
-
+    height: 80px;
 }
 
 .divcheck {
     width: 70%;
+    height: 40px;
     display: flex;
     justify-content: space-around;
     text-align: center;
     margin-left: 0px;
+    margin-top: -15px;
 }
 
 .check1 {
@@ -381,7 +356,6 @@ input:focus {
     position: absolute;
     left: 20px;
     top: 7px;
-
 }
 
 .check2::after {
@@ -394,31 +368,41 @@ input:focus {
 }
 
 .boxruaendereco {
-    width: 100%;
+    width:95%;
     height: 80px;
     display: flex;
+    margin: auto;
     margin-top: 20px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* background-color: aqua; */
 }
 
 .boxruaendereco input {
     padding: 5px;
     height: 40px;
-    margin: auto 10px;
+    margin: 0px 10px 18px 14px;
     border-radius: 5px;
     border: solid 2px #D12874;
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
 }
 
 .boxruaendereco label {
-    margin-left: 14px;
+    margin-left: 15px;
 }
 
 .divRua {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
+}
+
+.divRua input {
+    margin-left: 0px;
+}
+
+.divRua label {
+    margin-left: 0px;
 }
 
 .bairro {
@@ -426,6 +410,8 @@ input:focus {
     flex-direction: column;
     width: 40%;
 }
+
+
 
 @media screen and (max-width: 480px) {
     @media screen and (min-width: 320px) {
@@ -592,7 +578,7 @@ input:focus {
             display: block;
             height: 80px;
         }
-        .boxestado input{
+        .boxestado select{
             width: 60%;
         }
 
@@ -760,7 +746,7 @@ input:focus {
 
         }
 
-        .boxestado input {
+        .boxestado select {
             width: 96%;
         }
 
@@ -924,7 +910,7 @@ input:focus {
 
         }
 
-        .boxestado input {
+        .boxestado select {
             width: 96%;
         }
 
@@ -991,4 +977,4 @@ input:focus {
         }
     }
 }
-         */
+        

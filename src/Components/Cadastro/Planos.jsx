@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./Planos.module.css";
 import flor from "../../imagens/Flor-plano.png";
 function Planos() {
@@ -39,7 +40,8 @@ function Planos() {
               </div>
             </div>
             <div className={style.btnassinar}>
-              <button className={style.button1}>Cadastre-se já</button>
+            <Link to='/cadastrosalao'><button className={style.button1}>Cadastre-se já</button></Link> 
+              {/* <button className={style.button1}>Cadastre-se já</button> */}
             </div>
           </div>
            {/* ____________________ 2 Plano________________________________ */}
@@ -80,7 +82,8 @@ function Planos() {
             </div>
 
             <div className={style.btnassinar}>
-              <button className={style.button2}>Assinar agora</button>
+            <Link to='/cadastrosalao'><button className={style.button2}>Cadastre-se já</button></Link> 
+              {/* <button className={style.button2}>Assinar agora</button> */}
             </div>
           </div>
  {/* _______________________3 Plano______________________________ */}
@@ -129,7 +132,8 @@ function Planos() {
             </div>
 
             <div className={style.btnassinar}>
-              <button className={style.button3}>Assinar agora</button>
+            <Link to='/cadastrosalao'><button className={style.button3}>Cadastre-se já</button></Link> 
+              {/* <button className={style.button3}>Assinar agora</button> */}
             </div>
           </div>
 {/* _______________________4 Plano______________________________ */}
@@ -185,7 +189,8 @@ function Planos() {
             </div>
 
             <div className={style.btnassinar}>
-              <button className={style.button4}>Assinar agora</button>
+            <Link to='/cadastrosalao'><button className={style.button4}>Cadastre-se já</button></Link> 
+              {/* <button className={style.button4}>Assinar agora</button> */}
             </div>
             
           </div>

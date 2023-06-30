@@ -1,0 +1,14 @@
+
+.ModalSaloes{
+    width: 100%;
+    height: 350px; 
+    background-color: aqua;
+}
+
+.CardModal{
+    width: 270px; 
+    height: 350px;
+    background-color:rgb(167, 165, 165);
+    border-radius: 15px;
+}
+
