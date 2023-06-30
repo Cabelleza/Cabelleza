@@ -17,7 +17,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.45.0",
+    "react-hook-form": "^7.45.1",
     "react-icons": "^4.8.0",
     "react-imask": "^7.0.1",
     "react-mask": "^1.0.0",
