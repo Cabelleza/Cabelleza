@@ -1,9 +1,6 @@
 import style from './Podcast.module.css';
 import linhaCompleta from '../../../imagens/meia-linha.png';
-import podcast1 from '../../../imagens/podcast1.png';
-import podcast2 from '../../../imagens/podcast2.png';
-import podcast3 from '../../../imagens/podcast3.png';
-import podcast4 from '../../../imagens/podcast4.png';
+
 
 export default function Podcast() {
     return (
@@ -16,10 +13,13 @@ export default function Podcast() {
                 </div>
 
                 <div className={style.containerPodcast}>
-                    <img src={podcast1} alt="" />
-                    <img src={podcast2} alt="" />
-                    <img src={podcast3} alt="" />
-                    <img src={podcast4} alt="" />
+                    <iframe  src="https://open.spotify.com/embed/episode/4b4UkjRBoZYofAosH6e2L9?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe  src="https://open.spotify.com/embed/episode/1k9PytSoO3MRjVi2YUN3Em?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe  src="https://open.spotify.com/embed/episode/0ZYx5GKXHRZ0HFNHNU77zv?utm_source=generator&t=5263" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe  src="https://open.spotify.com/embed/episode/3X06rcNeHAUksVxMfR1JgT?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe  src="https://open.spotify.com/embed/episode/1LvwEDgg73iPE1Iz3Kya66?utm_source=generator&t=101590" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe  src="https://open.spotify.com/embed/episode/2AWvtHWA967Nt2YAG8ZWd9?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                   
                 </div>
             </section>
         </div>

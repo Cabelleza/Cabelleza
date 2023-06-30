@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+.PesquisasCategoria {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url(../../../imagens/bemvindoblog.png);
+    background-size: cover;
+    backdrop-filter: blur(50px);
+}
+
+.PesquisasCategoria h1 {
+    position: relative;
+    color: #D12874;
+    font-family: 'Courgette', cursive;
+    padding-top: 10%;
+    padding-left: 2%;
+    text-align: center;
+}
+
+
+.Todoconteudo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /*background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Conteudosdoblog {
+    width: 11%;
+    height: 135px;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: .35s;
+    border-radius: 33px;
+    background: rgba(228, 80, 140, 0.83);
+    box-shadow: -11px 1px 19px 0px rgba(217, 217, 217, 0.87), 14px 11px 47px 0px rgba(0, 0, 0, 0.24), 3px 7px 12px 0px rgba(255, 255, 255, 0.25) inset, -1px -3px 14px 0px #D12874 inset;
+}
+
+.Conteudosdoblog:hover {
+    transition: .35s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.Conteudosdoblog p {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.Conteudosdoblog img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* padding-bottom: 10%;
+    margin-left: 34.9%; */
+}
+
+.Ajusteparceiro img {
+    margin-top: -8%;
+} 
+
+.Florlotusblog {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    border-bottom: #D12874 4px solid;
+    bottom: 20px;
+}
+
+.Fotolotusblog {
+    position: relative;
+    z-index: 1;
+    margin-top: 13px;
+    width: 12%;
+    height: 150px;
+}
+
+@media screen and (max-width: 428px) {
+    .PesquisasCategoria h1 {
+        font-size: 30px;
+        padding-top: 100px;
+    }
+
+    .Todoconteudo {
+        flex-direction: column;
+    }
+
+    .Conteudosdoblog {
+        width: 50%;
+    }
+
+    .Fotolotusblog {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Fotolotusblog {
+        height: 100px;
+        width: 30%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .Conteudosdoblog {
+        width: 15%;
+    }
+
+    .Fotolotusblog {
+        width: 15%;
+    }
+}

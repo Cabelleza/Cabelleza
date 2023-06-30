@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.BemVindo {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    background: #FDD7FF;
+}
+
+.BemVindo h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courgette', cursive;
+    color: #8C003F;
+    font-size: 40px;
+    padding-top: 4%;
+}
+
+.ConteudoBemVindo {
+    position: relative;
+    width: 80%;
+    margin-left: 10.8%;
+}
+
+.BemVindo p {
+    padding-top: 1.8%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 428px) {
+    .BemVindo h1 {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+
+    .BemVindo p {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .BemVindo {
+        height: 300px;
+    }
+
+    .BemVindo h1 {
+        font-size: 25px;
+    }
+
+    .BemVindo p {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+}

@@ -28,9 +28,10 @@ function Header() {
                 </Link>
                 <nav className={style.nav_principal}>
                     <ul>
-                        <Link to="/">
+                        <Link to="/" >
                             <li>Home</li>
                         </Link>
+                        
                         <Link to="/SobreNos">
                             <li>Sobre Nós</li>
                         </Link>
@@ -62,7 +63,7 @@ function Header() {
                         <Link to="/">
                             <li>Home</li>
                         </Link>
-                        <Link to="/SobreNos">
+                        <Link to="/SobreNos ">
                             <li>Sobre Nós</li>
                         </Link>
                         <Link to="/Saloes">

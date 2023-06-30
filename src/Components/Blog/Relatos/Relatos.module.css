@@ -31,16 +31,16 @@
 }
 
 .boxDicas {
-    width: 25%;
-    height: 350px;
+    margin-top: 2%;
+    width: 250px;
+    height: 340px;
 }
 
 .boxDicas img {
-    height: 200px;
+    height: auto;
     width: 100%;
     box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.5);
     border-radius: 30px;
-    object-fit: cover;
     transition: .25s all;
     cursor: pointer;
 }
@@ -75,6 +75,30 @@
     }
 }
 
+@media screen and (max-width: 360px) {
+    .linhaCompleta {
+        display: none;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 428px) {
+    .containerBox {
+        flex-direction: column;
+    }
+
+    .boxDicas {
+        width: 80%;
+        height: 300px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .boxDicas img {
+        height: 225px;
+    }
+}
+
 /* tablet */
 @media screen and (min-width: 429px) and (max-width: 834px) {
     .boxDicas {
@@ -84,4 +108,21 @@
     .boxDicas img {
         height: 150px;
     } 
+}
+
+@media screen and (max-width: 834px) {  
+    .relatos {
+        font-size: 40px;
+    }
+
+    .containerBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .containerBox div p {
+        text-align: center;
+    }
 }

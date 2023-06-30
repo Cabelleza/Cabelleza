@@ -6,19 +6,21 @@ import Relatos from '../../Components/Blog/Relatos/Relatos';
 import Historias from '../../Components/Blog/Historias/Historias';
 import Parceiros from '../../Components/Blog/Parceiros/Parceiros';
 import DesabrocharSorrisos from '../../Components/Blog/DesabrocharSorrisos/DesabrocharSorrisos';
+import BemVindo from '../../Components/Blog/BemVindo/BemVindoBlog';
+import PesquisaPorCategoria from '../../Components/Blog/PesquisaCategoria/PesquisaPorCategorias';
 
 function Blog() {
     return(
         <>
-            <Header/>
-            
+            <Header/>            
             <DesabrocharSorrisos/>
+            <BemVindo/>
+            <PesquisaPorCategoria/>
             <Dicas/>
             <Podcast/>
             <Relatos/>
             <Historias/>
             <Parceiros/>
-
             <Footer/>
         </>
     )
