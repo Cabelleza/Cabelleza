@@ -1,11 +1,6 @@
 import Header from "../Header/Header";
 import style from "./Perfil.module.css";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { BsFillCaretDownFill } from "react-icons/bs";
-import { BsGeoAltFill } from "react-icons/bs";
-import { BsFillPenFill } from "react-icons/bs";
-import { BsPersonFill } from "react-icons/bs";
-import { BsArrowRightCircleFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsFillCaretDownFill, BsGeoAltFill, BsFillPenFill, BsPersonFill, BsArrowRightCircleFill  } from "react-icons/bs";
 import Logo from "../../imagens/logo.svg";
 
 function Perfil() {

@@ -5,6 +5,7 @@ import parceiros2 from '../../../imagens/parceiros2.png';
 import parceiros3 from '../../../imagens/parceiros3.png';
 import parceiros4 from '../../../imagens/parceiros4.png';
 import parceiros5 from '../../../imagens/parceiros5.png';
+import parceiros6 from '../../../imagens/parceira-MariaGoreti.png';
 
 export default function Parceiros() {
     return (
@@ -20,6 +21,7 @@ export default function Parceiros() {
                     <img src={parceiros1} alt="" />
                     <img src={parceiros2} alt="" />
                     <img src={parceiros3} alt="" />
+                    <img src={parceiros6} alt="" />
                     <img src={parceiros4} alt="" />
                     <img src={parceiros5} alt="" className={style.lastChild} />
                 </div>

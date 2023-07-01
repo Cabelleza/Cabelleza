@@ -24,16 +24,15 @@
 }
 
 .boxSairConta {
-
     width: 20%;
     text-align: center;
-
 }
 
 .boxSairConta button {
     width: 60%;
     margin: 20px auto;
     text-align: center;
+    border: none;
     padding: 10px 0;
     border-radius: 10px;
     font-size: 16px;
