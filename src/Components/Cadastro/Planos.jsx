@@ -40,7 +40,7 @@ function Planos() {
               </div>
             </div>
             <div className={style.btnassinar}>
-            <Link to='/cadastrosalao'><button className={style.button1}>Cadastre-se já</button></Link> 
+            <Link to='/CadastroTeste'><button className={style.button1}>Cadastre-se já</button></Link> 
               {/* <button className={style.button1}>Cadastre-se já</button> */}
             </div>
           </div>
@@ -82,7 +82,7 @@ function Planos() {
             </div>
 
             <div className={style.btnassinar}>
-            <Link to='/cadastrosalao'><button className={style.button2}>Cadastre-se já</button></Link> 
+            <Link to='/CadastroTeste'><button className={style.button2}>Cadastre-se já</button></Link> 
               {/* <button className={style.button2}>Assinar agora</button> */}
             </div>
           </div>
@@ -132,7 +132,7 @@ function Planos() {
             </div>
 
             <div className={style.btnassinar}>
-            <Link to='/cadastrosalao'><button className={style.button3}>Cadastre-se já</button></Link> 
+            <Link to='/CadastroTeste'><button className={style.button3}>Cadastre-se já</button></Link> 
               {/* <button className={style.button3}>Assinar agora</button> */}
             </div>
           </div>
@@ -189,7 +189,7 @@ function Planos() {
             </div>
 
             <div className={style.btnassinar}>
-            <Link to='/cadastrosalao'><button className={style.button4}>Cadastre-se já</button></Link> 
+            <Link to='/CadastroTeste'><button className={style.button4}>Cadastre-se já</button></Link> 
               {/* <button className={style.button4}>Assinar agora</button> */}
             </div>
             

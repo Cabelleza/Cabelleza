@@ -1,9 +1,9 @@
 // import React, { useState } from "react";
 // import { Link } from "react-router-dom";
 // import Logo from "../../imagens/logo.svg";
-// import style from "./Cadastro.module.css";
-// import Planos from "../../Components/Cadastro/Planos";
-// import Dados from "../../Components/Cadastro/Dados";
+// import style from "./CadastroSalao.module.css";
+// // import Planos from "../../Components/Cadastro/Planos";
+// // import Dados from "../../Components/Cadastro/Dados";
 // import { BsArrowLeft } from "react-icons/bs";
 
 // import axios from "axios";
@@ -42,8 +42,8 @@
 
 //    const [currentStep, setCurrentStep] = useState(0);
 //    const formComponents = [
-//      <Planos />,
-//      <Dados />,
+//     //  <Planos />,
+//     //  <Dados />,
   
 //    ];
 //    const currentComponent = formComponents[currentStep];
@@ -107,7 +107,7 @@
               
 //             </div>
 //           </form>
-//           {/* <form onSubmit={handleSubmit(addPost)}>
+//           <form onSubmit={handleSubmit(addPost)}>
 //               <div>
 //                 <label>NOME:</label>
 //                 <input
@@ -139,11 +139,9 @@
 //               </div>
 
 //               <div>
-//                 <button type="submit">
-//                   FINALIZAR
-//                 </button>
+//                 <button className={style.finalizar} type="submit">Finalizar</button>
 //               </div>
-//             </form> */}
+//             </form>
 //         </div>
 //       </div>
 //     </>

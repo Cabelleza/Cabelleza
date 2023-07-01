@@ -15,6 +15,7 @@ import TermosECondicoes from './Pages/TermosECondicoes/TermosECondicoes';
 import PoliticaPrivacidade from './Pages/PoliticaPrivacidade/PoliticaPrivacidade';
 import ScrollToTop from './hooks/ScrollToTop';
 import Perfil from './Components/PerfilUsuario/Perfil';
+import CadastroTeste from './Pages/Cadastro/CadastroTeste';
 
 function App() {
 
@@ -31,7 +32,8 @@ function App() {
                 <Route path='/FaleConosco' element={<FaleConosco/>} />
                 <Route path='/Planos' element={<PagePlanos/>} />
                 {/* <Route path='/Dados' element={<PageDados/>} /> */}
-                <Route path='/cadastrosalao' element={<CadastroSalao/>} />
+                {/* <Route path='/cadastrosalao' element={<CadastroSalao/>} /> */}
+                <Route path='/CadastroTeste' element={<CadastroTeste/>} />
                 <Route path='/PageConclusaoCadastro' element={<PageConclusaoCadastro/>} />
                 <Route path='/Assinatura' element={<Assinatura/>}/>
                 <Route path='/TermosECondicoes' element={<TermosECondicoes/>}/>
