@@ -100,7 +100,8 @@
 // export default Boxlogin;
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { BsArrowLeft } from "react-icons/bs";
 import style from "./Boxlogin.module.css";
 import toastr from 'toastr';
 
@@ -109,6 +110,7 @@ function Boxlogin() {
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
+  const navigate = useNavigate();
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -126,8 +128,9 @@ function Boxlogin() {
     e.preventDefault();
 
     // Verificar se email e senha estão cadastrados no banco de dados
-    if (email === "exemplo@dominio.com" && password === "senha123") {
-      // Login realizado, levar para a página de perfil
+    if (email === "teste@gmail.com" && password === "Cabelleza" ) {
+      //exemplo
+      navigate('/Usuario');
     } else {
       // Login falhou, exibir mensagem de erro
       toastr.error('E-mail ou senha inválidos!');
@@ -140,7 +143,7 @@ function Boxlogin() {
           <div className={style.boxdados}>
             <Link to="/">
               <button className={style.botaovoltar}>
-
+                <BsArrowLeft />
               </button>
             </Link>
             <h3>Área de login</h3>
@@ -170,14 +173,18 @@ function Boxlogin() {
                   checked={rememberMe}
                   onChange={handleRememberMeChange}
                 />
-                <p>Lembre de mim?</p>
+                <p>Lembre de mim</p>
               </div>
               <div className={style.botaoentrar}>
                 <input className={style.entrar} type="submit" value="Entrar" />
                 <Link to="/Usuario">
                   <p>Esqueceu a senha?</p>
                 </Link>
-                <hr />
+                <div className={style.contentOrtext}>
+                  <span></span>
+                  <span>OU</span>
+                  <span></span>
+                </div>
               </div>
             </form>
             <div className={style.botaocadastro}>

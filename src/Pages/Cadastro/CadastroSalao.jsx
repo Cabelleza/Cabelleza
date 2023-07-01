@@ -211,7 +211,7 @@ function CadastroSalao() {
         <div className={style.caixaDados}>
 
 
-          <form onSubmit={handleSubmit(addPost)} method="POST">
+          <form onSubmit={handleSubmit(addPost)}>
             <h5 className={style.TpessoaF}>Dados cadastrais</h5>
             <div className={style.PrimeiroInputs}>
               <div className={style.divcpf}>
@@ -294,7 +294,7 @@ function CadastroSalao() {
               </div>
 
               <div className={style.AreaPlanos}>
-                <label htmlFor="plano">Plano*</label>
+                <label htmlFor="plano">Escolha um Plano *</label>
                 <select name="planoSalao">
                   <option value="" selected="selected" disabled >Escolha plano</option>
                   <option value="planoBronze">Bronze</option>
@@ -354,7 +354,7 @@ function CadastroSalao() {
                 </div>
 
                 <div className={style.boxestado}>
-                  <label htmlFor="estado">Estado*</label>
+                  <label htmlFor="estado">Estado *</label>
                   <select name="estado">
                     <option value="SP" selected="selected" disabled >SP</option>
                   </select>
@@ -368,10 +368,19 @@ function CadastroSalao() {
                 </div>
 
                 <div className={style.boxcheck}>
-                  <p className={style.metodoT}>Metodo de pagamento</p>
+                  <p className={style.metodoT}>Método de pagamento</p>
                   <div className={style.divcheck}>
-                    <input className={style.check1} type="checkbox" />
-                    <input className={style.check2} type="checkbox" />
+                    <input type="radio" className={style.check1} id="radio1" name="radio-group" />
+                    <label className={style.radioButtonLabel} for="radio1">
+                      <span className={style.radioButtonCustom}></span>
+                      Cartão
+                    </label>
+
+                    <input type="radio" className={style.check2} id="radio2" name="radio-group" />
+                    <label className={style.radioButtonLabel} for="radio2">
+                      <span className={style.radioButtonCustom}></span>
+                      Boleto
+                    </label>
                   </div>
                 </div>
               </div>
@@ -379,7 +388,7 @@ function CadastroSalao() {
 
             <div className={style.boxruaendereco}>
               <div className={style.divRua}>
-                <label htmlFor="Rua">Endereço salão e para cobrança*</label>
+                <label htmlFor="Rua">Endereço do salão *</label>
                 <input
                   type="text"
                   placeholder="Ecreva aqui... "
@@ -389,7 +398,7 @@ function CadastroSalao() {
               </div>
 
               <div className={style.numerocasa}>
-                <label htmlFor="numero casa">Número*</label>
+                <label htmlFor="numero casa">Número *</label>
                 <IMaskInput
                   mask="0000*"
                   placeholder="Digite o Número"
@@ -406,7 +415,7 @@ function CadastroSalao() {
                 />
               </div>
               <div className={style.complemento}>
-                <label htmlFor="Complemento casa">Complemento *</label>
+                <label htmlFor="Complemento casa">Complemento</label>
                 <input
                   type="text"
                   placeholder="Ecreva aqui... "

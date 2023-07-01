@@ -22,6 +22,7 @@
     "react-imask": "^7.0.1",
     "react-mask": "^1.0.0",
     "react-modal": "^3.16.1",
+    "react-rotating-text": "^1.4.1",
     "react-router-dom": "^6.14.0",
     "react-scripts": "^5.0.1",
     "sort-by": "^1.2.0",

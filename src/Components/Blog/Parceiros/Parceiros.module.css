@@ -31,8 +31,8 @@
 }
 
 .containerBox img {
-    margin: 10px 20px 40px;
-    border-radius: 20px;
+    margin: 2% 0.8%;
+    border-radius: 30px;
     cursor: pointer;
     box-shadow: -4px 7px 7px 0px rgba(0, 0, 0, 0.397);
     transition: 1s all;

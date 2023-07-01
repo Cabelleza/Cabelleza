@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./Planos.module.css";
 import flor from "../../imagens/Flor-plano.png";
+
 function Planos() {
   return (
     <>
@@ -9,10 +10,10 @@ function Planos() {
           <span className={style.active}>Planos</span>
           <hr />
           <span className={style.white}>Dados</span>
-        
+
         </div>
         <div className={style.planos}>
-           {/* ______________________1 Plano_______________________________ */}
+          {/* ______________________1 Plano_______________________________ */}
           <div className={style.boxplano}>
             <div className={style.boxh4}>
               <h4 className={style.tipo}> Plano Gratuito</h4>
@@ -40,11 +41,11 @@ function Planos() {
               </div>
             </div>
             <div className={style.btnassinar}>
-            <Link to='/cadastrosalao'><button className={style.button1}>Cadastre-se já</button></Link> 
+              <Link to='/cadastrosalao'><button className={style.button1}>Cadastre-se já</button></Link>
               {/* <button className={style.button1}>Cadastre-se já</button> */}
             </div>
           </div>
-           {/* ____________________ 2 Plano________________________________ */}
+          {/* ____________________ 2 Plano________________________________ */}
           <div className={style.boxplano}>
             <div className={style.boxh4}>
               <h4 className={style.tipo}> Plano mensal</h4>
@@ -54,12 +55,12 @@ function Planos() {
                 $49,99/Mês
               </p>
             </div>
-               <h5 className={style.Tvantagens}>Vantagens:</h5>
+            <h5 className={style.Tvantagens}>Vantagens:</h5>
             <div className={style.boxvantagens}>
               <div className={style.divVantagem3}>
                 <img src={flor} alt="" />
                 <span>
-                Conteúdos do salãos dispostos no blog 1 vez a cada 2 semanas
+                  Conteúdos do salãos dispostos no blog 1 vez a cada 2 semanas
 
                 </span>
               </div>
@@ -67,7 +68,7 @@ function Planos() {
               <div className={style.divVantagem3}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                Anúncio  uma vez na semana na página salões durante 4h
+                  Anúncio  uma vez na semana na página salões durante 4h
                 </span>
               </div>
 
@@ -82,15 +83,15 @@ function Planos() {
             </div>
 
             <div className={style.btnassinar}>
-            <Link to='/cadastrosalao'><button className={style.button2}>Cadastre-se já</button></Link> 
+              <Link to='/cadastrosalao'><button className={style.button2}>Cadastre-se já</button></Link>
               {/* <button className={style.button2}>Assinar agora</button> */}
             </div>
           </div>
- {/* _______________________3 Plano______________________________ */}
+          {/* _______________________3 Plano______________________________ */}
           <div className={style.boxplano}>
 
 
-          <div className={style.boxh4}>
+            <div className={style.boxh4}>
               <h4 className={style.tipo}> Plano semestral</h4>
             </div>
             <div className={style.boxpreco}>
@@ -98,26 +99,26 @@ function Planos() {
                 $269,99/Semestre
               </p>
             </div>
-               <h5 className={style.Tvantagens}>Vantagens:</h5>
+            <h5 className={style.Tvantagens}>Vantagens:</h5>
             <div className={style.boxvantagens}>
               <div className={style.divVantagem4}>
                 <img src={flor} alt="" />
                 <span>
-                Anúncio na página principal uma vez por semana
+                  Anúncio na página principal uma vez por semana
                 </span>
               </div>
 
               <div className={style.divVantagem4}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                Visibilidade no nosso blog 1 vez na semana..
+                  Visibilidade no nosso blog 1 vez na semana..
                 </span>
               </div>
 
               <div className={style.divVantagem4}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                Destaque no nosso painel da home por 1 semana.
+                  Destaque no nosso painel da home por 1 semana.
                 </span>
               </div>
 
@@ -132,14 +133,14 @@ function Planos() {
             </div>
 
             <div className={style.btnassinar}>
-            <Link to='/cadastrosalao'><button className={style.button3}>Cadastre-se já</button></Link> 
+              <Link to='/cadastrosalao'><button className={style.button3}>Cadastre-se já</button></Link>
               {/* <button className={style.button3}>Assinar agora</button> */}
             </div>
           </div>
-{/* _______________________4 Plano______________________________ */}
+          {/* _______________________4 Plano______________________________ */}
           <div className={style.boxplano}>
 
-          <div className={style.boxh4}>
+            <div className={style.boxh4}>
               <h4 className={style.tipo}> Plano anual</h4>
             </div>
             <div className={style.boxpreco}>
@@ -147,33 +148,33 @@ function Planos() {
                 $479,99/ano
               </p>
             </div>
-               <h5 className={style.Tvantagens}>Vantagens:</h5>
+            <h5 className={style.Tvantagens}>Vantagens:</h5>
             <div className={style.boxvantagens}>
               <div className={style.divVantagem5}>
                 <img src={flor} alt="" />
                 <span>
-                Anúncio na página principal 2 vez por semana
+                  Anúncio na página principal 2 vez por semana
                 </span>
               </div>
 
               <div className={style.divVantagem5}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                Visibilidade no nosso blog 2 vez na semana.
+                  Visibilidade no nosso blog 2 vez na semana.
                 </span>
               </div>
 
               <div className={style.divVantagem5}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                Destaque no nosso painel da home por 3 dias por semana.
+                  Destaque no nosso painel da home por 3 dias por semana.
                 </span>
               </div>
 
               <div className={style.divVantagem5}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                Posts em nossas redes socias 1 vez por semana
+                  Posts em nossas redes socias 1 vez por semana
 
                 </span>
               </div>
@@ -189,10 +190,10 @@ function Planos() {
             </div>
 
             <div className={style.btnassinar}>
-            <Link to='/cadastrosalao'><button className={style.button4}>Cadastre-se já</button></Link> 
+              <Link to='/cadastrosalao'><button className={style.button4}>Cadastre-se já</button></Link>
               {/* <button className={style.button4}>Assinar agora</button> */}
             </div>
-            
+
           </div>
         </div>
       </div>
