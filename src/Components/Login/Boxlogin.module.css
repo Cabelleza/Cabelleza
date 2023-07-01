@@ -25,18 +25,15 @@
     padding: 0.5% 3%;
     background-color: transparent;
     border: none;
-    background-image: url(../../imagens/seta.png);
     background-size: cover;
     border-radius: 20px;
     font-size: 2rem;
     transition: ease-out 0.2s;
 }
 
-.boxdados .botaovoltar:hover{
+.boxdados .botaovoltar:hover {
     transform: translateX(-10%);
 }
-
-
 
 .boxlogin {
     display: flex;
@@ -66,34 +63,133 @@
 .boxdados h3 {
     color: #717171;
     text-align: center;
-    margin-top: 70px;
+    margin: 40px 0 20px 0;
+    font-size: 2.3rem;
 }
 
 .boxdados .input1,
 .input2 {
     width: 80%;
     height: 40px;
-    border: solid 2px #ADADAD;
-    border-radius: 3px;
+    border: solid 1.5px #ADADAD;
+    border-radius: 5px;
     padding: 2%;
+    margin: 3%;
 }
 
-.boxdados .input1:focus, .input2:focus{
+.boxdados .input1:focus,
+.input2:focus {
     outline: none;
 }
 
 .boxdados input::placeholder {
-    font-size: 12px;
+    font-size: 1.05rem;
     color: #ADADAD;
-    padding-left: 5px;
-}
-
-.input1 {
-    margin-bottom: 30px;
+    padding: 5px;
 }
 
 .input3 {
-    border: solid 1px #ADADAD;
+    /* checkbox settings 👇 */
+    --primary-color: #1677ff;
+    --secondary-color: #fff;
+    --primary-hover-color: #4096ff;
+    /* checkbox */
+    --checkbox-diameter: 20px;
+    --checkbox-border-radius: 5px;
+    --checkbox-border-color: #d9d9d9;
+    --checkbox-border-width: 1px;
+    --checkbox-border-style: solid;
+    /* checkmark */
+    --checkmark-size: 1.2;
+}
+
+.input3,
+.input3 *,
+.input3 *::before,
+.input3 *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.input3 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: var(--checkbox-diameter);
+    height: var(--checkbox-diameter);
+    border-radius: var(--checkbox-border-radius);
+    background: var(--secondary-color);
+    border: var(--checkbox-border-width) var(--checkbox-border-style) var(--checkbox-border-color);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+    transform: translateY(13px);
+}
+
+.input3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);
+    box-shadow: 0 0 0 calc(var(--checkbox-diameter) / 2.5) var(--primary-color);
+    border-radius: inherit;
+    opacity: 0;
+    -webkit-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+    -o-transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+    transition: all 0.5s cubic-bezier(0.12, 0.4, 0.29, 1.46);
+}
+
+.input3::before {
+    top: 40%;
+    left: 50%;
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 7px;
+    border-right: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    -ms-transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    opacity: 0;
+    -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+    -o-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+    transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+}
+
+/* actions */
+
+.input3:hover {
+    border-color: var(--primary-color);
+}
+
+.input3:checked {
+    background: var(--primary-color);
+    border-color: transparent;
+}
+
+.input3:checked::before {
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+    -ms-transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+    transform: translate(-50%, -50%) rotate(45deg) scale(var(--checkmark-size));
+    -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+    -o-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+    transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+}
+
+.input3:active:not(:checked)::after {
+    -webkit-transition: none;
+    -o-transition: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transition: none;
+    opacity: 1;
 }
 
 .boxemailSenha {
@@ -106,12 +202,10 @@
     margin: auto;
     width: 65%;
     display: flex;
-
-
 }
 
 .boxcheck p {
-    font-size: 10px;
+    font-size: 0.85rem;
     padding-top: 14px;
     padding-left: 5px;
     color: #817f7f;
@@ -131,43 +225,62 @@
     border: none;
     font-size: 17px;
     color: #fff;
-    transition: 2s;
+    transition: 0.5s;
     margin: auto;
 }
 
 .entrar:hover {
     background-color: #FAB9EF;
     color: #D12874;
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .botaoentrar p {
     margin-top: 4px;
-    font-size: 12px;
+    font-size: 0.85rem;
     color: #817f7f;
     text-align: center;
 }
 
+.contentOrtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    column-gap: 5px;
+    margin: 18px;
+}
+
+.contentOrtext span:nth-child(3),
+.contentOrtext span:nth-child(1) {
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: rgb(112, 112, 112);
+}
+
 hr {
     margin: auto;
-    width: 80%;
+    width: 100%;
 }
 
 .botaocadastro {
-    width: 55%;
+    width: 80%;
     margin: auto;
     display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 .botaocadastro p {
-    font-size: 12px;
+    font-size: 0.85rem;
     color: #7e7b7b;
+    margin-right: 2px;
 }
 
 
 .link {
-    font-size: 12px;
+    font-size: 0.85rem;
     margin-left: 2px;
     height: 18px;
     border-bottom: 1px solid #696969;

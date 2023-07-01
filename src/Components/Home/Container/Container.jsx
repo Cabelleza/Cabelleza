@@ -12,7 +12,7 @@ export default function Container(){
             <section className={style.container}>
                 {/* Junte-se ao Cabelleza */}
                 <section className={style.sectionJunte}>
-                    <h1 className={style.junteH1}>Junte-se a nós! Os salões de beleza mais <br /> diversos já estão no <span>Cabelleza</span>.</h1>
+                    <h1 className={style.junteH1}>Junte-se a nós! Os salões de beleza mais <br /> diversos já estão na <span>Cabelleza</span>.</h1>
                     <Link to='/Assinatura'><button className={style.beneficiosButton}>Cadastre seu salão</button></Link> 
                 </section>
 
