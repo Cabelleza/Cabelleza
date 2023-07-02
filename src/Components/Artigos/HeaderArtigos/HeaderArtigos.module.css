@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #fafafa;
+    width: 100%;
+    height: 80px;
+    padding: 1% 1% 1% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    box-shadow: 1px 1px 10px #00000036;
+}
+
+.fixed{
+    position: fixed;
+    top: -5px;
+}
+
+header .Logo{
+    width: 80%;
+}
+
+header nav{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+header .nav_principal_blog{
+    background: linear-gradient(139deg, rgba(228,80,140,0.4961582044927346) 10%, rgba(225,123,164,0.7510601652770483) 47%, rgba(227,116,161,1) 88%);
+    border-radius: 30px;
+}
+
+.nav_principal_blog .btnVoltar{
+    background-color: #D12874;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    border-radius: 20px;
+    padding: 2%;
+    transition: ease-out 0.4s;
+    color: #fff;
+}
+
+.nav_principal_blog .btnVoltar:hover{
+    transform: translateX(-10%);
+    box-shadow: 0 0 20px #D12874;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    color: #1c2b1a;
+    width: 55%;
+    justify-content: space-around;
+    margin: 0;
+}
+
+header .nav_principal_blog ul li{
+    color: #fff;
+    transition: 0.3s ease-out;
+    font-family: 'Courgette', cursive;
+    font-size: 1.5rem;
+}
+
+header nav ul li:hover{
+    color: #D12874;
+}
+
+/*MENU RESPONSIVO*/
+.nav_menu_blog{
+    z-index: 1;
+    visibility: hidden;
+    top: 0;
+    left: 65%;
+    position: absolute;
+    width: 35%;
+    height: 110vh;
+    background-color: #f099bc;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav_menu_blog .lista_menu{
+    width: 100%;
+    height: 55%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+
+.label_menu{
+    display: none;
+}
+
+.botao_menu{
+    display: none;
+}
+
+.botao_close{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.botao_open{
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.botao_menu:checked ~ .nav_menu_blog{
+    visibility: visible;
+}
+
+@media screen and (max-width: 1100px) {
+    .nav_principal_blog{
+        display: none;
+    }
+
+    .botao_open, .label_menu{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .nav_menu_blog{
+        display: none;
+    }
+}

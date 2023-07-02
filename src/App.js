@@ -16,6 +16,10 @@ import PoliticaPrivacidade from './Pages/PoliticaPrivacidade/PoliticaPrivacidade
 import ScrollToTop from './hooks/ScrollToTop';
 import Perfil from './Components/PerfilUsuario/Perfil';
 import CadastroTeste from './Pages/Cadastro/CadastroTeste';
+import Artigo1 from '../src/Components/Artigos/Artigo1';
+import Artigo2 from '../src/Components/Artigos/Artigo2';
+import Artigo3 from '../src/Components/Artigos/Artigo3';
+import Artigo4 from '../src/Components/Artigos/Artigo4';
 
 function App() {
 
@@ -29,6 +33,10 @@ function App() {
                 <Route path='/SobreNos' element={<SobreNos/>} />
                 <Route path='/Saloes' element={<Saloes/>} />
                 <Route path='/Blog' element={<Blog/>} />
+                <Route path='/Artigo1' element={<Artigo1/>} />
+                <Route path='/Artigo2' element={<Artigo2/>} />
+                <Route path='/Artigo3' element={<Artigo3/>} />
+                <Route path='/Artigo4' element={<Artigo4/>} />
                 <Route path='/FaleConosco' element={<FaleConosco/>} />
                 <Route path='/Planos' element={<PagePlanos/>} />
                 {/* <Route path='/Dados' element={<PageDados/>} /> */}

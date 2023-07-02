@@ -36,6 +36,13 @@
     position: relative;
     width: 100%;
     font-size: 26px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .BemVindo p {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 428px) {
