@@ -77,7 +77,7 @@ function Relatos() {
                                     allowfullscreen
                                 ></iframe>
                                 <p className={style.descBoxDicas}>Doação de cabelo: relato da Isabela Barsottini.</p>
-                                <button onClick={() => exibirVideo('WWRjmZk_j0c')}>Assistir em tela cheia</button>
+                                <button onClick={() => exibirVideo('31o7-PQ3bew')}>Assistir em tela cheia</button>
                             </div>
 
                             <div className={style.boxDicas}>
@@ -91,7 +91,7 @@ function Relatos() {
                                     allowfullscreen
                                 ></iframe>
                                 <p className={style.descBoxDicas}>Doação de cabelo: relato da Marta Teles.</p><br />
-                                <button onClick={() => exibirVideo('b2zhAtc8HMM')}>Assistir em tela cheia</button>
+                                <button onClick={() => exibirVideo('0EqEa9d9qbo')}>Assistir em tela cheia</button>
                             </div>
 
                         </>
