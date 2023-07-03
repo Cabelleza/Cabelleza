@@ -2,6 +2,7 @@ import Header from "../Header/Header";
 import style from "./Perfil.module.css";
 import { BsFillPersonLinesFill, BsFillCaretDownFill, BsGeoAltFill, BsFillPenFill, BsPersonFill, BsArrowRightCircleFill  } from "react-icons/bs";
 import Logo from "../../imagens/logo.svg";
+import { Link } from "react-router-dom";
 
 function Perfil() {
   return (
@@ -12,10 +13,12 @@ function Perfil() {
             <img src={Logo} alt="Logo" />
           </div>
           <div className={style.boxSairConta}>
-            <button>
-              {" "}
-              Sair Conta <BsArrowRightCircleFill />
-            </button>
+            <Link to='/'>
+              <button>
+                {" "}
+                Sair Conta <BsArrowRightCircleFill />
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -31,8 +34,8 @@ function Perfil() {
               </div>
 
               <div className={style.NomeSalao}>
-                <p className={style.nome1}>Ophicina do Cabelo</p>
-                <p className={style.nome2}>Ophicina@gmail.com</p>
+                <p className={style.nome1}>Cabelo e Estilo</p>
+                <p className={style.nome2}>cabelo_estilo@gmail.com</p>
               </div>
             </div>
 
@@ -52,43 +55,43 @@ function Perfil() {
                   </div>
                 </summary>
                 <div className={style.miniBoxDados}>
-                  <h5>Nome salão</h5>
+                  <h5>Cabelo e Estilo</h5>
                   <div className={style.boxNomeExibido}>
                     <div className={style.boxTextoinfo}>
                       <p className={style.name}>Nome salão</p>
-                      <p className={style.minidetalhe}>empresa...</p>
+                      <p className={style.minidetalhe}>Cabelo e Estilo</p>
                     </div>
                   </div>
                   <div className={style.boxNomeUsuario}>
                     <div className={style.boxTextoinfo}>
                       <p className={style.nameUsuario}>Nome contratante</p>
-                      <p className={style.minidetalhe}>empresa...</p>
+                      <p className={style.minidetalhe}>Renata Cardoso</p>
                     </div>
                   </div>
                   <div className={style.boxEmail}>
                     <div className={style.boxTextoinfo}>
                       <p className={style.emailDados}>E-mail</p>
-                      <p className={style.minidetalhe}>empresa...</p>
+                      <p className={style.minidetalhe}>cabelo_estilo@gmail.com</p>
                     </div>
                   </div>
                   <div className={style.boxsenhaInf}>
                     <div className={style.boxTextoinfo}>
                       <p className={style.senhaD}>Senha</p>
-                      <p className={style.minidetalhe}>empresa...</p>
+                      <p className={style.minidetalhe}>*********</p>
                     </div>
                   </div>
                   <div className={style.boxsenhaInf}>
                     <div className={style.boxTextoinfo}>
-                      <p className={style.senhaD}>Meio de contato</p>
+                      <p className={style.senhaD}>Telefone</p>
                       <p className={style.minidetalhe}>
-                        Telefone:(11)*******76
+                        Telefone: (11) 92345-6789
                       </p>
                     </div>
                   </div>
 
                   <div className={style.buttonATVDTV}>
-                    <button className={style.Desativar}>Desativar conta</button>
-                    <button className={style.Excluir}>Excluir conta</button>
+                    <Link to="/Home"><button className={style.Desativar}>Desativar conta</button></Link>
+                    <Link to="/Home"><button className={style.Excluir}>Excluir conta</button></Link>
                   </div>
                 </div>
               </details>
@@ -101,19 +104,19 @@ function Perfil() {
                   </div>
                   <div className={style.textdados}>
                     <h6>Endereço</h6>
-                    <p> Endereço que foi salvo em sua conta</p>
+                    <p>Endereço do salão</p>
                   </div>
                   <div className={style.setabaixo2}>
                     <BsFillCaretDownFill />
                   </div>
                 </summary>
                 <div className={style.miniBoxDados}>
-                  <h5>Nome salão</h5>
+                  <h5>Cabelo e Estilo</h5>
                   <div className={style.boxendereco1}>
                     <div className={style.boxTextoinfo}>
                       <p className={style.name}>Endereço 1</p>
                       <p className={style.minidetalhe}>
-                        R. Tito, 54 - Vila Romana, São Paulo - SP, 05051-000
+                        Rua Oscar Freire, 456, Jd. Paulista.
                       </p>
                     </div>
                   </div>
@@ -128,14 +131,14 @@ function Perfil() {
                   </div>
                   <div className={style.textdados}>
                     <h6>Plano de assinatura</h6>
-                    <p>Gerencia suas assinaturas</p>
+                    <p>Gerencie suas assinaturas</p>
                   </div>
                   <div className={style.setabaixo3}>
                     <BsFillCaretDownFill />
                   </div>
                 </summary>
                 <div className={style.miniBoxDados}>
-                  <h5>Nome salão</h5>
+                  <h5>Cabelo e Estilo</h5>
                   <div className={style.boxplanoBronza}>
                     <div className={style.boxTextoinfo}>
                       <p className={style.PlanoBronze}>Plano bronze</p>
@@ -156,7 +159,7 @@ function Perfil() {
                     <div className={style.boxTextoinfo}>
                       <p className={style.PlanoOuro}>Plano ouro</p>
                       <p className={style.minidetalhe}>
-                        Parabéns você possui o plano ouro
+                        Plano atual
                       </p>
                     </div>
                   </div>
