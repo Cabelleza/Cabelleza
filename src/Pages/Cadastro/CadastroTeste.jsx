@@ -1,6 +1,6 @@
 import style from "./CadastroTeste.module.css";
 import { useEffect, useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import FormularioTeste from "./FormularioTeste";
 
 function CadastroTeste() {
@@ -27,6 +27,7 @@ function CadastroTeste() {
   const [btnFinalizar, setBtnFinalizar] = useState(true);
   const [saloes, setSaloes] = useState([]);
   const [objSalao, setObjSalao] = useState(salao);
+  const navigate= useNavigate();
 
   //UseEffect
   useEffect(()=>{
@@ -58,7 +59,7 @@ function CadastroTeste() {
         alert(retorno_convertido.mensagem);
       }else{
         setSaloes([...saloes, retorno_convertido]);
-        alert('Salão cadastrado com sucesso!');
+        navigate('/PageConclusaoCadastro');
         limparFormulario();
       }
       
