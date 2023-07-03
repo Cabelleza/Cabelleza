@@ -1,30 +1,30 @@
-.SessaoSaloes{
+.SessaoSaloes {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
 }
 
-.SessaoTituloSaloes{
+.SessaoTituloSaloes {
     /* background-color: aqua; */
     width: 100%;
     height: 180px;
 }
 
-.AreaTituloSessaoSaloes{
+.AreaTituloSessaoSaloes {
     width: 50%;
     height: auto;
     /* background-color: chartreuse; */
 }
 
-.TituloSessaoSaloes{
+.TituloSessaoSaloes {
     font-size: 40px;
     padding-top: 90px;
     padding-left: 70px;
-    color:#D12874 ;
+    color: #D12874;
 }
 
-.AreaCardsAside{
+.AreaCardsAside {
     /* background-color: rgb(102, 255, 0); */
     width: 100%;
     height: 1740px;
@@ -33,27 +33,26 @@
     justify-content: space-evenly;
 }
 
-.AreaCardsSaloes{
+.AreaCardsSaloes {
     width: 68%;
     height: 1560px;
     /* background-color: brown; */
 }
 
-.AreaQuatroCards{
+.AreaQuatroCards {
     display: none;
 }
 
-.AreaTresCards{
+.AreaTresCards {
     width: 100%;
     height: auto;
     /* background-color: darkorchid; */
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin-bottom: 40px;
 }
 
-.AreaAsideSaloes{
+.AreaAsideSaloes {
     width: 21%;
     height: 1150px;
     /* background-color: rgb(42, 85, 165); */
@@ -62,103 +61,111 @@
     justify-content: space-between;
 }
 
-.AsidePropaganda1{
+.AsidePropaganda1 {
     width: 100%;
     height: 450px;
-    background-color: rgb(236, 129, 213);
+    margin-top: 20px;
+    background-image: url(../../../imagens/aside1.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
-.AsidePropaganda2{
+.AsidePropaganda2 {
     width: 100%;
     height: 650px;
-    background-color: rgb(229, 255, 136);
+    background-image: url(../../../imagens/aside2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
+
 @media only screen and (min-width: 320px) {
     @media screen and (max-width: 480px) {
-        .SessaoTituloSaloes{
+        .SessaoTituloSaloes {
             width: 100%;
             height: 120px;
             margin: auto;
             margin-top: 50px;
         }
 
-        .AreaTituloSessaoSaloes{
+        .AreaTituloSessaoSaloes {
             width: 100%;
             text-align: center;
         }
-        
-        .TituloSessaoSaloes{
+
+        .TituloSessaoSaloes {
             margin: auto;
             padding-top: 0px;
             padding-left: 0px;
             font-size: 35px;
         }
-        
-        .AreaCardsAside{
+
+        .AreaCardsAside {
             height: 4720px;
             width: 100%;
             display: flex;
             flex-direction: row;
-            justify-content:center;
+            justify-content: center;
         }
 
-        .AreaTresCards{
+        .AreaTresCards {
             height: auto;
             display: flex;
             flex-direction: column;
             margin-bottom: 0px;
         }
 
-        .AreaAsideSaloes{
-            display:none;
+        .AreaAsideSaloes {
+            display: none;
         }
     }
 }
 
 @media only screen and (min-width: 481px) {
     @media only screen and (max-width: 768px) {
-        .SessaoTituloSaloes{
+        .SessaoTituloSaloes {
             width: 100%;
             height: 120px;
             margin: auto;
             margin-top: 50px;
         }
-        
-        .AreaTituloSessaoSaloes{
+
+        .AreaTituloSessaoSaloes {
             width: 100%;
             text-align: center;
         }
-        
-        .TituloSessaoSaloes{
+
+        .TituloSessaoSaloes {
             margin: auto;
             padding-top: 0px;
             padding-left: 0px;
             font-size: 42px;
         }
-        
-        .AreaCardsAside{
+
+        .AreaCardsAside {
             height: 2400px;
             width: 100%;
         }
-        
-        .AreaQuatroCards{
+
+        .AreaQuatroCards {
             /* height: auto; */
             display: flex;
             flex-direction: row;
-            flex-wrap:wrap;
+            flex-wrap: wrap;
             margin: auto;
             /* width: 100%; */
         }
 
-        .AreaTresCards{
+        .AreaTresCards {
             display: none;
         }
-    
-        .AreaAsideSaloes{
-            display:none;
+
+        .AreaAsideSaloes {
+            display: none;
         }
 
-        .AreaCardsSaloes{
+        .AreaCardsSaloes {
             width: 85%;
         }
     }
@@ -166,23 +173,23 @@
 
 @media only screen and (min-width: 769px) {
     @media only screen and (max-width: 1024px) {
-        .AreaTituloSessaoSaloes{
+        .AreaTituloSessaoSaloes {
             width: 100%;
             text-align: center;
         }
-        
-        .TituloSessaoSaloes{
+
+        .TituloSessaoSaloes {
             margin: auto;
             font-size: 42px;
         }
 
-        .AreaCardsSaloes{
+        .AreaCardsSaloes {
             width: 90%;
         }
 
-        .AreaAsideSaloes{
-            display:none;
+        .AreaAsideSaloes {
+            display: none;
         }
-        
+
     }
 }

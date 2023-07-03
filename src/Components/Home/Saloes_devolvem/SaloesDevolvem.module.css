@@ -14,8 +14,8 @@
 }
 
 .saloesContainer {
-    padding: 20px 10px;
-    width: 90%;
+    /* padding: 20px 10px; */
+    width: 95%;
     height: auto;
     background: linear-gradient(105.61deg, rgba(255, 187, 228, 0.66) 32.77%, rgba(250, 255, 116, 0.48) 67.6%);
     backdrop-filter: blur(27.5px); /* Note: backdrop-filter has minimal browser support */
@@ -35,6 +35,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: 1.5%;
+    /* background-color: aquamarine; */
 }
 
 .saloesTextBox {
@@ -44,6 +45,10 @@
     background: linear-gradient(92.54deg, rgba(167, 225, 140, 0.4) 0%, rgba(151, 229, 114, 0.1) 100%);
     backdrop-filter: blur(2px);
     border-radius: 0 0 10px 10px;
+}
+
+.divCards ModalTeste {
+    margin: 0 5px;
 }
 
 .saloesH1Box {

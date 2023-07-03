@@ -5,7 +5,7 @@
 .AreaNomeSalao{
     width: 100%;
     height: 52px;
-    margin-top: 295px;
+    margin-top: 296px;
     background: linear-gradient(92.6deg, #6fa852 0%, #2a5017 97.61%);
     opacity: 0.85;
     color: #fafafa;
@@ -30,8 +30,9 @@
 }
 
 .customTitle{
+    /* background-color: #6fa852; */
     color: #818181;
-    width: 0%;
+    width: 65%;
     font-size: 55px;
     margin: auto;
 }
@@ -124,6 +125,11 @@
 
 @media only screen and (min-width: 320px) {
     @media screen and (max-width: 480px) {
+        .customTitle{
+            font-size: 45px;
+            width: 100%;
+        }
+        
         .ContainerText{
             margin-left: 45px;
         }
@@ -158,6 +164,11 @@
 
 @media only screen and (min-width: 481px) {
     @media only screen and (max-width: 768px) {
+        .customTitle{
+            font-size: 45px;
+            width: 80%;
+        }
+
         .ContainerText{
             margin-left: 25px;
         }

@@ -1,31 +1,13 @@
 import style from './Formulario.module.css';
-import { Link } from "react-router-dom";
 import { IMaskInput } from "react-imask";
 import { useState } from 'react';
 
-function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
+function FormularioTeste({eventoTeclado, cadastrar, obj}){
 
-    // const [opcaoSelecionada, setOpcaoSelecionada] = useState('');
     const [image, setImage] = useState("");
     const [endImg] = useState("./ImgiconU.png");
 
-    const options = [
-        { value: '', text: 'Escolha plano' },
-        { value: 'bronze', text: 'Plano Bronze' },
-        { value: 'prata', text: 'Plano Prata' },
-        { value: 'ouro', text: 'Plano Ouro' },
-      ];
-
-    const [selected, setSelected] = useState(options[0].value);
-    
-    const [value, setValue] = useState('');
-
-    const handleChange = event => {
-        setSelected(event.target.value);
-      };
-
     return (
-        // <div>
         <main className={style.Mdados}>
                  <div>
                    <div className={style.linhaTempo}>
@@ -52,30 +34,27 @@ function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
                                 value={obj.nomeSalao}
                                 onChange={eventoTeclado}
                                 placeholder="Digite aqui o nome do salão..."
+                                required
                               />
                             </div>
     
                             <div className={style.cnpjdiv}>
                               <label htmlFor="cnpj">CNPJ *</label>
-                              <input
+                              <IMaskInput
                                 mask="00.000.000/0000-00"
                                 placeholder="00.000.000/0000-00"
                                 type="text"
                                 value={obj.cnpj} 
-                                onChange={eventoTeclado} 
                                 name="cnpj" 
+                                onChange={eventoTeclado}
+                                required
                               />
                             </div>
     
                             <div className={style.tele}>
                               <label htmlFor="telefone">Telefone Salão*</label>
-                              <input type="text" value={obj.telefoneSalao} onChange={eventoTeclado} name='telefoneSalao' placeholder="Telefone salão" className='form-control'/>
-                              {/* <IMaskInput
-                                mask="(00) 00000-0000"
-                                placeholder="Digite o Número"
-                                value={obj.telefoneSalao}
-                                onChange={eventoTeclado} 
-                              /> */}
+                              
+                              <IMaskInput mask="(00) 00000-0000" type="text" value={obj.telefoneSalao} onChange={eventoTeclado} name='telefoneSalao' placeholder="Telefone salão" className='form-control'/>
                             </div>
                           </div>
                         </div>
@@ -83,25 +62,18 @@ function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
                         <div className={style.SegundosInpust}>
                           <div className={style.divnomecrontato}>
                             <label htmlFor="name">Nome contratante *</label>
-                            <input type="text" value={obj.proprietarioSalao} onChange={eventoTeclado} name='proprietarioSalao' placeholder="Propietário Salão" />
-                            {/* <input
-                            type="text"
-                            name="nomeProprietario"
-                            placeholder="Escreva aqui..."
-                            value={obj.proprietarioSalao} 
-                            onChange={eventoTeclado}
-                            /> */}
+                            <input type="text" value={obj.proprietarioSalao} onChange={eventoTeclado} name='proprietarioSalao' placeholder="Digite o nome do contratante..." required />
                           </div>
     
                           <div className={style.divemail}>
                             <label htmlFor="e-mail">E-mail salão*</label>
-                            {/* <input type="text" value={obj.email} onChange={eventoTeclado} name='email' placeholder="Email" className='form-control'/> */}
                             <input
                               type="text"
                               name="email"
-                              placeholder="Digite aqui..."
+                              placeholder="Digite aqui seu e-mail..."
                               value={obj.email} 
                               onChange={eventoTeclado}
+                              required
                               />
                           </div>
                         </div>
@@ -109,44 +81,29 @@ function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
                         <div className={style.TerceiroInpust}>
                           <div className={style.divsenha}>
                             <label htmlFor="password">Senha*</label>
-                            {/* <input type="text" value={obj.senha} onChange={eventoTeclado} name='senha'  placeholder="Senha" className='form-control'/> */}
                             <input
-                              type="current-password"
+                              type="password"
                               name="senha"
                               placeholder="Senha..."
                               value={obj.senha} 
                               onChange={eventoTeclado}
+                              required
                               />
                           </div>
     
                           <div className={style.divconfirmasenha}>
                             <label htmlFor="confirma password">Confirma senha *</label>
                             <input
-                              type="new-password"
-                              placeholder="Escreva aqui..."
+                              type="password"
+                              placeholder="Confirme a senha aqui..."
+                              required
                             />
                           </div>
     
                           <div className={style.AreaPlanos}>
                             <label htmlFor="plano">Plano*</label>
 
-                            {/* <input type="text" value={obj.seloSalao} onChange={eventoTeclado} name='seloSalao' placeholder="Selo" className='form-control'/>
-                            
-                            <select value={opcaoSelecionada} onChange={e => setOpcaoSelecionada(e.target.value)}>
-                                <option value="" disabled>Escolha plano</option>
-                                <option value="planoBronze">Bronze</option>
-                                <option value="planoPrata">Prata</option>
-                                <option value="planoOuro">Ouro</option>
-                            </select> */}
-
-                            {/* <select value={obj.seloSalao}>
-                                <option value="" selected="selected" disabled >Escolha plano</option>
-                                <option value="planoBronze">Bronze</option>
-                                <option value="planoPrata">Prata</option>
-                                <option value="planoOuro">Ouro</option>
-                             </select> */}
-
-                            <input type="text" value={obj.seloSalao} onChange={eventoTeclado} name='seloSalao' placeholder="Selo" className='form-control'/>
+                            <input type="text" value={obj.seloSalao} onChange={eventoTeclado} name='seloSalao' placeholder="Digite: Ouro, Prata ou Bronze" required/>
                           </div>
                           
                         </div>
@@ -177,13 +134,14 @@ function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
                         </div>
     
                         <h5 className={style.enderecoT}>Endereço salão *</h5>
-                        <div>
+                        
                           <div className={style.boxprimeiroinputendereco}>
                             <div className={style.boxcep}>
                               <label htmlFor="cep">CEP *</label>
                               <IMaskInput
                                mask="00000-000"
                                placeholder="Digite o CEP"
+                               required
                               />
                             </div>
     
@@ -192,23 +150,32 @@ function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
                               <input 
                                 type="text" 
                                 placeholder="Escreva aqui..."
+                                required
                               />
                             </div>
     
                             <div className={style.boxestado}>
                              <label htmlFor="estado">Estado*</label>
-                             <select name="estado" value={value} onChange={handleChange}>
+                             <select name="estado">
                                 <option value="SP">SP</option>
                             </select>
                            </div>
     
                            <div className={style.boxcheck}>
-                             <p className={style.metodoT}>Metodo de pagamento</p>
-                              <div className={style.divcheck}>
-                                <input className={style.check1} type="checkbox" />
-                                <input className={style.check2} type="checkbox" />
-                              </div>
-                           </div>
+                  <p className={style.metodoT}>Método de pagamento</p>
+                  <div className={style.divcheck}>
+                    <input type="radio" className={style.check1} id="radio1" name="radio-group" />
+                    <label className={style.radioButtonLabel} for="radio1">
+                      <span className={style.radioButtonCustom}></span>
+                      Cartão
+                    </label>
+
+                    <input type="radio" className={style.check2} id="radio2" name="radio-group" />
+                    <label className={style.radioButtonLabel} for="radio2">
+                      <span className={style.radioButtonCustom}></span>
+                      Boleto
+                    </label>
+                  </div>
                           </div>
                         </div>
     
@@ -220,10 +187,11 @@ function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
 
                             <input 
                               type="text" 
-                              placeholder="Ecreva aqui... " 
+                              placeholder="Escreva aqui... " 
                               name="ruaSalao"
                               value={obj.ruaSalao} 
-                              onChange={eventoTeclado}                         
+                              onChange={eventoTeclado}          
+                              required               
                             />
                           </div>
                           
@@ -237,7 +205,8 @@ function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
                              placeholder="Digite o Número"
                              name="numeroSalao"
                              value={obj.numeroSalao} 
-                             onChange={eventoTeclado}                       
+                             onChange={eventoTeclado}
+                             required                    
                            />
                          </div>
     
@@ -245,36 +214,30 @@ function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
 
                            <label htmlFor="Bairro">Bairro *</label>
 
-                           {/* <input type="text" value={obj.bairroSalao} onChange={eventoTeclado} name='bairroSalao' placeholder="Bairro" className='form-control'/> */}
-
                            <input 
                             type="text" 
-                            placeholder="Ecreva aqui... "
+                            placeholder="Escreva aqui... "
                             value={obj.bairroSalao} 
                             onChange={eventoTeclado} 
                             name="bairroSalao"
+                            required
                            />
                          </div>
 
                          <div className={style.complemento}>
-                           <label htmlFor="Complemento casa">Complemento *</label>
+                           <label htmlFor="Complemento casa">Complemento</label>
                            <input
                             type="text" 
-                            placeholder="Ecreva aqui... "
+                            placeholder="Escreva aqui... "
+                            required
                            />
                          </div>
     
                         </div>
     
                     <div>
-       
-                    {/* <Link to='/PageConclusaoCadastro'><button className={style.finalizar} type="submit">Finalizar</button></Link>  */}
-                    
-                        
 
-                        <button className={style.finalizar} type="submit" onClick={cadastrar} >Finalizar</button>
-                    
-                    
+                        <button className={style.finalizar} type="submit" onClick={cadastrar} >Finalizar</button>                   
                     
                     </div>
                   </form>

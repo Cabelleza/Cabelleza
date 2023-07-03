@@ -12,7 +12,7 @@ function Example(props) {
   return (
     <>
       <Button 
-      variant="primary" 
+      variant="outline-warning" 
       onClick={handleShow}
       className={style.EspacamentoButton}
       style={

@@ -1,9 +1,9 @@
 .saloesSelo {
     width: 100%;
-    min-height: 700px;
+    min-height: 600px;
     padding: 2%;
     background-image: url(../../../imagens/fundo-assinatura-saloes.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: round;
     display: flex;
     flex-direction: column;
@@ -26,54 +26,28 @@
 
 .saloesSelo .containerSaloesSelo .salaoSelo {
     background-repeat: no-repeat;
-    width: 340px;
+    width: 270px;
     height: 350px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    color: #fff;
     padding: 0 0.07% 0.7% 0.5%;
 }
 
 .saloesSelo .containerSaloesSelo .salaoSelo:first-child {
-    background-image: url(../../../imagens/salao-selo1.png);
     transform: translateY(50px);
 }
 
 .saloesSelo .containerSaloesSelo .salaoSelo:nth-child(2) {
-    background-image: url(../../../imagens/salao-selo2.png);
-    width: 350px;
-    height: 380px;
-    margin: 0 3% 0 2%;
+    width: 270px;
+    height: 350px;
+    margin: 0 3% 0 3%;
 }
 
 .saloesSelo .containerSaloesSelo .salaoSelo:last-child {
-    background-image: url(../../../imagens/salao-selo3.png);
-    padding: 0 0.07% 0.5% 0.5%;
+    padding: 0 0.07% 0.5% -15%;
     transform: translateY(50px);
-}
-
-.salaoSelotxt {
-    padding: 2%;
-    background: linear-gradient(92.6deg, #1E3B10 0%, #1E3B10 97.61%);
-    opacity: 0.8;
-    width: 317px;
-    backdrop-filter: blur(50px);
-    border-radius: 0px 0px 10px 10px;
-}
-
-.saloesSelo .containerSaloesSelo .salaoSelo:nth-child(2) .salaoSelotxt {
-    width: 340px;
-}
-
-.saloesSelo .containerSaloesSelo .salaoSelo:last-child .salaoSelotxt {
-    width: 313px;
-}
-
-.salaoSelotxt p {
-    margin: 0;
-    font-size: 1.3rem;
 }
 
 @media screen and (max-width: 768px) {
