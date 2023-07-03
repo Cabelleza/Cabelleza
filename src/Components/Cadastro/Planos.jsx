@@ -75,7 +75,7 @@ function Planos() {
               <div className={style.divVantagem3}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                  Selo  <span className={style.bronze}>Broze</span>
+                  Selo  <span className={style.bronze}>Bronze</span>
 
                 </span>
               </div>

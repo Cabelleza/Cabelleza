@@ -198,7 +198,7 @@ function FormularioTeste({botao, eventoTeclado, cadastrar, obj}){
                             <div className={style.boxestado}>
                              <label htmlFor="estado">Estado*</label>
                              <select name="estado" value={value} onChange={handleChange}>
-                                <option value="SP" disabled>SP</option>
+                                <option value="SP">SP</option>
                             </select>
                            </div>
     
