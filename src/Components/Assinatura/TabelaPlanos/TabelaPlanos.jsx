@@ -27,7 +27,7 @@ function TabelaPlanos() {
                         <td><BsCheckLg className={style.tableIconCheck} /></td>
                     </tr>
                     <tr>
-                        <td>Anúncio páginas salões durante 4hs</td>
+                        <td>Anúncio páginas salões durante 4hrs</td>
                         <td><BsXLg className={style.tableIcon} /></td>
                         <td><BsCheckLg className={style.tableIconCheck} /></td>
                         <td><BsCheckLg className={style.tableIconCheck} /></td>
@@ -70,7 +70,7 @@ function TabelaPlanos() {
                             <div className={style.carouselItemContainerColuna}>
                                 <h2>Período Teste</h2>
                                 <div><BsCheckLg className={style.tableIconCheck} /><span>Cadastro na plataforma</span></div>
-                                <div><BsXLg className={style.tableIcon} /><span>Anúncio páginas salões durante 4hs</span></div>
+                                <div><BsXLg className={style.tableIcon} /><span>Anúncio páginas salões durante 4hrs</span></div>
                                 <div><BsXLg className={style.tableIcon} /><span>Anúncio página principal uma vez por semana</span></div>
                                 <div><BsXLg className={style.tableIcon} /><span>Visibilidade no nosso blog</span></div>
                                 <div><BsXLg className={style.tableIcon} /><span>Anúncio página principal três vezes por semana</span></div>
@@ -84,7 +84,7 @@ function TabelaPlanos() {
                             <div className={style.carouselItemContainerColuna}>
                                 <h2>Selo <span className={style.bronze}>Bronze</span></h2>
                                 <div><BsCheckLg className={style.tableIconCheck} /><span>Cadastro na plataforma</span></div>
-                                <div><BsCheckLg className={style.tableIconCheck} /><span>Anúncio páginas salões durante 4hs</span></div>
+                                <div><BsCheckLg className={style.tableIconCheck} /><span>Anúncio páginas salões durante 4hrs</span></div>
                                 <div><BsXLg className={style.tableIcon} /><span>Anúncio página principal uma vez por semana</span></div>
                                 <div><BsXLg className={style.tableIcon} /><span>Visibilidade no nosso blog</span></div>
                                 <div><BsXLg className={style.tableIcon} /><span>Anúncio página principal três vezes por semana</span></div>
@@ -98,7 +98,7 @@ function TabelaPlanos() {
                             <div className={style.carouselItemContainerColuna}>
                                 <h2>Selo <span className={style.prata}>Prata</span></h2>
                                 <div><BsCheckLg className={style.tableIconCheck} /><span>Cadastro na plataforma</span></div>
-                                <div><BsCheckLg className={style.tableIconCheck} /><span>Anúncio páginas salões durante 4hs</span></div>
+                                <div><BsCheckLg className={style.tableIconCheck} /><span>Anúncio páginas salões durante 4hrs</span></div>
                                 <div><BsCheckLg className={style.tableIconCheck} /><span>Anúncio página principal uma vez por semana</span></div>
                                 <div><BsCheckLg className={style.tableIconCheck} /><span>Visibilidade no nosso blog</span></div>
                                 <div><BsXLg className={style.tableIcon} /><span>Anúncio página principal três vezes por semana</span></div>
@@ -112,7 +112,7 @@ function TabelaPlanos() {
                             <div className={style.carouselItemContainerColuna}>
                                 <h2>Selo <span className={style.ouro}>Ouro</span></h2>
                                 <div><BsCheckLg className={style.tableIconCheck} /><span>Cadastro na plataforma</span></div>
-                                <div><BsCheckLg className={style.tableIconCheck} /><span>Anúncio páginas salões durante 4hs</span></div>
+                                <div><BsCheckLg className={style.tableIconCheck} /><span>Anúncio páginas salões durante 4hrs</span></div>
                                 <div><BsCheckLg className={style.tableIconCheck} /><span>Anúncio página principal uma vez por semana</span></div>
                                 <div><BsCheckLg className={style.tableIconCheck} /><span>Visibilidade no nosso blog</span></div>
                                 <div><BsCheckLg className={style.tableIconCheck} /><span>Anúncio página principal três vezes por semana</span></div>

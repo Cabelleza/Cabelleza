@@ -5,7 +5,7 @@ import relatos from '../../../imagens/iconerelatos.png';
 import historia from '../../../imagens/iconehistoria.png';
 import parceiros from '../../../imagens/iconeparceiros.png';
 import flor from '../../../imagens/flordivisaoblog.png';
-
+import book from '../../../imagens/icone-menu-book.png';
 
 function Categoria() {
     return (
@@ -13,6 +13,13 @@ function Categoria() {
             <h1>Pesquisa por categorias:</h1>
 
             <div className={style.Todoconteudo}>
+                <a href="#Artigos" className={style.Conteudosdoblog}>
+                    <div>
+                        <p>Artigos</p>
+                        <img src={book} alt="Pesquisa por dicas" />
+                    </div>
+                </a>
+
                 <a href="#Dicas" className={style.Conteudosdoblog}>
                     <div>
                         <p>Dicas</p>

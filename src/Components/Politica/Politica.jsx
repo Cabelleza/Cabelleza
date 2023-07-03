@@ -95,7 +95,7 @@ function Politica(){
                     <li>Inveracidade das informações inseridas pelo usuário/cliente nos registros necessários para a utilização dos serviços da Cabelleza; quaisquer consequências decorrentes de informações falsas ou inseridas de má-fé são de inteiramente responsabilidade do usuário/cliente.</li>
                   </ol>
                <h4>10. Encarregado de Proteção de Dados:</h4>
-                 <p>O Cabel disponibiliza os seguintes meios para que você possa entrar em contato conosco para exercer seus direitos de titular:</p>
+                 <p>A Cabelleza disponibiliza os seguintes meios para que você possa entrar em contato conosco para exercer seus direitos de titular:</p>
                  <ul>
                     <li>E-mail: cabelleeza@gmail.com</li>
                     <li>LinkTree dos desenvolvedores: linktr.ee/cabelleza</li>

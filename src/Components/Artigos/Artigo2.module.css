@@ -1,0 +1,72 @@
+#sectionArtigo2{
+    width: 100%;
+    background: rgb(228,228,228);
+    background: linear-gradient(168deg, rgba(228,228,228,1) 10%, rgba(251,255,153,0.8266904173778886) 47%, rgba(251,255,144,0.5689873361453957) 88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.artigo2{
+    width: 80%;
+    border-radius: 30px;
+    background-color: #e786ad;
+}
+
+.artigo2 div{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../imagens/fundo-artigo2-artigo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 5%;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #a80a4d;
+    margin-bottom: -5%;
+}
+
+.artigo2 .textoArtigo{
+    padding: 3%;
+}
+
+.textoArtigo h3{
+    margin: 1% 0;
+}
+
+.textoArtigo p{
+    font-size: 1.2rem;
+}
+
+.textoArtigo .artigoFonte{
+    display: flex;
+    justify-content: end;
+}
+
+.artigo2 .textoArtigo ul{
+    list-style-type: disc;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px){
+    .artigo2{
+        width: 100%;
+    }
+
+    .artigo2 div{
+        background-position: center;
+        background-repeat: no-repeat;
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    #sectionArtigo2{
+        padding: 3%;
+    }
+}

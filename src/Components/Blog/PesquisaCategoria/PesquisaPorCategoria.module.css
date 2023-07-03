@@ -94,6 +94,12 @@
     height: 150px;
 }
 
+@media screen and (max-width: 768px) {
+    .PesquisasCategoria{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 428px) {
     .PesquisasCategoria h1 {
         font-size: 30px;

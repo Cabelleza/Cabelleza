@@ -128,7 +128,7 @@ function Boxlogin() {
     e.preventDefault();
 
     // Verificar se email e senha estão cadastrados no banco de dados
-    if (email === "teste@gmail.com" && password === "Cabelleza" ) {
+    if (email === "cabelleeza@gmail.com" && password === "Cabelleza2023" ) {
       //exemplo
       navigate('/Usuario');
     } else {

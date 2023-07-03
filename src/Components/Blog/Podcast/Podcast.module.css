@@ -30,7 +30,6 @@
 }
 
 .containerPodcast iframe{
-    width: 26%;
     margin: 5px 0 20px 0;
     cursor: pointer;
     box-shadow: -7px 10px 10px 0px rgba(0, 0, 0, 0.5);
@@ -41,7 +40,6 @@
 .containerPodcast iframe:hover {
     transition: .25s all;
     box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.5);
-    
 }
 
 @media screen and (max-width: 428px) {

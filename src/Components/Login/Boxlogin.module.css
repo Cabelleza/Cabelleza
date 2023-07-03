@@ -90,9 +90,8 @@
 
 .input3 {
     /* checkbox settings 👇 */
-    --primary-color: #1677ff;
+    --primary-color: #e4508c;
     --secondary-color: #fff;
-    --primary-hover-color: #4096ff;
     /* checkbox */
     --checkbox-diameter: 20px;
     --checkbox-border-radius: 5px;
