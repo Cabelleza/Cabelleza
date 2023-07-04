@@ -60,15 +60,14 @@ function Planos() {
               <div className={style.divVantagem3}>
                 <img src={flor} alt="" />
                 <span>
-                  Conteúdos do salãos dispostos no blog 1 vez a cada 2 semanas
-
+                  Conteúdos dos salões dispostos no blog 1 vez a cada 2 semanas.
                 </span>
               </div>
 
               <div className={style.divVantagem3}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                  Anúncio  uma vez na semana na página salões durante 4h
+                  Anúncio uma vez na semana na página salões durante 4h.
                 </span>
               </div>
 
@@ -104,14 +103,14 @@ function Planos() {
               <div className={style.divVantagem4}>
                 <img src={flor} alt="" />
                 <span>
-                  Anúncio na página principal uma vez por semana
+                  Anúncio na página principal uma vez por semana.
                 </span>
               </div>
 
               <div className={style.divVantagem4}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                  Visibilidade no nosso blog 1 vez na semana..
+                  Visibilidade no nosso blog 1 vez na semana.
                 </span>
               </div>
 
@@ -153,28 +152,28 @@ function Planos() {
               <div className={style.divVantagem5}>
                 <img src={flor} alt="" />
                 <span>
-                  Anúncio na página principal 2 vez por semana
+                  Anúncio na página principal 2 vezes por semana.
                 </span>
               </div>
 
               <div className={style.divVantagem5}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                  Visibilidade no nosso blog 2 vez na semana.
+                  Visibilidade no nosso blog 2 vezes na semana.
                 </span>
               </div>
 
               <div className={style.divVantagem5}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                  Destaque no nosso painel da home por 3 dias por semana.
+                  Destaque no nosso painel da Home 3 dias por semana.
                 </span>
               </div>
 
               <div className={style.divVantagem5}>
                 <img src={flor} alt="" />
                 <span className={style.span2}>
-                  Posts em nossas redes socias 1 vez por semana
+                  Posts em nossas redes socias 1 vez por semana.
 
                 </span>
               </div>
