@@ -2,7 +2,7 @@ import style from './Container.module.css';
 import {Link} from 'react-router-dom';
 import corte from '../../../imagens/corte.png';
 import meiaLinha from '../../../imagens/meia-linha.png';
-import mechaDoada from '../../../imagens/mecha-doada.png';
+import mechaDoada from '../../../imagens/mecha-doada.svg';
 import mulherGuerreira from '../../../imagens/mulher-guerreira.png';
 
 export default function Container(){
