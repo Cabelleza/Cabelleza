@@ -107,9 +107,9 @@ const handleSubmit = async (e) => {
               </div>
               <div className={style.botaoentrar}>
                 <input className={style.entrar} type="submit" value="Entrar" />
-                <Link to="/Usuario">
+                
                   <p>Esqueceu a senha?</p>
-                </Link>
+                
                 <div className={style.contentOrtext}>
                   <span></span>
                   <span>OU</span>
